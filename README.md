@@ -2,6 +2,10 @@
 
 This is my website documenting our family trip around the NC500 in 2018. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for those new to the NC500 and those wishing to learn more.
 
+It is designed to appeal to those who have never heard of the North Coast 500 and wish to find out more. It is also desinged to appeal to those who are already aware of the route and are interested in reading about a fellow traveller's journey or are looking for inspiration.
+
+The site will also appeal to those looking for imagery of the area and/or links to related content and services.  
+
 [View the live project here.](https://neil7057.github.io/mp1-nc500/)
 
 ## User Experience (UX)
@@ -33,7 +37,7 @@ This is my website documenting our family trip around the NC500 in 2018. It is d
         -   The Madimi One font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Madimi One is a clean font and looks crisp in blue on a white background. It is both elegant and professional.
 
     -   #### Imagery
-        -   Imagery is important. The NC500 is especially famous for its view and scenery so this requires a large, background hero image designed to be striking and catch the user's attention. It is essential that the site has a gallery area to fully communicate the variety od the NC500's scenic experiences. 
+        -   Imagery is important. The NC500 is especially famous for its views and scenery so this requires a large, background hero image designed to be striking and catch the user's attention. It is essential that the site has a gallery area to fully communicate the variety od the NC500's scenic experiences. 
 
 *   ### Wireframes
 
@@ -50,6 +54,9 @@ This is my website documenting our family trip around the NC500 in 2018. It is d
 -   Interactive elements
 
 ## Technologies Used
+
+### Development Environment
+-   The site was developed in a Codeanywehere IDE (https://codeanywhere.com/) using VSC.
 
 ### Languages Used
 
@@ -142,66 +149,258 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         2. 
         3. There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
 
+-   ### Responsiveness
+
+    All pages were tested to ensure responsiveness on screen sizes from 320px and upwards as defined in [WCAG 2.1 Reflow criteria for responsive design](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html) on Chrome, Edge, Firefox and Opera browsers.
+
+    Steps to test:
+
+    1. Open browser and navigate to [My North Coast 500](https://neil7057.github.io/mp1-nc500/)
+    2. Open the developer tools (right click and inspect)
+    3. Set to responsive and decrease width to 320px
+    4. Set the zoom to 50%
+    5. Click and drag the responsive window to maximum width
+
+    Expected:
+
+    Website is responsive on all screen sizes and no images are pixelated or stretched.
+    No horizontal scroll is present.
+    No elements overlap.
+
+    Actual:
+
+    Website behaved as expected )
+
+    Website was also opened on the following devices and no responsive issues were seen:
+
+    - iPhone 14
+    - Apple iPad
+    - Fujitsu 15.4in laptop
+    - Hp 22in desktop
+
+### Accessibility
+
+    [Wave Accessibility](https://wave.webaim.org/) tool was used throughout development and for final testing of the deployed website to check for any aid accessibility testing.
+
+    Testing was focused to ensure the following criteria were met:
+
+    - All forms have associated labels or aria-labels so that this is read out on a screen reader to users who tab to form inputs
+    - Color contrasts meet a minimum ratio as specified in [WCAG 2.1 Contrast Guidelines](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html)
+    - Heading levels are not missed or skipped to ensure the importance of content is relayed correctly to the end user
+    - All content is contained within landmarks to ensure ease of use for assistive technology, allowing the user to navigate by page regions
+    - All not textual content had alternative text or titles so descriptions are read out to screen readers
+    - HTML page lang attribute has been set
+    - Aria properties have been implemented correctly
+    - WCAG 2.1 Coding best practices being followed
+
+    Manual tests were also performed to ensure the website was accessible as possible.
+
+    Issue #1: 
+
+    Fix: 
+
+    Issue #2: 
+
+### Lighthouse Testing
+
+    ![Home](docs/testing/index_lighthouse.JPG)
+
+    ![Gallery](docs/testing/gallery_lighthouse.JPG)
+
+    ![Adventures](docs/testing/adventures_lighthouse.JPG)
+
+### Functional Testing
+
+**Navigation Links**
+
+    Testing was performed to ensure all navigation links on the respective pages, navigated to the correct pages as per design. This was done by clicking on the navigation links on each page.
+
+    Links on all pages navigated to the correct pages as exptected.
+
+**Form Testing**
+
+    The form on the home page was tested to ensure it functioned as expected when correct data was input and when incorrect data was input. The following test scenarios were covered:
+
+    _Scenario One - Correct Inputs_
+
+    Steps to test:
+
+    1. Navigate to [My North Coast 500 - Home Page](https://neil7057.github.io/mp1-nc500/)
+    2. Scroll down to the form and input the following data:
+    - First Name: 
+    - Last Name: 
+    - Email: 
+    - Comment: 
+    3. Click Submit  
+
+    4. User should be redirected to contact.html confirmation page
+
+    Expected:
+
+    Form submits with no warnings or errors and user is redirected to contact.html confirmation page.
+
+    Actual:
+
+    Website behaved as expected with no errors or warnings and redirected to contact.html.
+
+    _Scenario Two - Missing Required Field First Name_
+
+    Steps to test:
+
+    1. Navigate to [My North Coast 500 - Home Page](https://neil7057.github.io/mp1-nc500/)
+    2. Scroll down to the form and input the following data:
+    - First Name:
+    - Last Name: 
+    - Email: 
+    - Comment: 
+    3. Click Submit
+
+    Expected:
+
+    The form does not submit and an Error is displayed to tell the user that the field is required.
+
+    Actual:
+
+    Website behaved as expected, error message was displayed and the form did not submit.
+
+    _Scenario Three - Missing Required Field Last Name_
+
+    Steps to test:
+
+    1. Navigate to [My North Coast 500 - Home Page](https://neil7057.github.io/mp1-nc500/)
+    2. Scroll down to the form and input the following data:
+    - First Name:
+    - Last Name: 
+    - Email: 
+    - Comment: 
+    3. Click Submit
+
+    Expected:
+
+    The form does not submit and an Error is displayed to tell the user that the field is required.
+
+    Actual:
+
+    Website behaved as expected, error message was displayed and the form did not submit.
+
+    _Scenario Four - Missing Required Field Email_
+
+    Steps to test:
+
+    1. Navigate to [My North Coast 500 - Home Page](https://neil7057.github.io/mp1-nc500/)
+    2. Scroll down to the form and input the following data:
+    - First Name:
+    - Last Name: 
+    - Email:
+    - Comment: 
+    3. Click Submit
+
+    Expected:
+
+    The form does not submit and an Error is displayed to tell the user that the field is required.
+
+    Actual:
+
+    Website behaved as expected, error message was displayed and the form did not submit.
+
+    _Scenario Six - Incorrect email format_
+
+    Steps to test:
+
+    1. Navigate to [My North Coast 500 - Home Page](https://neil7057.github.io/mp1-nc500/)
+    2. Scroll down to the form and input the following data:
+    - First Name:
+    - Last Name:
+    - Email: 
+    - Comment: 
+    3. Click Submit
+
+    Expected:
+
+    The form does not submit and an Error is displayed to tell the user that a valid email is required and the format it should be in.
+
+    Actual:
+
+    Website behaved as expected, error message was displayed and the form did not submit.
+
+**Footer Social Media Icons / Links**
+
+    Testing was performed on the Font Awesome Social Media icons in the footer to ensure that each one opened in a new tab and that each one had a hover affect of the orange branding color.
+
+    Each item opened a new tab when clicked as expected and correct hover color was present.
+
+**Footer Contact Information**
+
+
+    Steps to test Email Link_
+
+    1. Navigate to [My North Coast 500 - Home Page](https://neil7057.github.io/mp1-nc500/)
+    2. Click the email address in the footer (webdev1961@gmail.com)
+
+    Expected:
+
+    A windows popup is displayed asking what application you would like to send a mail from or your default email application is opened.
+
+    Actual:
+
+    Behavior was as expected and my outlook application was opened ready to send an email to the target address.
+
+
 ### Further Testing
 
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
--   A large amount of testing was done to ensure that all pages were linking correctly.
--   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+    -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+    -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+    -   A large amount of testing was done to ensure that all pages were linking correctly.
+    -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Known Bugs
 
--   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
+    -   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
     -   A white gap can be seen to the right of the footer and navigation bar as a result.
--   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+    -   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
 
 ## Deployment
 
+### Version Control
+
+    The site was created using the Visual Studio code editor and pushed to github to the remote repository ‘mp1-nc500’.
+
+    The following git commands were used throughout development to push code to the remote repo:
+
+    ```git add <file>``` - This command was used to add the file(s) to the staging area before they are committed.
+
+    ```git commit -m “commit message”``` - This command was used to commit changes to the local repository queue ready for the final step.
+
+    ```git push``` - This command was used to push all committed code to the remote repository on github.
+
 ### GitHub Pages
 
-The project was deployed to GitHub Pages using the following steps...
+    The project was deployed to GitHub Pages using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
-3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
-4. Under "Source", click the dropdown called "None" and select "Master Branch".
-5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+### Deployment to Github Pages
 
-### Forking the GitHub Repository
+    - The site was deployed to GitHub pages. The steps to deploy are as follows: 
+    - In the GitHub repository, navigate to the Settings tab 
+    - From the menu on left select 'Pages'
+    - From the source section drop-down menu, select the Branch: main
+    - Click 'Save'
+    - A live link will be displayed in a green banner when published successfully. 
 
-By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+    [The live link can be found](https://neil7057.github.io/mp1-nc500/)
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
-3. You should now have a copy of the original repository in your GitHub account.
 
-### Making a Local Clone
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. Under the repository name, click "Clone or download".
-3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
-4. Open Git Bash
-5. Change the current working directory to the location where you want the cloned directory to be made.
-6. Type `git clone`, and then paste the URL you copied in Step 3.
+### Clone the Repository Code Locally
 
-```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-```
+    Navigate to the GitHub Repository you want to clone to use locally:
 
-7. Press Enter. Your local clone will be created.
+    - Click on the code drop down button
+    - Click on HTTPS
+    - Copy the repository link to the clipboard
+    - Open your IDE of choice (git must be installed for the next steps)
+    - Type git clone copied-git-url into the IDE terminal
 
-```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-> Cloning into `CI-Clone`...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.
-```
-
-Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+    The project will now of been cloned on your local machine for use.
 
 ## Credits
 
