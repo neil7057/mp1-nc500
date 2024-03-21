@@ -44,11 +44,14 @@ The site will also appeal to those looking for imagery of the area and/or links 
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
+    -   Home Page Wireframe - [View](../mp1-nc500/docs/readme_images/nc500-homepage.jpg)
 
     -   Mobile Wireframe - [View](https://github.com/)
 
     -   Contact Us Page Wireframe - [View](https://github.com/)
+
+    -   404 - error page - [View] (../mp1-nc500/docs/readme_images/404 -error-page.jpg)
+
 
 ## Features
 
