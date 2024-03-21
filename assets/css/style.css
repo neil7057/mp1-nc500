@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 
 
@@ -6,21 +6,18 @@
 /*--------------------------------------------Colours*/
 
 body {
-    background-color:#90bded;
-    margin-top:0px;
-    margin-left:0px;
+    background-color: #007bff;
 }
 
 .ui-menu-color {
     background-color: #143049
 }
 
-
 .inline-block {
     color: #af9442;
 }
 
-.foot-email-col {
+.foot-email a {
     color: #af9442;
 }
 
@@ -65,21 +62,30 @@ h2,
 h3,
 h4 {
     margin: 0;
+    font-family: 'Libre+Baskerville', sans-serif
+}
+
+p {
+    font-family: 'Open+Sans', sans-serif
 }
 
 .uppercase {
     text-transform: uppercase;
 }
 
+.col-md-1 {
+    min-height: 393px;
+    background-color: #143049;
+}
+
 /*--------------------------------------------Heading*/
 
 header {
     margin: 0;
-    background-color: #143049;
+    background-color: #007bff;
     color: #fff;
-    min-height: 120px;
+    min-height: 360px;
 }
-
 
 
 #header-details {
@@ -113,7 +119,7 @@ header {
 }
 
 .title {
-    font-family: "Madimi+One", sans-serif;
+    font-family: "Libre+Baskerville", sans-serif;
     font-weight: 700;
     font-size: 28px;
     margin-top: 20px;
@@ -123,7 +129,7 @@ header {
     }
 
 .sub-title {
-    font-family: "Madimi+One", sans-serif;
+    font-family: "Libre+Baskerville", sans-serif;
     font-weight: 700;
     font-size: 28px;
     margin-top: 20px;
@@ -134,7 +140,9 @@ header {
 
 .general-sub {
     color: #af9442;
-    padding-bottom: 5px;
+    /* padding-bottom: 5px; */
+    padding: 5px 0 0 5px;
+    text-align: center;
    }
 
 
@@ -142,10 +150,6 @@ header {
     font-size: 0;
     position: relative;
     min-height: 360px;
-}
-
-.container-fluid {
-    padding: 0;
 }
 
 #nav li {
@@ -157,6 +161,19 @@ header {
     margin: 0;
 }
 
+/* add different color and increased font weight to menu link for current page */
+
+.active span {
+    color: #25b99f;
+    font-weight: 700;
+}
+
+.menuitem .active i {
+    color: #25b99f;
+    font-weight: 700;
+}
+
+
 /*--------------------------------------------Hover Control*/
 
 .hvr-grow:hover {
@@ -166,12 +183,10 @@ header {
 /*--------------------------------------------footer*/
 
 footer {
-    background-color: #143049;
+    background-color: #007bff;
     color: #fff;
-    min-height: 120px;
-    margin: 0;
+    min-height: 120px;   
 }
-
 
 .social-links {
     padding-bottom: 15px;
@@ -198,9 +213,24 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 }
 
-#footer-details {
-    padding: 20px;
+.list-inline {
+    text-align:center;
+}
+
+.foot-email {
     text-align: center;
+}
+
+
+
+#footer-details {
+    text-align: center;
+}
+
+.col-sm-6 {
+    background-color: #143049;
+    margin 15px;
+    padding-right: 15px;
 }
 
 
