@@ -308,6 +308,15 @@ footer {
     max-width: 70%;
 }
 
+/*--------------------------------------------Error Handling*/
+
+.404-padding {   
+    margin: 120px;
+    padding: 50px;
+}
+
+
+
 /* ----------------------------------------Media Queries */
 
 @media(min-width: 992px) {
