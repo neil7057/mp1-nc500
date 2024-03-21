@@ -29,7 +29,6 @@ body {
 
 .menuitem {
     color:#af9442;
-    text-align: center;
     padding: 0;
 }
 
@@ -66,16 +65,18 @@ h2,
 h3,
 h4 {
     margin: 0;
-    font-family: 'Libre+Baskerville', sans-serif
+    font-family: 'Libre+Baskerville', sans-serif;
 }
 
 p {
-    font-family: 'Open+Sans', sans-serif
+    font-family: 'Open+Sans', sans-serif;
+    margin: 5px;
 }
 
 .uppercase {
     text-transform: uppercase;
 }
+
 
 .col-md-1 {
     min-height: 393px;
@@ -95,7 +96,11 @@ header {
      text-align: center;
 }
 
-.logo {
+.content {
+    padding: 0 15px;
+  }
+
+  .roadsign-img {
     background: url("../images/nc500thursowide.jpg");
     background-position: right;
     background-repeat: no-repeat;
@@ -120,6 +125,33 @@ header {
     min-height: 360px;    
     margin: 0;
 
+}
+
+.meet-the-cows-img {
+    background: url("../images/highland-coo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 360px;    
+    margin: 0;
+}
+
+.telecoms-img {
+    background: url("../images/phone-box.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 360px;    
+    margin: 0;
+}
+
+.saltire-gif {
+    background: url("../images/scotland-646_256.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 360px;    
+    margin: 0;
 }
 
 .title {
@@ -177,10 +209,9 @@ header {
 
 /*--------------------------------------------text animation code courtesy of geeksfor geeks.org and amended by me*/
 
+/*--------------------------------------------margins optimised for mobile devices*/
 .text-type-container { 
-    margin: 15px 300px 320px 300px;
-    /* margin-top: 10px;
-    margin-bottom: 320px; */
+    margin: 13px 20px 325px 20px;
     width: 50%; 
     height: auto; 
 } 
@@ -199,7 +230,7 @@ header {
     white-space: nowrap; 
     clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0); 
     animation:  
-typing 3s steps(50, end) forwards, blink 1s infinite; 
+typing 1s steps(22, end) forwards; 
 } 
 
 @keyframes typing { 
@@ -211,21 +242,6 @@ typing 3s steps(50, end) forwards, blink 1s infinite;
         width: 100% 
     } 
 } 
-
-@keyframes blink { 
-
-    0%, 
-    100% { 
-        border-right: 2px solid transparent; 
-    } 
-
-    50% { 
-        border-right: 2px solid #222; 
-    } 
-} 
-
-
-
 
 /*--------------------------------------------Hover Control*/
 
