@@ -6,15 +6,19 @@
 /*--------------------------------------------Colours*/
 
 body {
-    background-color: #007bff;
+        background-color: #143049;
 }
 
 .ui-menu-color {
-    background-color: #143049
-}
+    background-color: #143049;
+    }
 
 .inline-block {
     color: #af9442;
+}
+
+#section-details {
+    background-color: #b0cfee;
 }
 
 .foot-email a {
@@ -82,7 +86,6 @@ p {
 
 header {
     margin: 0;
-    background-color: #007bff;
     color: #fff;
     min-height: 360px;
 }
@@ -93,9 +96,10 @@ header {
 }
 
 .logo {
-    background: url("../images/nc500thurso-r.jpg");
-    background-position: center;
+    background: url("../images/nc500thursowide.jpg");
+    background-position: right;
     background-repeat: no-repeat;
+    background-size: cover;
     min-height: 360px;
 }
 
@@ -140,11 +144,9 @@ header {
 
 .general-sub {
     color: #af9442;
-    /* padding-bottom: 5px; */
     padding: 5px 0 0 5px;
     text-align: center;
    }
-
 
 .menucontainer {
     font-size: 0;
@@ -173,6 +175,57 @@ header {
     font-weight: 700;
 }
 
+/*--------------------------------------------text animation code courtesy of geeksfor geeks.org and amended by me*/
+
+.text-type-container { 
+    margin: 15px 300px 320px 300px;
+    /* margin-top: 10px;
+    margin-bottom: 320px; */
+    width: 50%; 
+    height: auto; 
+} 
+
+.text-typing { 
+    background: #143049; 
+    font-size: 35px; 
+    font-family: "libre+baskerville"; 
+    border-radius: 50px; 
+    overflow: hidden; 
+    position: relative; 
+} 
+
+.text-typing p { 
+    margin: 0px; 
+    white-space: nowrap; 
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0); 
+    animation:  
+typing 3s steps(50, end) forwards, blink 1s infinite; 
+} 
+
+@keyframes typing { 
+    0% { 
+        width: 0% 
+    } 
+
+    100% { 
+        width: 100% 
+    } 
+} 
+
+@keyframes blink { 
+
+    0%, 
+    100% { 
+        border-right: 2px solid transparent; 
+    } 
+
+    50% { 
+        border-right: 2px solid #222; 
+    } 
+} 
+
+
+
 
 /*--------------------------------------------Hover Control*/
 
@@ -183,7 +236,6 @@ header {
 /*--------------------------------------------footer*/
 
 footer {
-    background-color: #007bff;
     color: #fff;
     min-height: 120px;   
 }
@@ -220,8 +272,6 @@ footer {
 .foot-email {
     text-align: center;
 }
-
-
 
 #footer-details {
     text-align: center;

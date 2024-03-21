@@ -31,13 +31,16 @@ The site will also appeal to those looking for imagery of the area and/or links 
 
 -   ### Design
     -   #### Colour Scheme
-        -   To fit in with the main colours of the Scottish Flag (Saltire), i've chosen blue and white as the colour scheme for the site.
+        -   To fit in with the main colours of the Scottish Flag (Saltire), i've chosen blue as the colour scheme for the site. i've added a contrasting orange as this looks good. I have added a green highlight to the current page icon.
         
     -   #### Typography
-        -   The Madimi One font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Madimi One is a clean font and looks crisp in blue on a white background. It is both elegant and professional.
+        -   The Baskerville Libre font is the main font used for headings and open sans is used for other text consistently throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Baskeville is a clean font and looks crisp on blue or a white background. It is both elegant and professional.
 
     -   #### Imagery
         -   Imagery is important. The NC500 is especially famous for its views and scenery so this requires a large, background hero image designed to be striking and catch the user's attention. It is essential that the site has a gallery area to fully communicate the variety od the NC500's scenic experiences. 
+
+        #### Design Considerations
+        -   The header of each page carries a different Hero or banner image but other items remain consistent. The Footer is minimalist as its not necessary to give out extensive contact information. There's an email option and also a link to the emain contact page and form.
 
 *   ### Wireframes
 
@@ -155,7 +158,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     Steps to test:
 
-    1. Open browser and navigate to [My North Coast 500](https://neil7057.github.io/mp1-nc500/)
+    1. Open browser and navigate to [The North Coast 500](https://neil7057.github.io/mp1-nc500/)
     2. Open the developer tools (right click and inspect)
     3. Set to responsive and decrease width to 320px
     4. Set the zoom to 50%
