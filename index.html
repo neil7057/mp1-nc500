@@ -5,25 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
     <script src="https://kit.fontawesome.com/6e6c671d1b.js" crossorigin="anonymous"></script>
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" /> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>My North Coast 500</title>
+    <title>The North Coast 500</title>
 </head>
 <body>
     <header>
     <div class="container-fluid">
-        <div id="header-details" class="row no-gutters">
-            <a class=" col-md-3 saltire-gif"></a>            
+        <div id="header-details" class="row">
+<!-- Saltire visible on all screen sizes  -->
+            <a class=" col-lg-3 saltire-gif d-block"></a>            
             <div class="col-md-8">
-                <div class="row no-gutters hero-image">
+                <div class="row hero-image" aria-labelledby="wide view of sango beach viewewd from clifftop">
                     <div class="col heading text-typing text-type-container">
                         <p class="title">The North Coast 500</p>                        
                     </div>
                 </div>
             </div>
+<!-- menu hidden -->
             <div class ="col-md-1">
-                <div class="row no-gutters">
+                <div class="row no-gutters ">
                     <div class="col">                 
                         <ul id="nav" class="list-inline menucontainer menuitem">                        
                             <li class="col-sm-12 ui-menu-color">
@@ -50,9 +51,9 @@
 
     <section>
         <div class="container-fluid">
-            <div id="section-details" class="row no-gutters">
+            <div id="section-details" class="row  no-gutters">
                 <div class="col-md-3">
-                    <div class="row no-gutters body-text">
+                    <div class="row  body-text">
                         <div class="col heading">                            
                             <h2 class="sub-title"><em>Scotland's answer to Route 66</em></h2>
                             <p>
@@ -70,11 +71,11 @@
                         <img class="img-responsive route-map" width ="100%" src="assets/images/nclogomap-r.jpg"
                          alt="map of nc500 route"
                          aria-labelledby="map of northern scotland showing nc500 route">
-                        <figcaption class="text-center">NC500 Route</figcaption>
+                        <figcaption class="general-sub">NC500 Route</figcaption>
                     </a>
                     </div>
                 <div class="col-md-3">
-                    <div class="row no-gutters body-text">
+                    <div class="row body-text">
                         <div class="col heading">                            
                             <h2 class="sub-title">Inverness to Inverness - 516 miles</h2>
                             <p>
@@ -93,11 +94,16 @@
     <section>
         <div class="container-fluid">
             <div id="section-details" class="row no-gutters">                
-                
-                <a class="col-md-4 meet-the-cows-img"></a>
-
                 <div class="col-md-4">
-                    <div class="row no-gutters body-text">
+                <a href="/">
+                    <img class="img-responsive" width ="100%" src="assets/images/highland-coo.jpg"
+                     alt="highland cattle on a road"
+                     aria-labelledby="group of highland cattle on a road">
+                    <figcaption class="general-sub">Highland 'Coos'</figcaption>
+                </a>
+                </div>
+                <div class="col-md-4">
+                    <div class="row body-text">
                         <div class="col heading">
                             <h2 class="text-center">North Coast 500</h2>
                             <h2 class="sub-title"><em>Scotland's answer to Route 66</em></h2>
@@ -110,8 +116,15 @@
                             </p>
                         </div>
                     </div>
-                </div>  
-                <a class="col-md-4 telecoms-img"></a>                                             
+                </div>
+                <div class="col-md-4">
+                <a href="/">
+                    <img class="img-responsive route-map" width ="100%" src="assets/images/phone-box.jpg"
+                     alt="Red phone body-text"
+                     aria-labelledby="traditional red BT phone box by the side of the road">
+                    <figcaption class="general-sub">4/5G is poor. Plenty of these along the way</figcaption>
+                </a>
+                </div>                                             
             </div>            
         </div>
     </section>

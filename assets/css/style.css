@@ -78,6 +78,8 @@ p {
     background-color: #143049;
 }
 
+
+
 /*--------------------------------------------Heading*/
 
 header {
@@ -93,50 +95,14 @@ header {
 .content {
     padding: 0 15px;
   }
-
-  .roadsign-img {
-    background: url("../images/nc500thursowide.jpg");
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 360px;
-}
-
+ 
 .hero-image {
     background: url("../images/sango.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 393px;
-    padding: 5px;
-}
-
-.route-map {
-    background: url("../images/nclogomap-r.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    min-height: 360px;    
-    margin: 0;
-
-}
-
-.meet-the-cows-img {
-    background: url("../images/highland-coo.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    min-height: 360px;    
-    margin: 0;
-}
-
-.telecoms-img {
-    background: url("../images/phone-box.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    min-height: 360px;    
-    margin: 0;
+    margin-bottom: 15px;
 }
 
 .saltire-gif {
@@ -169,6 +135,7 @@ header {
 }
 
 .general-sub {
+    background-color: #143049;
     color: #af9442;
     padding: 5px 0 0 5px;
     text-align: center;
@@ -287,12 +254,6 @@ footer {
     text-align: center;
 }
 
-.col-sm-6 {
-    background-color: #143049;
-    margin 15px;
-    padding-right: 15px;
-}
-
 /* ----------------------------------------Contact Form */
 
 .center-form {
@@ -311,3 +272,13 @@ footer {
         max-width: 50%;    
     }
 }
+
+@media screen and (max-width: 943px){
+
+    #nav {
+       
+    }
+
+
+
+  

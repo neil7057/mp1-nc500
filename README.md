@@ -50,7 +50,7 @@ The site will also appeal to those looking for imagery of the area and/or links 
 
     -   Contact Us Page Wireframe - [View](https://github.com/)
 
-    -   404 - error page - [View] (../mp1-nc500/docs/readme_images/404 -error-page.jpg)
+    -   404 - error page - [View] (../mp1-nc500/docs/readme_images/404-error-page.jpg)
 
 
 ## Features
