@@ -31,7 +31,7 @@ The site will also appeal to those looking for imagery of the area and/or links 
 
 -   ### Design
     -   #### Colour Scheme
-        -   To fit in with the main colours of the Scottish Flag (Saltire), i've chosen blue as the colour scheme for the site. i've added a contrasting orange as this looks good. I have added a green highlight to the current page icon.
+        -   To fit in with the main colours of the Scottish Flag (Saltire), i've chosen blue as the colour scheme for the site with a contrast between a dark blue for menu items and footer and a lighter blue as background. I've added a contrasting bronze as this looks good. I have added a green highlight to the current page icon.
         
     -   #### Typography
         -   The Baskerville Libre font is the main font used for headings and open sans is used for other text consistently throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Baskeville is a clean font and looks crisp on blue or a white background. It is both elegant and professional.
@@ -40,7 +40,8 @@ The site will also appeal to those looking for imagery of the area and/or links 
         -   Imagery is important. The NC500 is especially famous for its views and scenery so this requires a large, background hero image designed to be striking and catch the user's attention. It is essential that the site has a gallery area to fully communicate the variety od the NC500's scenic experiences. 
 
         #### Design Considerations
-        -   The header of each page carries a different Hero or banner image but other items remain consistent. The Footer is minimalist as its not necessary to give out extensive contact information. There's an email option and also a link to the emain contact page and form.
+        -   The header of each page carries a different Hero or banner image but other items remain consistent. The Footer is minimalist as its not necessary to give out extensive contact information. There's an email option and also a link to the main contact page and form.
+        -   larger screen sizes have the waving saltire gif but this is hidden on smaller screens as it occupies too much space whilst adding little value. 
 
 *   ### Wireframes
 
@@ -175,7 +176,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     Actual:
 
-    Website behaved as expected )
+    Website behaved as expected 
 
     Website was also opened on the following devices and no responsive issues were seen:
 
@@ -225,110 +226,19 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 **Form Testing**
 
-    The form on the home page was tested to ensure it functioned as expected when correct data was input and when incorrect data was input. The following test scenarios were covered:
+    The form on the contact page was tested to ensure it functioned as expected when correct and incorrcet data was input.
 
-    _Scenario One - Correct Inputs_
+    Specifically:
 
-    Steps to test:
+    -   Missing one or more input field: An error was highlighted to the user and the form could not be submitted.
 
-    1. Navigate to [My North Coast 500 - Home Page](https://neil7057.github.io/mp1-nc500/)
-    2. Scroll down to the form and input the following data:
-    - First Name: 
-    - Last Name: 
-    - Email: 
-    - Comment: 
-    3. Click Submit  
+    -   Incorrect email format:  An error was highlighted to the user and the form could not be submitted.
+    
+    -   Form completed correctly with valid information in all fields: the form is able to be submitted.
 
-    4. User should be redirected to contact.html confirmation page
+    -   Succesfully submission of the contacts/feedback form: A confirmation message is displayed  
 
-    Expected:
-
-    Form submits with no warnings or errors and user is redirected to contact.html confirmation page.
-
-    Actual:
-
-    Website behaved as expected with no errors or warnings and redirected to contact.html.
-
-    _Scenario Two - Missing Required Field First Name_
-
-    Steps to test:
-
-    1. Navigate to [My North Coast 500 - Home Page](https://neil7057.github.io/mp1-nc500/)
-    2. Scroll down to the form and input the following data:
-    - First Name:
-    - Last Name: 
-    - Email: 
-    - Comment: 
-    3. Click Submit
-
-    Expected:
-
-    The form does not submit and an Error is displayed to tell the user that the field is required.
-
-    Actual:
-
-    Website behaved as expected, error message was displayed and the form did not submit.
-
-    _Scenario Three - Missing Required Field Last Name_
-
-    Steps to test:
-
-    1. Navigate to [My North Coast 500 - Home Page](https://neil7057.github.io/mp1-nc500/)
-    2. Scroll down to the form and input the following data:
-    - First Name:
-    - Last Name: 
-    - Email: 
-    - Comment: 
-    3. Click Submit
-
-    Expected:
-
-    The form does not submit and an Error is displayed to tell the user that the field is required.
-
-    Actual:
-
-    Website behaved as expected, error message was displayed and the form did not submit.
-
-    _Scenario Four - Missing Required Field Email_
-
-    Steps to test:
-
-    1. Navigate to [My North Coast 500 - Home Page](https://neil7057.github.io/mp1-nc500/)
-    2. Scroll down to the form and input the following data:
-    - First Name:
-    - Last Name: 
-    - Email:
-    - Comment: 
-    3. Click Submit
-
-    Expected:
-
-    The form does not submit and an Error is displayed to tell the user that the field is required.
-
-    Actual:
-
-    Website behaved as expected, error message was displayed and the form did not submit.
-
-    _Scenario Six - Incorrect email format_
-
-    Steps to test:
-
-    1. Navigate to [My North Coast 500 - Home Page](https://neil7057.github.io/mp1-nc500/)
-    2. Scroll down to the form and input the following data:
-    - First Name:
-    - Last Name:
-    - Email: 
-    - Comment: 
-    3. Click Submit
-
-    Expected:
-
-    The form does not submit and an Error is displayed to tell the user that a valid email is required and the format it should be in.
-
-    Actual:
-
-    Website behaved as expected, error message was displayed and the form did not submit.
-
+    
 **Footer Social Media Icons / Links**
 
     Testing was performed on the Font Awesome Social Media icons in the footer to ensure that each one opened in a new tab and that each one had a hover affect of the orange branding color.
@@ -337,33 +247,28 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 **Footer Contact Information**
 
-
     Steps to test Email Link_
 
     1. Navigate to [My North Coast 500 - Home Page](https://neil7057.github.io/mp1-nc500/)
     2. Click the email address in the footer (webdev1961@gmail.com)
 
-    Expected:
-
     A windows popup is displayed asking what application you would like to send a mail from or your default email application is opened.
 
-    Actual:
+    There is also a link directly to the comments/feedback page. When clicked, this navigates to the corrcet page.
 
-    Behavior was as expected and my outlook application was opened ready to send an email to the target address.
-
+    The email and 'go to' links react when hovered over.
 
 ### Further Testing
 
     -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
-    -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+    -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX and iPad.
     -   A large amount of testing was done to ensure that all pages were linking correctly.
     -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Known Bugs
 
-    -   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
-    -   A white gap can be seen to the right of the footer and navigation bar as a result.
-    -   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+    -   
+    -   
 
 ## Deployment
 
@@ -406,30 +311,30 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     - Open your IDE of choice (git must be installed for the next steps)
     - Type git clone copied-git-url into the IDE terminal
 
-    The project will now of been cloned on your local machine for use.
+    The project will now have been cloned on your local machine for use.
 
 ## Credits
 
 ### Code
 
--   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
-
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
 -   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+
+-   [geeks for geeks](https://www.geeksforgeeks.org/) provided template code for text animation which i amended to suit.
 
 ### Content
 
 -   All content was written by the developer.
 
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
-
 ### Media
 
--   All Images were created by the developer.
+-   4 images plus the saltire gif were obtained free of copyright from [pixbay](https://pixabay.com/). The remaining images were from my own photography collection.
 
 ### Acknowledgements
 
--   My Mentor for continuous helpful feedback.
+-   My Mentor for continuous helpful feedback and support.
+
+-   Various online resources at established sites and on Youtube.
 
 -   Tutor support at Code Institute for their support.
