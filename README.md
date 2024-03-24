@@ -2,7 +2,7 @@
 
 This is my website documenting our family trip around the NC500 in 2018. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for those new to the NC500 and those wishing to learn more.
 
-It is designed to appeal to those who have never heard of the North Coast 500 and wish to find out more. It is also desinged to appeal to those who are already aware of the route and are interested in reading about a fellow traveller's journey or are looking for inspiration.
+It is designed to appeal to those who have never heard of the North Coast 500 and wish to find out more. It is also designed to appeal to those who are already aware of the route and are interested in reading about a fellow traveller's journey or are looking for inspiration.
 
 The site will also appeal to those looking for imagery of the area and/or links to related content and services.  
 
@@ -39,19 +39,19 @@ The site will also appeal to those looking for imagery of the area and/or links 
     -   #### Imagery
         -   Imagery is important. The NC500 is especially famous for its views and scenery so this requires a large, background hero image designed to be striking and catch the user's attention. It is essential that the site has a gallery area to fully communicate the variety od the NC500's scenic experiences. 
 
-        #### Design Considerations
+    -   #### Design Considerations
         -   The header of each page carries a different Hero or banner image but other items remain consistent. The Footer is minimalist as its not necessary to give out extensive contact information. There's an email option and also a link to the main contact page and form.
         -   larger screen sizes have the waving saltire gif but this is hidden on smaller screens as it occupies too much space whilst adding little value. 
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](../mp1-nc500/docs/readme_images/nc500-homepage.jpg)
+    -   Home Page Wireframe - [View](https://github.com/neil7057/mp1-nc500/blob/main/docs/readme_images/nc500-homepage.jpg)
 
     -   Mobile Wireframe - [View](https://github.com/)
 
     -   Contact Us Page Wireframe - [View](https://github.com/)
 
-    -   404 - error page - [View] (../mp1-nc500/docs/readme_images/404-error-page.jpg)
+    -   404 - error page - [View] (https://github.com/neil7057/mp1-nc500/blob/main/docs/readme_images/404-error-page.jpg)
 
 
 ## Features

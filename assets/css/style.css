@@ -55,6 +55,39 @@ body {
     letter-spacing: 2px;
 }
 
+/*--------------------------------------------menu items optimised for small mobile devices*/
+
+
+.xs-menu-spacing span {
+    font-size: 12px;
+    padding: .4em;
+    color: #af9442;
+    text-transform: uppercase;
+}
+
+.xs-menu-spacing a i {
+    display: block;
+    color: #af9442;
+    font-size: 1rem;
+    padding-top:20px;
+    margin: 0;
+}
+
+.xs-menu-spacing .active i {
+    color: #25b99f;
+    font-weight: 700;
+}
+
+.xs-menu-spacing li {
+    min-width: 23%;
+    white-space: nowrap;
+}
+
+.list-inline-item {
+    margin-bottom: 20px;
+    padding: 0;
+}
+
 /* ----------------------------------------Special paddings/margins/text */
 
 h1,
@@ -81,7 +114,7 @@ p {
 
 .solid-border {
     border-style: solid;
-    border-width: 5px 0 0 0;
+    border-width: 5px 0 0;
     padding: 0;
     border-color:#af9442;
 }
@@ -107,9 +140,35 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-left: 0.5px;
-    margin-right: 0px;
-    margin-bottom: 15px;
+    margin: 0px;
+    height: 395px;
+}
+
+.ourtrip-image {
+    background: url("../images/dramatic.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    height: 395px;
+}
+
+.gallery-image {
+    background: url("../images/achmelvich.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    height: 395px;
+}
+
+.comments-image {
+    background: url("../images/wideroad.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    height: 395px;
 }
 
 .saltire-gif {
@@ -117,7 +176,8 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    min-height: 360px;    
+    min-height: 360px; 
+    max-height: 395px;   
     margin: 0;
 }
 
@@ -179,9 +239,10 @@ header {
     font-weight: 700;
 }
 
+
+
 /*--------------------------------------------text animation code courtesy of geeksfor geeks.org and amended by me*/
 
-/*--------------------------------------------margins optimised for mobile devices*/
 .text-type-container { 
     margin: 13px 20px 325px 20px;
     width: 50%; 
@@ -224,8 +285,9 @@ footer {
 }
 
 .social-links {
-    padding-bottom: 15px;
-    padding-top: 10px;
+    padding-bottom: 2em;
+    padding-left: 0.1em;
+    padding-top: 1em;
 }
 
 .social-links li {
