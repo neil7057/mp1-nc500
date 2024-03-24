@@ -47,11 +47,11 @@ The site will also appeal to those looking for imagery of the area and/or links 
 
     -   Home Page Wireframe - [View](https://github.com/neil7057/mp1-nc500/blob/main/docs/readme_images/nc500-homepage.jpg)
 
-    -   Mobile Wireframe - [View](https://github.com/)
+    -   Mobile Wireframe - [View](https://github.com/neil7057/mp1-nc500/blob/main/docs/readme_images/mobile.jpg)
 
-    -   Contact Us Page Wireframe - [View](https://github.com/)
+    -   Contact Us Page Wireframe - [View](https://github.com/neil7057/mp1-nc500/blob/main/docs/readme_images/contact-form.jpg)
 
-    -   404 - error page - [View] (https://github.com/neil7057/mp1-nc500/blob/main/docs/readme_images/404-error-page.jpg)
+    -   404 - error page - [View](https://github.com/neil7057/mp1-nc500/blob/main/docs/readme_images/404-error-page.jpg)
 
 
 ## Features
@@ -164,9 +164,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     1. Open browser and navigate to [The North Coast 500](https://neil7057.github.io/mp1-nc500/)
     2. Open the developer tools (right click and inspect)
-    3. Set to responsive and decrease width to 320px
+    3. Set to responsive and decrease widthin stages to 320px
     4. Set the zoom to 50%
-    5. Click and drag the responsive window to maximum width
+    5. Click and drag the responsive window to maximum width, noting transitions at breakpoints
+    6. Rotate and test for porrait to landscape transition
 
     Expected:
 
@@ -180,7 +181,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     Website was also opened on the following devices and no responsive issues were seen:
 
-    - iPhone 14
+    - iPhone X, 12, 14
     - Apple iPad
     - Fujitsu 15.4in laptop
     - Hp 22in desktop
@@ -265,6 +266,12 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     -   A large amount of testing was done to ensure that all pages were linking correctly.
     -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
+### 404 Error Testing
+
+    - A bespoke 4040 error page has been create dto provide a better user experience
+    - This was tested by navigating to the comments page and changing the address from comments.html to comment.html in the browser.
+    - The dedicated 404-error was displayed and it was possible to navigate home via the home button on the page.
+
 ### Known Bugs
 
     -   
@@ -335,6 +342,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   My Mentor for continuous helpful feedback and support.
 
--   Various online resources at established sites and on Youtube.
+-   Stackoverflow resources at their website and on Youtube.
+
+-   The whole community of developers who freely advise and share their knowledge via blogs, videos web comments.
 
 -   Tutor support at Code Institute for their support.
