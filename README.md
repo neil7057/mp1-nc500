@@ -338,6 +338,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   4 images plus the saltire gif were obtained free of copyright from [pixbay](https://pixabay.com/). The remaining images were from my own photography collection.
 
+-   [photoroom](https://www.photoroom.com/tools/background-remover) for free background removal on various images.
+
 ### Acknowledgements
 
 -   My Mentor for continuous helpful feedback and support.

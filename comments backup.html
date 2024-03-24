@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+    <script src="https://kit.fontawesome.com/6e6c671d1b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>The North Coast 500</title>
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+            <div id="header-details" class="row">
+    <!-- Saltire hidden on smaller screen sizes, visible on 992 and above  -->
+                <a class=" col-md-3 saltire-gif d-none d-lg-block"></a>            
+                <div class="col-xs-1 col-md-9 col-lg-7 col-xl-8">
+                    <div class="row comments-image" aria-labelledby="a narrow tarmac road disapeeraing into mountains in the distance">
+                        <div class="col heading text-typing text-type-container">
+                            <p class="title">Send Me A Message</p>                        
+                        </div>
+                    </div>
+                </div>
+    <!-- menu width adjusted for different screen sizes above xs-->
+                <div class ="col-xs-1 col-md-3 col-xl-1 col-lg-2">
+                    <div class="row no-gutters d-none d-md-block">
+                        <div class="col">                 
+                            <ul id="nav" class="list-inline menucontainer menuitem">                        
+                                <li class="col-sm-12 ui-menu-color">
+                                    <a href="index.html" class="hvr-grow" aria-label="This is the current page, home" ><i class ="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
+                                </li>
+                                <li class="col-sm-12 ui-menu-color">
+                                    <a href="ourtrip.html" class="hvr-grow" aria-label="Go to the our trip page (opens in a new tab)"><i class ="fa fa-suitcase" aria-hidden="true"></i><span>Our Trip</span></a>
+                                </li>
+                                <li class="col-sm-12 ui-menu-color">
+                                    <a href="gallery.html" class="hvr-grow" aria-label="Go to the gallery page (opens in a new tab)"><i class ="fa-regular fa-image" aria-hidden="true"></i><span>Gallery</span></a>
+                                </li>
+                                <li class="col-sm-12 ui-menu-color">
+                                    <a href="comments.html" class="hvr-grow active" aria-label="Go to the comments page (opens in a new tab)"><i class ="fa fa-comment-o" aria-hidden="true"></i><span>Contact</span></a>
+                                </li>                          
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    <!-- menu for xs screens -->
+                <div class ="col-xs-1 col-md-3 col-xl-1 col-lg-2">
+                    <div class="row no-gutters d-block d-md-none">
+                        <div class="col">                 
+                            <ul id="nav" class="list-inline menucontainer xs-menu-spacing solid-border">                        
+                                <li class="col-xs-3 ui-menu-color list-inline-item">
+                                    <a href="index.html" class="hvr-grow" aria-label="This is the current page, home" ><i class ="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
+                                </li>
+                                <li class="col-xs-3 ui-menu-color list-inline-item">
+                                    <a href="ourtrip.html" class="hvr-grow" aria-label="Go to the our trip page (opens in a new tab)"><i class ="fa fa-suitcase" aria-hidden="true"></i><span>Our Trip</span></a>
+                                </li>
+                                <li class="col-xs-3 ui-menu-color list-inline-item">
+                                    <a href="gallery.html" class="hvr-grow" aria-label="Go to the gallery page (opens in a new tab)"><i class ="fa-regular fa-image" aria-hidden="true"></i><span>Gallery</span></a>
+                                </li>
+                                <li class="col-xs-3 ui-menu-color list-inline-item">
+                                    <a href="comments.html" class="hvr-grow active" aria-label="Go to the comments page (opens in a new tab)"><i class ="fa fa-comment-o" aria-hidden="true"></i><span>Contact</span></a>
+                                </li>                          
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<!-- start of body content -->
+<!-- content sized to xl so that it displays best on smaller screens -->
+
+    <section>
+    <!-- Introductory text -->
+        <div class="container-fluid contact-color solid-border">
+            <div class="row  no-gutters">
+                <div class="row">
+                    <div class="col heading text-center">
+                        <br>                            
+                        <h2>Have Feedback?<br></h2>
+                        <h2>Planning a trip of your own and looking for advice or information/inspiration?<br></h2>
+                        <h2>Want to share <em><strong>Your</strong></em> story?<br></h2>
+                        <h2>Then, Why not get in touch...<h2>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Contact Form -->
+
+        <div class="container-fluid contact-color col-xl-4">
+            <!-- <div class="row">
+                <div class =col-xl-4>
+
+                </div>
+            </div> -->
+
+
+
+
+            <form class="label-font-size">
+                <div class="form-group">
+                    <label for="firstname">First Name:</label>
+                    <input type="text" name="fname" id="firstname" class="form-control" placeholder="First Name" required />
+                </div>
+                <div class="form-group">
+                    <label for="lastname">Surname:</label>
+                    <input type="text" name="lname" id="lastname" class="form-control" placeholder="Surname" required />
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
+                </div>
+                <div class="form-group">
+                    <label for="feedbackmessage">Comments/Feedback/Requests:</label>
+                    <textarea name="feedbackmessage" id="feedbackmessage" class="form-control" placeholder="What do you want to tell me?" required /></textarea>
+                </div>
+                <div class="form-row text-center">
+                    <div class="col">
+                        <button type="submit" class="btn btn-secondary hvr-grow">Message Me!</button>           
+                    </div>
+                </div>      
+            </form>    
+        </div>
+                            
+    </section>
+         
+    <footer>
+        
+    <!-- direct email or link to comments page -->
+
+        <div class="container-fluid">
+        <div id="footer-details" class="row no-gutters solid-border">
+            <div class="col-sm-6">
+                <h5 class="uppercase foot-title">Email Me</h5>
+                <p class="inline-block foot-email">
+                   <a href=mailto:"webdev1961@gmail.com" class="hvr-grow" aria-label="click here to send me an email (opens in a new tab)">Click Here to Send me a Message</a>                   
+                </p>
+                <p class="inline-block foot-email">                    
+                    <a href="#" class="hvr-grow" aria-label="Use The form Above To Send Me A Comment Or Feedback (goes to top of comments page)">Use The form Above To Send Me A Comment Or Feedback</a>
+                 </p>
+            </div>
+
+    <!-- Social Media Links   -->
+
+            <div class="col-sm-6">
+                <h5 class="uppercase foot-title">Social</h5>
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://en-gb.facebook.com/" aria-label="Go to my Facebook page (opens in a new tab)" class="hvr-grow">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://twitter.com/?lang=en" aria-label="Go to my Twitter X account (opens in a new tab)" class="hvr-grow">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://uk.linkedin.com/" aria-label="Go to my LinkedIn page (opens in a new tab)" class="hvr-grow">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            <span class="sr-only">LinkedIn</span>
+                        </a>
+                    </li>                     
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.youtube.com/" aria-label="Go to my Youtube channel (opens in a new tab)" class="hvr-grow">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">YouTube</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://vimeo.com/" aria-label="Go to my Vimeo page (opens in a new tab)" class="hvr-grow">
+                            <i class="fa fa-vimeo" aria-hidden="true"></i>
+                            <span class="sr-only">Vimeo</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>    
+</body>
+</html>
