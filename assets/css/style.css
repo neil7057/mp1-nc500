@@ -15,8 +15,7 @@ body {
 }
 
 #section-details {
-    /* background-color: #b0cfee; */
-    background-color: #e8dfe0;
+    background-color: #f9faf4;
     border-color:#af9442;
 }
 
@@ -195,7 +194,7 @@ header {
 }
 
 .rounded-custom {
-    border-radius: 10%;
+    border-radius: 5%;
 }
 
 .saltire-gif {
@@ -236,8 +235,10 @@ header {
 }
 
 .general-sub {
-    background-color: #143049;
+    /* background-color: #143049; */
+    background-color: #f9faf4;
     color: #af9442;
+    font-weight: 700;
     font-size: 25px;
     text-align: center;
 }
@@ -308,7 +309,7 @@ typing 1s steps(22, end) forwards;
 
 footer {
     color: #fff;
-    min-height: 120px;  
+    min-height: 120px;
 }
 
 .social-links {
@@ -408,7 +409,7 @@ button[type="submit"] {
 
 /* ----------------------------------------reduce title font for xs devices down to 320px*/
 
-@media (max-width: 409.98px) {
+@media (max-width: 449.98px) {
     .title {
         font-size: 22px;
     }

@@ -167,10 +167,12 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     1. As a Frequent User, I want to check to see if there are any newly added photographs.
 
         1. The user would already be comfortable with the website layout and can easily visit the gallery page.
+        2. New photographs will be annotated as 'new' for a period of one month.
 
     2. As a Frequent User, I want to check to see if there is any new information.
 
         1. The user would already be comfortable with the website layout and can easily visit the links section.
+
 
     3. As a Frequent User, I want to check to see if there are any new links.
 
@@ -189,17 +191,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     3. Set to responsive and decrease widthin stages to 320px
     4. Set the zoom to 50%
     5. Click and drag the responsive window to maximum width, noting transitions at breakpoints
-    6. Rotate and test for porrait to landscape transition
+    6. Rotate and test for portrait to landscape transition
 
-    Expected:
+    Results:
 
     Website is responsive on all screen sizes and no images are pixelated or stretched.
     No horizontal scroll is present.
     No elements overlap.
-
-    Actual:
-
-    Website behaved as expected 
 
     Website was also opened on the following devices and no responsive issues were seen:
 
