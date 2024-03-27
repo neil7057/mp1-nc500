@@ -68,7 +68,6 @@ body {
 
 .menu-spacing span {
     font-family: 'Libre+Baskerville', sans-serif;
-    /* font-size: 1.25vw; */
     font-size: 11px;
     padding: .5em;
     color: #af9442;
@@ -119,19 +118,6 @@ p {
     padding-right: 15px;
     border-color:#af9442;
 }
-
-/* .pad-left {
-    margin-left: 15px;
-}
-
-.pad-both {
-    margin-left: -15px;
-    margin-right: 15px;
-}
-
-.pad-right {
-    margin-right: 15px;
-} */
 
 .img-center {
     display:block;
@@ -210,7 +196,6 @@ header {
 
 .rounded-custom {
     border-radius: 10%;
-
 }
 
 .saltire-gif {
@@ -282,8 +267,6 @@ header {
     font-weight: 700;
 }
 
-
-
 /*--------------------------------------------text animation code courtesy of geeksfor geeks.org and amended by me*/
 
 .text-type-container { 
@@ -317,7 +300,6 @@ typing 1s steps(22, end) forwards;
 
 /*--------------------------------------------Hover Control*/
 
-
 .hvr-grow:hover {
     transform: scale(1.4);
 }
@@ -339,7 +321,6 @@ footer {
     padding-right: 10px;
 }
 
-
 .social-links li a i {
     width: 32px;
     height: 32px;
@@ -356,9 +337,9 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 }
 
-/* .list-inline {
+.list-inline {
     text-align:center;
-} */
+}
 
 .foot-email {
     text-align: center;
@@ -422,7 +403,6 @@ button[type="submit"] {
     color: #143049;
     background-color: #af9442;
 }
-
 
 /* ----------------------------------------Media Queries */
 

@@ -31,7 +31,7 @@ The site will also appeal to those looking for imagery of the area and/or links 
 
 -   ### Design
     -   #### Colour Scheme
-        -   To fit in with the main colours of the Scottish Flag (Saltire), i've chosen blue as the colour scheme for the site with a contrast between a dark blue for menu items and footer and a lighter blue as background. I've added a contrasting bronze as this looks good. I have added a green highlight to the current page icon.
+        -   To fit in with the main colours of the Scottish Flag (Saltire), i've chosen blue as the colour scheme for the site with a contrast between a dark blue for menu items and footer and a sandy colour to respresent the stunning beaches as background. I've added a contrasting bronze as this looks good. I have added a green highlight to the current page icon.
         
     -   #### Typography
         -   The Baskerville Libre font is the main font used for headings and open sans is used for other text consistently throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Baskeville is a clean font and looks crisp on blue or a white background. It is both elegant and professional.
@@ -44,7 +44,7 @@ The site will also appeal to those looking for imagery of the area and/or links 
 
         -   Larger screen sizes have the waving saltire gif but this is hidden on smaller screens as it occupies too much space whilst adding little value. 
 
-        -   There is a customised error-404 page just in case.
+        -   There is a customised error-404 page 'just in case'.
 
 *   ### Wireframes
 
@@ -127,35 +127,33 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     
     1.As a First Time Visitor, I want to easily understand what and where the North Coast 500 is..
         
-        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Learn More" Call to action button.
-        2. The main points are made immediately with the hero image
-        3. The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the organisation.
+        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Navigation is central and at eyeline, above there is a Hero Image with scrolling Text appropriate to the specific page.
+        2. The main points are made immediately with the hero image, followed on by clear page images and text.
+        3. The user has two options, scroll to read the current page or use the navigation to go directly to another part of the site.
 
     2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
 
-        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
-        2. 
-        3. the top of the page where the navigation bar is.
+        1. The site has been designed to present the menu in a clear, central position and appropriately sized for all screen resolutions. 
+        2. At the top of each page, below the Hero image there is a clean navigation bar, each link describes what the page they will end up at clearly.
+        3. Navigation items are clearly labelled and with an appropriate icon. It's easy to understand where to go to find what you want.
 
     3. As a First Time Visitor, I want to read about an actual trip around the NC500 and look at interesting images.
-        1. .
-        2. 
-        3. .
+        1. There is a clear link to the 'ourtrip' page.
+        2. The trip of August 2018 is documented with text and images which are easy to find via the naviigation bar.
+        3. There are additional images in an appropriatley named 'gallery' page.
 
 -   #### Returning Visitor Goals
 
     1.  As a Returning Visitor, I want to find more information that may help me plan a trip.
 
-        1. 
-        2. 
+        1. The 'ourtrip' page contains details of a travelled route.
+        2. The 'ourtrip' and 'gallery' pages provide information about things to see along the way.
+        3. There is an option to email or submit a form to ask for specific information
 
     2. As a Returning Visitor, I want to find the best way to get in contact and ask for help and advice with any questions I may have.
 
-        1. 
-        2. 
-        3. 
-        4. 
-        5. 
+        1. Each page footer has a clear link to Email to send a message.
+        2. Each page footer has a link to the comments and feedback section where a user can submit a request for more information.
 
     3. As a Returning Visitor, I want to find links to other resources that will help me plan.
 
@@ -168,11 +166,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     1. As a Frequent User, I want to check to see if there are any newly added photographs.
 
-        1. The user would already be comfortable with the website layout and can easily click the banner message.
+        1. The user would already be comfortable with the website layout and can easily visit the gallery page.
 
     2. As a Frequent User, I want to check to see if there is any new information.
 
-        1. The user would already be comfortable with the website layout and can easily click the blog link
+        1. The user would already be comfortable with the website layout and can easily visit the links section.
 
     3. As a Frequent User, I want to check to see if there are any new links.
 
