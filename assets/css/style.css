@@ -104,6 +104,7 @@ h4 {
 p {
     font-family: 'Open+Sans', sans-serif;
     margin: 10px;
+    font-size: 14px;
 }
 
 .uppercase {
@@ -220,6 +221,7 @@ header {
     font-family: "Libre+Baskerville", sans-serif;
     font-weight: 800;
     font-size: 28px;
+    /* font-size: 2.5vw; */
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
@@ -411,7 +413,7 @@ button[type="submit"] {
 
 /* ----------------------------------------reduce title font for xs devices down to 320px*/
 
-@media (max-width: 449.98px) {
+@media (max-width: 450px) {
     .title {
         font-size: 22px;
     }
@@ -424,7 +426,7 @@ button[type="submit"] {
 
 /* ----------------------------------------resize menu items and text for bigger screens*/
 
-@media (min-width: 575.98px) {
+@media (min-width: 576px) {
     .menu-spacing span {
         font-size: 22px;
     }
@@ -432,4 +434,22 @@ button[type="submit"] {
         font-size: 22px;
     }
 }
+
+/* ----------------------------------------change to proportional font size on larger screen sizes*/
+
+@media (min-width: 1500px) {
+    p {
+        font-size: 1vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
 
