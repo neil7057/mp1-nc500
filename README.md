@@ -233,9 +233,16 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     ![Home](docs/testing/index_lighthouse.JPG)
 
+    ![Ourtrip](docs/testing/ourtrip_lighthouse.JPG)
+
     ![Gallery](docs/testing/gallery_lighthouse.JPG)
 
-    ![Adventures](docs/testing/adventures_lighthouse.JPG)
+    ![Comments](docs/testing/comments_lighthouse.JPG)
+
+    ![Confirmation](docs/testing/confirmation_lighthouse.JPG)
+
+    ![Error-404](docs/testing/error-404_lighthouse.JPG)
+
 
 ### Functional Testing
 
@@ -288,7 +295,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### 404 Error Testing
 
-    - A bespoke 4040 error page has been create dto provide a better user experience
+    - A bespoke 404 error page has been created to provide a better user experience
     - This was tested by navigating to the comments page and changing the address from comments.html to comment.html in the browser.
     - The dedicated 404-error was displayed and it was possible to navigate home via the home button on the page.
 
