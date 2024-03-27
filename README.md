@@ -41,7 +41,10 @@ The site will also appeal to those looking for imagery of the area and/or links 
 
     -   #### Design Considerations
         -   The header of each page carries a different Hero or banner image but other items remain consistent. The Footer is minimalist as its not necessary to give out extensive contact information. There's an email option and also a link to the main contact page and form.
-        -   larger screen sizes have the waving saltire gif but this is hidden on smaller screens as it occupies too much space whilst adding little value. 
+
+        -   Larger screen sizes have the waving saltire gif but this is hidden on smaller screens as it occupies too much space whilst adding little value. 
+
+        -   There is a customised error-404 page just in case.
 
 *   ### Wireframes
 
@@ -49,16 +52,26 @@ The site will also appeal to those looking for imagery of the area and/or links 
 
     -   Mobile Wireframe - [View](https://github.com/neil7057/mp1-nc500/blob/main/docs/readme_images/mobile.jpg)
 
+    -   Tablet - portrait Wireframe - [View](https://github.com/neil7057/mp1-nc500/blob/main/docs/readme_images/ipad-portrait.jpg)
+
     -   Contact Us Page Wireframe - [View](https://github.com/neil7057/mp1-nc500/blob/main/docs/readme_images/contact-form.jpg)
+
+    -   Contact Us Confirmation Page Wireframe - [View](https://github.com/neil7057/mp1-nc500/blob/main/docs/readme_images/confirmation-page.jpg)0
 
     -   404 - error page - [View](https://github.com/neil7057/mp1-nc500/blob/main/docs/readme_images/404-error-page.jpg)
 
 
 ## Features
 
--   Responsive on all device sizes
+-   Responsive on all device sizes down to 320px - the industry standard minimum screen width.
 
 -   Interactive elements
+
+-   Active menu page is highlighted in Green on menu options and menu items enlarge on Hover.
+
+-   In addition to a contact form option, there is a direct email link.
+
+-   Scrolling text box with help text on comments page.
 
 ## Technologies Used
 
@@ -72,7 +85,7 @@ The site will also appeal to those looking for imagery of the area and/or links 
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+1. [Bootstrap 4.2.1:](https://getbootstrap.com/docs/4.2/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
     - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
@@ -82,8 +95,8 @@ The site will also appeal to those looking for imagery of the area and/or links 
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 1. [jQuery:](https://jquery.com/)
     - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
-1. [Git](https://git-scm.com/)
-    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+1. [codeanywhere](https://app.codeanywhere.com/)
+    - Codeanywhere was used for version control by utilizing the codeanywhere terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Balsamiq:](https://balsamiq.com/)
@@ -93,8 +106,19 @@ The site will also appeal to those looking for imagery of the area and/or links 
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://validator.w3.org/#validate_by_input)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+
+-   Results Markup:
+    [Homepage](https://github.com/)
+    [OurTrip](https://github.com/)
+    [Gallery](https://github.com/)
+    [Comments](https://github.com/)
+    [Confirmation](https://github.com/)
+    [Error-404](https://github.com/)
+
+-   Results CSS:
+    [style.css](https://github.com/)
 
 ### Testing User Stories from User Experience (UX) Section
 
