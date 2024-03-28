@@ -14,7 +14,7 @@ body {
     color: #af9442;
 }
 
-#section-details {
+.section-details {
     background-color: #f9faf4;
     border-color:#af9442;
 }
@@ -29,6 +29,11 @@ body {
 
 .foot-email a {
     color: #af9442;
+}
+
+/*--------------------------------------------Image sizing*/
+img {
+    width: 100%;
 }
 
 /*--------------------------------------------Menu Items*/
@@ -292,7 +297,6 @@ header {
 /* changed from p to h1 */
 .text-typing h1 { 
     margin: 0px; 
-    white-space: nowrap; 
     clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0); 
     animation:  
 typing 1s steps(22, end) forwards; 
@@ -410,19 +414,6 @@ button[type="submit"] {
 }
 
 /* ----------------------------------------Media Queries */
-
-/* ----------------------------------------reduce title font for xs devices down to 320px*/
-
-@media (max-width: 450px) {
-    .title {
-        font-size: 22px;
-    }
-    .text-typing {
-        font-size: 22px;
-        padding-top: 9px;
-        margin: 20px 20px 325px 20px;
-    }
-}
 
 /* ----------------------------------------resize menu items and text for bigger screens*/
 

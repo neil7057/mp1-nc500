@@ -1,5 +1,11 @@
 # My North Coast 500 Website
 
+![Mockup](docs/readme_images/mockup.jpg)
+
+**Author Neil Allen**
+
+## The North Coast 500
+
 This is my website documenting our family trip around the NC500 in 2018. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for those new to the NC500 and those wishing to learn more.
 
 It is designed to appeal to those who have never heard of the North Coast 500 and wish to find out more. It is also designed to appeal to those who are already aware of the route and are interested in reading about a fellow traveller's journey or are looking for inspiration.
@@ -8,7 +14,13 @@ The site will also appeal to those looking for imagery of the area and/or links 
 
 [View the live project here.](https://neil7057.github.io/mp1-nc500/)
 
-![Mockup](docs/readme_images/mockup.jpg)
+# Table of Contents
+
+    1. [Project Inception & Planning](#Project-Inception-and-Planning)
+
+## fish
+
+## Project Inception and Planning
 
 ## User Experience (UX)
 
@@ -50,52 +62,152 @@ The site will also appeal to those looking for imagery of the area and/or links 
 
 *   ### Wireframes
 
-    -   Home Page
-        <br><br>
-        ![Home page - desktop](docs/readme_images/nc500-homepage.jpg)
+    <details><summary>Home - Desktop</summary>
+    <img src="docs/readme_images/nc500-homepage.jpg">
+    </details>
+    <br>
+    <details><summary>Home - Mobile</summary>
+    <img src="docs/readme_images/mobile.jpg">
+    </details>
+    <br>
+    <details><summary>Home - Tablet</summary>
+    <img src="docs/readme_images/ipad-portrait.jpg">
+    </details>
+    <br>
+    <details><summary>Our Trip Page</summary>
+    <img src="docs/readme_images/ourtrip-page.jpg">
+    </details>
+    <br>
+    <details><summary>Gallery Page</summary>
+    <img src="docs/readme_images/gallery-page.jpg">
+    </details>
+    <br>
+    <details><summary>Contact Page</summary>
+    <img src="docs/readme_images/contact-form.jpg">
+    </details>
+    <br>
+    <details><summary>Contact Confirmation Page</summary>
+    <img src="docs/readme_images/confirmation-page.jpg">
+    </details>
+    <br>
+    <details><summary>404 Error Page</summary>
+    <img src="docs/readme_images/404-error-page.jpg">
+    </details>
+ 
+#### **Structure**
 
-        ![Home page - mobile](docs/readme_images/mobile.jpg)
+The structure of the site is informed by the the target audiience's expectations and the principles of IXD (interaction design) to make sure I was making everything as intuitive as I could.
 
-        ![Home page - Tablet portrait](docs/readme_images/ipad-portrait.jpg)
+The site has a simple structure made up of 4 pages:
+* Homepage - a short introduction to what the North Coast 500 is.
+* Our Trip - Specific information and images about our journey around the NC500 in August 2018.
+* Gallery - A range of images to show the variety and beauty of the NC500 route
+* Comments - A form to allow the user to send comments or requests for further information 
+* There are also 2 additional sub pages
+    * A Confirmation thank you page for when a user has submitted a form
+    * A 404 page for when a user lands on a non-existent page
 
-    -   Our Trip Page 
-        <br><br>
-        ![Our Trip page](docs/readme_images/Ourtrip.jpg)
-
-    -   Gallery Page 
-        <br><br>
-        ![Gallery](docs/readme_images/gallery.jpg)
-
-    -   Contact Us Page 
-        <br><br>
-        ![Contact Form](docs/readme_images/contact-form.jpg)
-
-    -   Contact Us Confirmation Page
-        <br><br>
-        ![Contact Confirmation page](docs/readme_images/confirmation-page.jpg)
-
-    -   404 - error page
-        <br><br>
-        ![Error 404 page](docs/readme_images/404-error-page.jpg)
-
+The site has a navbar which remains central to the screene on desktop, tablet and mobile, this allows a user to access any page they need at any time and would be suitable for a returning visitor who knows exactly where they want to go. There is also a footer on every page with links to social media sites, the Comments page and offers a direct email link.
 
 ## Features
 
--   Responsive on all device sizes down to 320px - the industry standard minimum screen width.
+-   Responsive on all device sizes down to 280px - the industry standard minimum screen width.
 
 -   Interactive elements
 
 -   Active menu page is highlighted in Green on menu options and menu items enlarge on Hover.
-
-    ![navigation menu](docs/readme_images/navbar.jpg)
-
+    <details><summary>Navigation Menu</summary>
+    <img src="docs/readme_images/navbar.jpg">
+    </details>
+    <br>
 -   In addition to a contact form option, there is a direct email link.
+    <details><summary>Email Me</summary>
+    <img src="docs/readme_images/footer.jpg">
+    </details>
+    <br>
+-  Scrolling text box with help text on comments page.
+    <details><summary>Comments Text Box</summary>
+    <img src="docs/readme_images/comments.jpg">
+    </details>
 
-    ![footer email option](docs/readme_images/footer.jpg)
+### Landing Page
+* Landing page image
+    * This will be a sample image representing an aspect of the NC500 route and scenery.
+    * On larger screen sizes there is an animated waving Saltire. 
+    * This will help to immediately show the user what the website is about. 
 
--   Scrolling text box with help text on comments page.
+    <details><summary>Landing Page</summary>
+    <img src="docs/readme_images/landing-page.jpg">
+    </details>
+    <br>
 
-    ![comments box](docs/readme_images/comments.jpg)
+* North Coast 500 information and introduction.
+    * A large map of the NC500 route.
+    * some sample images and 5 paragraphs of informative text.
+    * This information lets the user know what the site is about and gives a visual representation of the route. 
+
+     <details><summary>Homepage Details</summary>
+    <img src="docs/readme_images/homepage.jpg">
+    </details>
+    <br>
+
+### Our Trip Page
+* Our Trip
+    * The
+
+    <details><summary>Our Trip Page</summary>
+    <img src="docs/readme_images/ourtrip.jpg">
+    </details>
+    <br>
+
+### Gallery Page
+* Gallery
+    * Sections 
+
+    <details><summary>Gallery Page</summary>
+    <img src="docs/readme_images/gallery-page-image.jpg">
+    </details>
+    <br>
+
+ ### Contact Page
+* Contact form
+    * A contact form will be implemented to allow users to contact me. The form will consist of the following fields and attributes: 
+        * First Name (required, type=text)
+        * Last Name (required, type=text)
+        * Email (required, type=email)
+        * Message (required, type=textarea), maximum 280 characters
+    * This will allow user to contact me if they have any queiries about the NC500, our trip in particular or information to assist in planning their own adventure.
+    * To avoid large empty spaces and as i didn't wish to expand the form to the entire screen on laptop screens and above, I have inserted the NC500 logo either side. This is hidden on smaller screen sizes.
+
+    <details><summary>Contact Page</summary>
+    <img src="docs/readme_images/contact-info-page.jpg">
+    </details>
+    <br>
+
+    * On successful submission of the contact form, the user will be navigated to confirmation.html displaying a success message.
+
+    <details><summary>Contact Confirmation Page</summary>
+    <img src="docs/readme_images/confirmation-page-image.jpg">
+    </details>
+    <br>
+
+### Contact Page
+* Error 404 Page
+    * There is a bespoke 404 error page to trap any file not found errors. This enables the user to access the menu structire in the event if a missing page or file and avoids use of the 'back' button were a default 404 page displayed.
+
+    <details><summary>Error 404</summary>
+    <img src="docs/readme_images/404-error-page.jpg">
+    </details>
+    <br>
+
+
+### Site Features
+
+* Responsive design - contnet scales from 280px to Large Desktop. Some content is hidden at smaller resolutions to maintain user experience.
+* Menu navbar remains consistent with a green highlight for current page.
+<!-- * Gallery -->
+* Contact form and success confirmation page.
+* Option to send a direct email from Footer.
 
 ## Technologies Used
 
@@ -365,6 +477,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     ```git commit -m “commit message”```
         - This command was used to commit changes to the local repository queue ready for the final step.
+
+**Following feedback from my mentor, I changed the format of my Git Commit messages to be more industry standard and imperative. This change took effect from commit 31.**
 
     ```git push``` 
         - This command was used to push all committed code to the remote repository on github.
