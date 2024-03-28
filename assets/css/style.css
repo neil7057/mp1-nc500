@@ -434,13 +434,9 @@ button[type="submit"] {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
+/* ----------------------------------------change to text size on figcaption for single words. multiple word phrases will wrap */
+@media (max-width: 370px) {
+    .general-sub {
+        font-size: 19px;
+    }
+}
