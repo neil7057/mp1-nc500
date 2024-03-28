@@ -8,6 +8,8 @@ The site will also appeal to those looking for imagery of the area and/or links 
 
 [View the live project here.](https://neil7057.github.io/mp1-nc500/)
 
+![Mockup](docs/readme_images/mockup.jpg)
+
 ## User Experience (UX)
 
 -   ### User stories
@@ -48,17 +50,34 @@ The site will also appeal to those looking for imagery of the area and/or links 
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/neil7057/mp1-nc500/blob/main/docs/readme_images/nc500-homepage.jpg)
+    -   Home Page
+        <br>
+        ![Home page - desktop](docs/readme_images/nc500-homepage.jpg)
 
-    -   Mobile Wireframe - [View](https://github.com/neil7057/mp1-nc500/blob/main/docs/readme_images/mobile.jpg)
+        <br>
+        ![Home page - mobile](docs/readme_images/mobile.jpg)
 
-    -   Tablet - portrait Wireframe - [View](https://github.com/neil7057/mp1-nc500/blob/main/docs/readme_images/ipad-portrait.jpg)
+        <br>
+        ![Home page - Tablet portrait](docs/readme_images/ipad-portrait.jpg)
 
-    -   Contact Us Page Wireframe - [View](https://github.com/neil7057/mp1-nc500/blob/main/docs/readme_images/contact-form.jpg)
+    -   Our Trip Page 
+        <br>
+        ![Our Trip page](docs/readme_images/Ourtrip.jpg)
 
-    -   Contact Us Confirmation Page Wireframe - [View](https://github.com/neil7057/mp1-nc500/blob/main/docs/readme_images/confirmation-page.jpg)0
+    -   Gallery Page 
+        <br>
+        ![Gallery](docs/readme_images/gallery.jpg)
 
-    -   404 - error page - [View](https://github.com/neil7057/mp1-nc500/blob/main/docs/readme_images/404-error-page.jpg)
+    -   Contact Us Page 
+        <br>
+        ![Contact Form](docs/readme_images/contact-form.jpg)
+
+    -   Contact Us Confirmation Page
+        <br>
+        ![Contact Confirmation page](docs/readme_images/confirmation-page.jpg)
+
+    -   404 - error page
+        ![Error 404 page](docs/readme_images/404-error-page.jpg)
 
 
 ## Features
@@ -69,9 +88,15 @@ The site will also appeal to those looking for imagery of the area and/or links 
 
 -   Active menu page is highlighted in Green on menu options and menu items enlarge on Hover.
 
+    ![navigation menu](docs/readme_images/navbar.jpg)
+
 -   In addition to a contact form option, there is a direct email link.
 
+    ![footer email option](docs/readme_images/footer.jpg)
+
 -   Scrolling text box with help text on comments page.
+
+    ![comments box](docs/readme_images/comments.jpg)
 
 ## Technologies Used
 
@@ -125,7 +150,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   #### First Time Visitor Goals
 
     
-    1.As a First Time Visitor, I want to easily understand what and where the North Coast 500 is..
+    1. As a First Time Visitor, I want to easily understand what and where the North Coast 500 is..
         
         1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Navigation is central and at eyeline, above there is a Hero Image with scrolling Text appropriate to the specific page.
         2. The main points are made immediately with the hero image, followed on by clear page images and text.
@@ -144,7 +169,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   #### Returning Visitor Goals
 
-    1.  As a Returning Visitor, I want to find more information that may help me plan a trip.
+    1. As a Returning Visitor, I want to find more information that may help me plan a trip.
 
         1. The 'ourtrip' page contains details of a travelled route.
         2. The 'ourtrip' and 'gallery' pages provide information about things to see along the way.
@@ -208,18 +233,30 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Accessibility
 
-    [Wave Accessibility](https://wave.webaim.org/) tool was used throughout development and for final testing of the deployed website to check for any aid accessibility testing.
+    [Wave Accessibility](https://wave.webaim.org/) tool was used throughout development
+    and for final testing of the deployed website to check for any aid accessibility testing.
 
     Testing was focused to ensure the following criteria were met:
 
-    - All forms have associated labels or aria-labels so that this is read out on a screen reader to users who tab to form inputs
-    - Color contrasts meet a minimum ratio as specified in [WCAG 2.1 Contrast Guidelines](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html)
-    - Heading levels are not missed or skipped to ensure the importance of content is relayed correctly to the end user
-    - All content is contained within landmarks to ensure ease of use for assistive technology, allowing the user to navigate by page regions
-    - All not textual content had alternative text or titles so descriptions are read out to screen readers
-    - HTML page lang attribute has been set
-    - Aria properties have been implemented correctly
-    - WCAG 2.1 Coding best practices being followed
+    - All forms have associated labels or aria-labels
+      so that this is read out on a screen reader to users who tab to form inputs.
+
+    - Color contrasts meet a minimum ratio as specified in
+      [WCAG 2.1 Contrast Guidelines](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html).
+
+    - Heading levels are not missed or skipped to ensure
+      the importance of content is relayed correctly to the end user.
+
+    - All content is contained within landmarks to ensure ease of use for assistive technology,
+      allowing the user to navigate by page regions.
+
+    - All not textual content had alternative text or titles so descriptions are read out to screen readers.
+
+    - HTML page lang attribute has been set.
+
+    - Aria properties have been implemented correctly.
+
+    - WCAG 2.1 Coding best practices being followed.
 
     Manual tests were also performed to ensure the website was accessible as possible.
 
@@ -248,30 +285,37 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 **Navigation Links**
 
-    Testing was performed to ensure all navigation links on the respective pages, navigated to the correct pages as per design. This was done by clicking on the navigation links on each page.
+    Testing was performed to ensure all navigation links on the respective pages,
+    navigated to the correct pages as per design.
+    This was done by clicking on the navigation links on each page.
 
     Links on all pages navigated to the correct pages as exptected.
 
 **Form Testing**
 
-    The form on the contact page was tested to ensure it functioned as expected when correct and incorrcet data was input.
+    The form on the contact page was tested to ensure it functioned as expected
+    when correct and incorreet data was input.
 
     Specifically:
 
-    -   Missing one or more input field: An error was highlighted to the user and the form could not be submitted.
+    -   Missing one or more input field:
+        An error was highlighted to the user and the form could not be submitted.
 
-    -   Incorrect email format:  An error was highlighted to the user and the form could not be submitted.
+    -   Incorrect email format:
+        An error was highlighted to the user and the form could not be submitted.
     
-    -   Form completed correctly with valid information in all fields: the form is able to be submitted.
+    -   Form completed correctly with valid information in all fields:
+        The form is able to be submitted.
 
     -   Succesfully submission of the contacts/feedback form: A confirmation message is displayed  
 
     
 **Footer Social Media Icons / Links**
 
-    Testing was performed on the Font Awesome Social Media icons in the footer to ensure that each one opened in a new tab and that each one had a hover affect of the orange branding color.
+    Testing was performed on the Font Awesome Social Media icons in the footer to ensure that each one
+    opened in a new tab and that each one had a hover affect of the orange branding color.
 
-    Each item opened a new tab when clicked as expected and correct hover color was present.
+    Each item opened a new tab when clicked as expected and correct hover effect was present.
 
 **Footer Contact Information**
 
@@ -280,24 +324,28 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     1. Navigate to [My North Coast 500 - Home Page](https://neil7057.github.io/mp1-nc500/)
     2. Click the email address in the footer (webdev1961@gmail.com)
 
-    A windows popup is displayed asking what application you would like to send a mail from or your default email application is opened.
+    A windows popup is displayed asking what application you would like to send a mail from
+    or your default email application is opened.
 
-    There is also a link directly to the comments/feedback page. When clicked, this navigates to the corrcet page.
+    There is also a link directly to the comments/feedback page.
+    When clicked, this navigates to the corrcet page.
 
     The email and 'go to' links react when hovered over.
 
 ### Further Testing
 
     -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
-    -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX and iPad.
+    -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7/8/X and iPad.
     -   A large amount of testing was done to ensure that all pages were linking correctly.
-    -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+    -   Friends and family members were asked to review the site and documentation to point out any bugs
+        and/or user experience issues.
 
 ### 404 Error Testing
 
     - A bespoke 404 error page has been created to provide a better user experience
-    - This was tested by navigating to the comments page and changing the address from comments.html to comment.html in the browser.
-    - The dedicated 404-error was displayed and it was possible to navigate home via the home button on the page.
+    - This was tested by:
+      navigating to the comments page and changing the address to comment.html in the browser.
+    - The dedicated 404-error was displayed and it was possible to navigate home via the home button.
 
 ### Known Bugs
 
@@ -308,15 +356,19 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Version Control
 
-    The site was created using the Visual Studio code editor and pushed to github to the remote repository ‘mp1-nc500’.
+    The site was created using the Visual Studio code editor and pushed to github to the remote repository:
+    ‘mp1-nc500’.
 
     The following git commands were used throughout development to push code to the remote repo:
 
-    ```git add <file>``` - This command was used to add the file(s) to the staging area before they are committed.
+    ```git add <file>``` 
+        - This command was used to add the file(s) to the staging area before they are committed.
 
-    ```git commit -m “commit message”``` - This command was used to commit changes to the local repository queue ready for the final step.
+    ```git commit -m “commit message”```
+        - This command was used to commit changes to the local repository queue ready for the final step.
 
-    ```git push``` - This command was used to push all committed code to the remote repository on github.
+    ```git push``` 
+        - This command was used to push all committed code to the remote repository on github.
 
 ### GitHub Pages
 
