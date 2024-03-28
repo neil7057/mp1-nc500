@@ -51,32 +51,31 @@ The site will also appeal to those looking for imagery of the area and/or links 
 *   ### Wireframes
 
     -   Home Page
-        <br>
+        <br><br>
         ![Home page - desktop](docs/readme_images/nc500-homepage.jpg)
 
-        <br>
         ![Home page - mobile](docs/readme_images/mobile.jpg)
 
-        <br>
         ![Home page - Tablet portrait](docs/readme_images/ipad-portrait.jpg)
 
     -   Our Trip Page 
-        <br>
+        <br><br>
         ![Our Trip page](docs/readme_images/Ourtrip.jpg)
 
     -   Gallery Page 
-        <br>
+        <br><br>
         ![Gallery](docs/readme_images/gallery.jpg)
 
     -   Contact Us Page 
-        <br>
+        <br><br>
         ![Contact Form](docs/readme_images/contact-form.jpg)
 
     -   Contact Us Confirmation Page
-        <br>
+        <br><br>
         ![Contact Confirmation page](docs/readme_images/confirmation-page.jpg)
 
     -   404 - error page
+        <br><br>
         ![Error 404 page](docs/readme_images/404-error-page.jpg)
 
 
