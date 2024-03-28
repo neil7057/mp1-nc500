@@ -16,9 +16,52 @@ The site will also appeal to those looking for imagery of the area and/or links 
 
 # Table of Contents
 
-    1. [Project Inception & Planning](#Project-Inception-and-Planning)
-
-## fish
+1. [Project Inception and Planning](#project-inception-and-planning)
+2. [User Experience (UX)](#user-experience-ux)
+    *   [User stories](#user-stories)
+        *   [First Time Visitor Goals](#first-time-visitor-goals)
+        *   [Returning Visitor Goals](#returning-visitor-goals)
+        *   [Frequent User Goals](#frequent-user-goals)
+    *   [Design](#design)
+        *   [Colour Scheme](#colour-scheme)
+        *   [Typography](#typography)
+        *   [Imagery](#imagery)
+        *  [Design Considerations](#design-considerations)
+    *   [Wireframes](#wireframes)
+    *   [Structure](#structure)
+3. [Features](#features)
+    *   [Landing Page](#landing-page)
+    *   [Our Trip Page](#our-trip-page)
+    *   [Gallery Page](#gallery-page)
+    *   [Contact Page](#contact-page)
+    *   [Confirmation Page](#confirmation-page)
+    *   [Error 404 Page](#error-404-page)
+4. [Technologies Used](#technologies-used)
+    *   [Development Environment](#development-environment)
+    *   [Languages Used](#languages-used)
+    *   [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+5. [Testing](#testing)
+    *   [Testing User Stories from User Experience (UX) Section](#testing-user-stories-from-user-experience-ux-section)
+        *   [First Time Visitor Goals](#first-time-visitor-goals-1))
+        *   [Returning Visitor Goals](#returning-visitor-goals-1)
+        *   [Frequent User Goals](#frequent-user-goals-1)
+    *   [Responsiveness](#responsiveness)
+    *   [Accessibility](#accessibility)
+    *   [Lighthouse Testing](#lighthouse-testing)
+    *   [Functional Testing](#functional-testing)
+    *   [Further Testing](#further-testing)
+    *   [404 Error Testing](#404-error-testing)
+    *   [Known Bugs](#known-bugs)
+6. [Deployment](#deployment)
+    *   [Version control](#version-control)
+    *   [Github Pages](#github-pages)
+    *   [Deployments to Github Pages](#deployment-to-github-pages)
+    *   [Clone the repository locally](#clone-the-repository-code-locally)
+7. [Credits](#credits)
+    *   [Code](#code)
+    *   [Content](#content)
+    *   [Media](#media)
+    *   [Acknowledgements](#acknowledgements)
 
 ## Project Inception and Planning
 
@@ -60,7 +103,7 @@ The site will also appeal to those looking for imagery of the area and/or links 
 
         -   There is a customised error-404 page 'just in case'.
 
-*   ### Wireframes
+-   ### Wireframes
 
     <details><summary>Home - Desktop</summary>
     <img src="docs/readme_images/nc500-homepage.jpg">
@@ -94,20 +137,22 @@ The site will also appeal to those looking for imagery of the area and/or links 
     <img src="docs/readme_images/404-error-page.jpg">
     </details>
  
-#### **Structure**
+-   ### **Structure**
 
-The structure of the site is informed by the the target audiience's expectations and the principles of IXD (interaction design) to make sure I was making everything as intuitive as I could.
+    The structure of the site is informed by the the target audience's expectations and the principles of IXD (interaction design) to make sure I was making everything as intuitive as I could.
 
-The site has a simple structure made up of 4 pages:
-* Homepage - a short introduction to what the North Coast 500 is.
-* Our Trip - Specific information and images about our journey around the NC500 in August 2018.
-* Gallery - A range of images to show the variety and beauty of the NC500 route
-* Comments - A form to allow the user to send comments or requests for further information 
-* There are also 2 additional sub pages
+
+    The site has a simple structure made up of 4 pages:
+    * Homepage - a short introduction to what the North Coast 500 is.
+    * Our Trip - Specific information and images about our journey around the NC500 in
+     August 2018.
+    * Gallery - A range of images to show the variety and beauty of the NC500 route
+    * Comments - A form to allow the user to send comments or requests for further information 
+    * There are also 2 additional sub pages
     * A Confirmation thank you page for when a user has submitted a form
     * A 404 page for when a user lands on a non-existent page
 
-The site has a navbar which remains central to the screene on desktop, tablet and mobile, this allows a user to access any page they need at any time and would be suitable for a returning visitor who knows exactly where they want to go. There is also a footer on every page with links to social media sites, the Comments page and offers a direct email link.
+    The site has a navbar which remains central to the screene on desktop, tablet and mobile, this allows a user to access any page they need at any time and would be suitable for a returning visitor who knows exactly where they want to go. There is also a footer on every page with links to social media sites, the Comments page and offers a direct email link.
 
 ## Features
 
@@ -169,7 +214,7 @@ The site has a navbar which remains central to the screene on desktop, tablet an
     </details>
     <br>
 
- ### Contact Page
+### Contact Page
 * Contact form
     * A contact form will be implemented to allow users to contact me. The form will consist of the following fields and attributes: 
         * First Name (required, type=text)
@@ -182,16 +227,16 @@ The site has a navbar which remains central to the screene on desktop, tablet an
     <details><summary>Contact Page</summary>
     <img src="docs/readme_images/contact-info-page.jpg">
     </details>
-    <br>
 
-    * On successful submission of the contact form, the user will be navigated to confirmation.html displaying a success message.
+### Confirmation Page
+* On successful submission of the contact form, the user will be navigated to confirmation.html displaying a success message.
 
     <details><summary>Contact Confirmation Page</summary>
     <img src="docs/readme_images/confirmation-page-image.jpg">
     </details>
     <br>
 
-### Contact Page
+### Error 404 Page
 * Error 404 Page
     * There is a bespoke 404 error page to trap any file not found errors. This enables the user to access the menu structire in the event if a missing page or file and avoids use of the 'back' button were a default 404 page displayed.
 
@@ -236,25 +281,44 @@ The site has a navbar which remains central to the screene on desktop, tablet an
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+    - Balsamiq was used to create the [wireframes](#wireframes) during the design process.
 
 ## Testing
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the website to ensure there were no syntax errors in the project.
 
 -   [W3C Markup Validator](https://validator.w3.org/#validate_by_input)
+
+    <details><summary>Home Page</summary>
+    <img src="docs/testing/w3-index-check.jpg">
+    </details>
+    <br>
+    <details><summary>Our Trip Page</summary>
+    <img src="docs/testing/w3-ourtrip-check.jp">
+    </details>
+    <br>
+    <details><summary>Gallery Page</summary>
+    <img src="docs/testing/w3-gallery-check.jp">
+    </details>
+    <br>
+    <details><summary>Comments Page</summary>
+    <img src="docs/testing/w3-comments-check.jp">
+    </details>
+    <br>
+    <details><summary>Confirmation Page</summary>
+    <img src="docs/testing/w3-confirmation-check.jpg">
+    </details>
+    <br>
+    <details><summary>Error 404 Page</summary>
+    <img src="docs/testing/w3-404-check.jpg">
+    </details>
+    <br>
+  
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
--   Results Markup:
-    [Homepage](https://github.com/)
-    [OurTrip](https://github.com/)
-    [Gallery](https://github.com/)
-    [Comments](https://github.com/)
-    [Confirmation](https://github.com/)
-    [Error-404](https://github.com/)
-
--   Results CSS:
-    [style.css](https://github.com/)
+    <details><summary>style.css</summary>
+    <img src="docs/testing/w3-css-check.jpg">
+    </details>
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -274,6 +338,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         3. Navigation items are clearly labelled and with an appropriate icon. It's easy to understand where to go to find what you want.
 
     3. As a First Time Visitor, I want to read about an actual trip around the NC500 and look at interesting images.
+
         1. There is a clear link to the 'ourtrip' page.
         2. The trip of August 2018 is documented with text and images which are easy to find via the naviigation bar.
         3. There are additional images in an appropriatley named 'gallery' page.
@@ -308,7 +373,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     2. As a Frequent User, I want to check to see if there is any new information.
 
         1. The user would already be comfortable with the website layout and can easily visit the links section.
-
+        2. xx
 
     3. As a Frequent User, I want to check to see if there are any new links.
 
@@ -316,7 +381,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         2. 
         3. There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
 
--   ### Responsiveness
+### Responsiveness
 
     All pages were tested to ensure responsiveness on screen sizes from 320px and upwards as defined in [WCAG 2.1 Reflow criteria for responsive design](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html) on Chrome, Edge, Firefox and Opera browsers.
 
@@ -379,84 +444,93 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Lighthouse Testing
 
-    ![Home](docs/testing/index_lighthouse.JPG)
-
-    ![Ourtrip](docs/testing/ourtrip_lighthouse.JPG)
-
-    ![Gallery](docs/testing/gallery_lighthouse.JPG)
-
-    ![Comments](docs/testing/comments_lighthouse.JPG)
-
-    ![Confirmation](docs/testing/confirmation_lighthouse.JPG)
-
-    ![Error-404](docs/testing/error-404_lighthouse.JPG)
-
+<details><summary>Home Page</summary>
+<img src="docs/testing/index_lighthouse.jpg">
+</details>
+<br>
+<details><summary>Our Trip Page</summary>
+<img src="docs/testing/ourtrip_lighthouse">
+</details>
+<br>
+<details><summary>Gallery Page</summary>
+<img src="docs/testing/gallery_lighthouse.jpg">
+</details>
+<br>
+<details><summary>Comments Page</summary>
+<img src="docs/testing/comments_lighthouse.jpg">
+</details>
+<br>
+<details><summary>Confirmation Page</summary>
+<img src="docs/testing/confirmation_lighthouse.jpg">
+</details>
+<br>
+<details><summary>Error 404 Page</summary>
+<img src="docs/testing/error-404_lighthouse.jpg">
+</details>
+<br>
 
 ### Functional Testing
 
 **Navigation Links**
 
-    Testing was performed to ensure all navigation links on the respective pages,
-    navigated to the correct pages as per design.
-    This was done by clicking on the navigation links on each page.
+Testing was performed to ensure all navigation links on the respective pages, navigated to the correct pages as per design.
+This was done by clicking on the navigation links on each page.
 
-    Links on all pages navigated to the correct pages as exptected.
+Links on all pages navigated to the correct pages as exptected.
 
 **Form Testing**
 
-    The form on the contact page was tested to ensure it functioned as expected
-    when correct and incorreet data was input.
+The form on the contact page was tested to ensure it functioned as expected when correct and incorreet data was input.
 
-    Specifically:
+Specifically:
 
-    -   Missing one or more input field:
-        An error was highlighted to the user and the form could not be submitted.
+-   Missing one or more input field:
+    An error was highlighted to the user and the form could not be submitted.
 
-    -   Incorrect email format:
-        An error was highlighted to the user and the form could not be submitted.
+-   Incorrect email format:
+    An error was highlighted to the user and the form could not be submitted.
     
-    -   Form completed correctly with valid information in all fields:
-        The form is able to be submitted.
+-   Form completed correctly with valid information in all fields:
+    The form is able to be submitted.
 
-    -   Succesfully submission of the contacts/feedback form: A confirmation message is displayed  
+-   Succesfully submission of the contacts/feedback form: A confirmation message is displayed  
 
     
 **Footer Social Media Icons / Links**
 
-    Testing was performed on the Font Awesome Social Media icons in the footer to ensure that each one
-    opened in a new tab and that each one had a hover affect of the orange branding color.
+Testing was performed on the Font Awesome Social Media icons in the footer to ensure that each one opened in a new tab and that each one had a hover affect of the orange branding color.
 
-    Each item opened a new tab when clicked as expected and correct hover effect was present.
+Each item opened a new tab when clicked as expected and correct hover effect was present.
 
 **Footer Contact Information**
 
-    Steps to test Email Link_
+Steps to test Email Link_
 
-    1. Navigate to [My North Coast 500 - Home Page](https://neil7057.github.io/mp1-nc500/)
-    2. Click the email address in the footer (webdev1961@gmail.com)
+Navigate to  [My North Coast 500 - Home Page](https://neil7057.github.io/mp1-nc500/)
+ 
+Click the email address in the footer (webdev1961@gmail.com)
 
-    A windows popup is displayed asking what application you would like to send a mail from
-    or your default email application is opened.
+A windows popup is displayed asking what application you would like to send a mail from
+or your default email application is opened.
 
-    There is also a link directly to the comments/feedback page.
-    When clicked, this navigates to the corrcet page.
+There is also a link directly to the comments/feedback page.
+When clicked, this navigates to the corrcet page.
 
-    The email and 'go to' links react when hovered over.
+The email and 'go to' links react when hovered over.
 
 ### Further Testing
 
-    -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
-    -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7/8/X and iPad.
-    -   A large amount of testing was done to ensure that all pages were linking correctly.
-    -   Friends and family members were asked to review the site and documentation to point out any bugs
-        and/or user experience issues.
+-   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7/8/X and iPad.
+-   A large amount of testing was done to ensure that all pages were linking correctly.
+-   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### 404 Error Testing
 
-    - A bespoke 404 error page has been created to provide a better user experience
-    - This was tested by:
-      navigating to the comments page and changing the address to comment.html in the browser.
-    - The dedicated 404-error was displayed and it was possible to navigate home via the home button.
+- A bespoke 404 error page has been created to provide a better user experience
+- This was tested by:
+    navigating to the comments page and changing the address to comment.html in the browser.
+- The dedicated 404-error was displayed and it was possible to navigate home via the home button.
 
 ### Known Bugs
 
@@ -467,50 +541,50 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Version Control
 
-    The site was created using the Visual Studio code editor and pushed to github to the remote repository:
-    ‘mp1-nc500’.
+The site was created using the Visual Studio code editor and pushed to github to the remote repository:
+‘mp1-nc500’.
 
-    The following git commands were used throughout development to push code to the remote repo:
+The following git commands were used throughout development to push code to the remote repo:
 
-    ```git add <file>``` 
-        - This command was used to add the file(s) to the staging area before they are committed.
+```git add <file>``` 
+    - This command was used to add the file(s) to the staging area before they are committed.
 
-    ```git commit -m “commit message”```
-        - This command was used to commit changes to the local repository queue ready for the final step.
+```git commit -m “commit message”```
+    - This command was used to commit changes to the local repository queue ready for the final step.
 
 **Following feedback from my mentor, I changed the format of my Git Commit messages to be more industry standard and imperative. This change took effect from commit 31.**
 
-    ```git push``` 
-        - This command was used to push all committed code to the remote repository on github.
+```git push``` 
+    - This command was used to push all committed code to the remote repository on github.
 
 ### GitHub Pages
 
-    The project was deployed to GitHub Pages using the following steps...
+The project was deployed to GitHub Pages using the following steps...
 
 ### Deployment to Github Pages
 
-    - The site was deployed to GitHub pages. The steps to deploy are as follows: 
-    - In the GitHub repository, navigate to the Settings tab 
-    - From the menu on left select 'Pages'
-    - From the source section drop-down menu, select the Branch: main
-    - Click 'Save'
-    - A live link will be displayed in a green banner when published successfully. 
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+- In the GitHub repository, navigate to the Settings tab 
+- From the menu on left select 'Pages'
+- From the source section drop-down menu, select the Branch: main
+- Click 'Save'
+- A live link will be displayed in a green banner when published successfully. 
 
-    [The live link can be found](https://neil7057.github.io/mp1-nc500/)
+    [The live link can be found here](https://neil7057.github.io/mp1-nc500/)
 
 
 
 ### Clone the Repository Code Locally
 
-    Navigate to the GitHub Repository you want to clone to use locally:
+Navigate to the GitHub Repository you want to clone to use locally:
 
-    - Click on the code drop down button
-    - Click on HTTPS
-    - Copy the repository link to the clipboard
-    - Open your IDE of choice (git must be installed for the next steps)
-    - Type git clone copied-git-url into the IDE terminal
+- Click on the code drop down button
+- Click on HTTPS
+- Copy the repository link to the clipboard
+- Open your IDE of choice (git must be installed for the next steps)
+- Type git clone copied-git-url into the IDE terminal
 
-    The project will now have been cloned on your local machine for use.
+The project will now have been cloned on your local machine for use.
 
 ## Credits
 
