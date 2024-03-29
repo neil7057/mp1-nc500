@@ -3,28 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css"> -->
     <script src="https://kit.fontawesome.com/6e6c671d1b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <title>The North Coast 500</title>
 </head>
 <body>
     <header>
         <div class="container-fluid">
             <div id="header-details" class="row">
-    <!-- Saltire hidden on smaller screen sizes, visible on 992px and above  -->
-                <a class=" col-md-3 saltire-gif d-none d-xl-block"></a>
+    <!-- Saltire hidden on smaller screen sizes, visible on 992 and above  -->
+                <a class=" col-md-3 saltire-gif d-none d-xl-block"></a>            
                 <div class="col-xl-9">
-                    <div class="row comments-image" role="img" aria-label="a narrow tarmac road disapearing into mountains in the distance">
+                    <div class="row gallery-image" role="img" aria-labelledby="wide view of achmelvic beach with a paddle boarder in the distance">
                         <div class="col heading text-typing text-type-container">
-                            <h1 class="title">Send Me A Message</h1>                        
+                            <h1 class="title">Photo Gallery</h1>                        
                         </div>
                     </div>
                 </div>
                 <div class ="col-12">
-                    <div class="row no-gutters solid-border">
+                    <div class="row no-gutters  solid-border">
                         <div class="col-12">                 
                             <ul id="nav" class="list-inline menucontainer menu-spacing">                        
                                 <li class="ui-menu-color list-inline-item">
@@ -34,10 +37,10 @@
                                 <a href="ourtrip.html" class="hvr-grow" aria-label="Go to the our trip page (opens in a new tab)"><i class ="fa fa-suitcase" aria-hidden="true"></i><span>Our Trip</span></a>
                                 </li>
                                 <li class="ui-menu-color list-inline-item">
-                                <a href="gallery.html" class="hvr-grow" aria-label="Go to the gallery page (opens in a new tab)"><i class ="fa-regular fa-image" aria-hidden="true"></i><span>Gallery</span></a>
+                                <a href="gallery.html" class="hvr-grow active" aria-label="Go to the gallery page (opens in a new tab)"><i class ="fa-regular fa-image" aria-hidden="true"></i><span>Gallery</span></a>
                                 </li>
                                 <li class="ui-menu-color list-inline-item">
-                                <a href="comments.html" class="hvr-grow active" aria-label="Go to the comments page (opens in a new tab)"><i class ="fa fa-comment-o" aria-hidden="true"></i><span>Contact</span></a>
+                                <a href="comments.html" class="hvr-grow" aria-label="Go to the comments page (opens in a new tab)"><i class ="fa fa-comment-o" aria-hidden="true"></i><span>Contact</span></a>
                                 </li>                          
                             </ul>
                         </div>
@@ -47,79 +50,95 @@
         </div>
     </header>
 
-    <!-- start of body content -->
-    <!-- content sized to xl so that it displays best on smaller screens -->
+<!-- start of body content -->
+
     <main>
     <section>
-    <!-- Introductory text -->
-    <div class="container-fluid contact-color">
+    <div class="container-fluid">
         <div class="row no-gutters solid-border">
-                <div class="col text-center">
-                    <br>                    
-                    <h2>Have Feedback?</h2>
-                    <h2>Planning a trip of your own?</h2>
-                    <h2>Looking for advice, information or inspiration?</h2>
-                    <h2>Want to share <em><strong>Your</strong></em> story?</h2>
-                    <h2>Then, why not get in touch</h2>
-                    <br>
+            <div class="col-12">
+                <p class="general-sub">This is some header text</p>
+            </div>
+        </div>
+        <div class="row no-gutters">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-6"> 
+        <div >
+            <!--This carousel-container only exists so we can do the 
+            aspect ratio tricks in CSS-->
+            <div class="carousel-container">
+              <div class="carousel" id="carousel-1" auto-scroll="7000">
+                <!--The uppermost screen will appear first. This is due to JavaScript-->
+                <section class="carousel-screen">
+                <img src="assets/images/highland-coo.jpg" alt="highland coo" />
+                    <section class="text-container">
+                    <p>There's Those Coos again</p>
+                    </section> 
+                </section>
+
+                <section class="carousel-screen">
+                <img src="assets/images/sango.jpg" alt="sango beach" />
+                    <section class="text-container">
+                    <p>Sango Beach</p>
+                    </section>
+                </section>
+
+                <section class="carousel-screen">
+                    <img src="assets/images/wideroad.jpg" alt="wide road" />
+                    <section class="text-container">
+                      <p>All we need is the open road</p>
+                    </section>      
+                </section>
+
+                <section class="carousel-screen">
+                <img src="assets/images/achmelvich.jpg" alt="achmelvich" />
+                    <section class="text-container">
+                    <p>Achmelvich</p>
+                    </section>
+                </section>
+
+                <section class="carousel-screen">
+                <img src="assets/images/dramatic.jpg" alt="dramatic sunset" />
+                    <section class="text-container">
+                    <p>Red sky at night......</p>
+                    </section>
+                </section>
+                <!--These are not screens. They will always be on carousel-->
+                <section class="circle-container">
+                  <!--These 'circles' need to match the number of carousel screens-->
+                  <div class="circle"></div>
+                  <div class="circle"></div>
+                  <div class="circle"></div>
+                  <div class="circle"></div>
+                  <div class="circle"></div>
+                </section>
+                <div class="left-arrow">
+                  <span class="chevron left"></span>
                 </div>
+                <div class="right-arrow">
+                  <span class="chevron right"></span>
+                </div>
+              </div>
+            </div>
+         </div>
         </div>
-    </div>
-
-    <!-- Contact Form -->
-
-    <div class="container-fluid contact-color col-xl-12">
-        <div class="row no-gutters">                
-            <div class="col-lg-3 col-xl-3 d-none d-xl-block">
-                <img class="img-responsive rounded-circle img-center"  width="380" src="assets/images/round-nc500-badge-r.png"
-                alt="circular nc500 badge"
-                aria-label="circular nc500 cloth badge with waving saltire in background">
-            </div>
-            <div class="col-md-2 col-lg-3 col-xl-1 ">    
-            </div>
-            <div class="col-md-8 col-lg-6 col-xl-4">
-                    <form action="confirmation.html" class="label-font-size">
-                            <div class="form-group">
-                            <a id="start-of-form"></a>   
-                            <label for="firstname">First Name:</label>
-                            <input type="text" name="fname" id="firstname" class="form-control" placeholder="First Name" required>
-                            </div>
-                            <div class="form-group">
-                            <label for="lastname">Surname:</label>
-                            <input type="text" name="lname" id="lastname" class="form-control" placeholder="Surname" required>
-                            </div>
-                            <div class="form-group">
-                            <label for="emailaddress">Email Address:</label>
-                            <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required>
-                            <small id="emailhelp" class="form-text text-muted">We'll never share your email with anyone else</small>
-                            </div>
-                            <div class="form-group">
-                            <label for="feedbackmessage">Comments, Feedback, Requests:</label>
-    <!-- text area set to scroll with a maximum input of 280 characters -->
-                            <textarea maxlength="280" name="feedbackmessage" id="feedbackmessage" class="form-control" placeholder="What do you want to tell me?" required></textarea>
-                            <small id="maxchar" class="form-text text-muted">Maximum of 280 characters</small>
-                            </div>
-                            <div class="form-row text-center">
-                                <div class="col">
-                                <button type="submit" class="btn btn-secondary hvr-grow">Message Me!</button>
-                                </div>                            
-                            </div>  
-                    </form>    
-            </div>
-            <div class="col-lg-1 ">    
-            </div>
-            <div class="col-md-2 col-lg-3 col-xl-3 d-none d-xl-block">
-                <img class="img-responsive rounded-circle img-center" width="380" src="assets/images/round-nc500-badge-r.png"
-                alt="NC500 road trip shield"
-                aria-label="NC500 road trip shield in the style of a USA interstate marker">
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p class="general-sub">This is some footer text</p>
             </div>
         </div>
     </div>
+          <script src="assets/js/scripts.js"></script>
+          <!--Script. Do not touch!-->
+
+
+
     </section>
-    </main>     
+    
     <footer>
         
-    <!-- direct email or link to start of form on page -->
+    <!-- direct email or link to comments page -->
 
         <div class="container-fluid">
         <div id="footer-details" class="row no-gutters solid-border">
@@ -129,7 +148,7 @@
                    <a href=mailto:webdev1961@gmail.com class="hvr-grow" aria-label="click here to send me an email (opens in a new tab)">Click Here to Send me a Message</a>                   
                 </p>
                 <p class="inline-block foot-email">                    
-                    <a rel="noopener" href="#start-of-form" class="hvr-grow" aria-label="Or Use The form Above (goes to top of comments form)">Or Use The form Above To Send a Comment/Feedback</a>
+                    <a href="comments.html" class="hvr-grow" aria-label="Click here to go to my comments, feedback page (opens in a new tab)"> Or Go To My Commments Page</a>
                  </p>
             </div>
 
@@ -172,6 +191,7 @@
             </div>
         </div>
         </div>
+    </main>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>    
