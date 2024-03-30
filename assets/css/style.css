@@ -276,8 +276,17 @@ header {
     font-weight: 700;
 }
 
-/*--------------------------------------------text animation code courtesy of geeksfor geeks.org and amended by me*/
+/*--------------------------------------------Gallery specific CSS*/
 
+
+
+
+
+
+
+
+
+/*--------------------------------------------text animation code courtesy of geeksfor geeks.org and amended by me*/
 .text-type-container { 
     margin: 13px 20px 325px 20px;
     padding-top: 2px;
@@ -461,3 +470,4 @@ button[type="submit"] {
       padding-top: 2vh;
   }
 }
+

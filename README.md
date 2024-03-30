@@ -294,15 +294,15 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     </details>
     <br>
     <details><summary>Our Trip Page</summary>
-    <img src="docs/testing/w3-ourtrip-check.jp">
+    <img src="docs/testing/w3-ourtrip-check.jpg">
     </details>
     <br>
     <details><summary>Gallery Page</summary>
-    <img src="docs/testing/w3-gallery-check.jp">
+    <img src="docs/testing/w3-gallery-check.jpg">
     </details>
     <br>
     <details><summary>Comments Page</summary>
-    <img src="docs/testing/w3-comments-check.jp">
+    <img src="docs/testing/w3-comments-check.jpg">
     </details>
     <br>
     <details><summary>Confirmation Page</summary>
