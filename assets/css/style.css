@@ -199,6 +199,10 @@ header {
     height: 395px;
 }
 
+figure {
+    margin: 8px;
+}
+
 .rounded-custom {
     border-radius: 5%;
 }
@@ -243,7 +247,7 @@ header {
 
 .general-sub {
     background-color: #143049;
-    margin: 0 28%;
+    margin: 0 18%;
     color: #af9442;
     font-weight: 700;
     font-size: 25px;
@@ -278,9 +282,28 @@ header {
 
 /*--------------------------------------------Gallery specific CSS*/
 
+.img-label {
+    background-color: #143049;
+    color: #af9442;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
 
+.img-padding {
+    /* padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-bottom: 10px; */
+    margin-top: 10px;
+}
 
-
+.rounded-gallery {
+    width: 100%;
+    border-radius: 5% 5% 0 0;
+}
 
 
 
@@ -470,4 +493,5 @@ button[type="submit"] {
       padding-top: 2vh;
   }
 }
+
 

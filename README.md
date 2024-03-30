@@ -207,7 +207,8 @@ The site will also appeal to those looking for imagery of the area and/or links 
 
 ### Gallery Page
 * Gallery
-    * Sections 
+    * A selection of images which spread across the screen in 1, 2 or 3 to a row according to screen size. Each image has a label.
+    * Clicking on the label goes back to the top of the gallery so users of mobile devices dont have to scroll back up 
 
     <details><summary>Gallery Page</summary>
     <img src="docs/readme_images/gallery-page-image.jpg">
@@ -571,7 +572,6 @@ The project was deployed to GitHub Pages using the following steps...
 - A live link will be displayed in a green banner when published successfully. 
 
     [The live link can be found here](https://neil7057.github.io/mp1-nc500/)
-
 
 
 ### Clone the Repository Code Locally
