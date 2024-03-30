@@ -289,6 +289,7 @@ header {
     background: #143049; 
     font-size: 35px; 
     font-family: "libre+baskerville"; 
+    padding-top: 1vh;
     border-radius: 50px; 
     overflow: hidden; 
     position: relative; 
@@ -297,6 +298,7 @@ header {
 /* changed from p to h1 */
 .text-typing h1 { 
     margin: 0px; 
+    text-wrap: nowrap;
     clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0); 
     animation:  
 typing 1s steps(22, end) forwards; 
@@ -415,7 +417,7 @@ button[type="submit"] {
 
 /* ----------------------------------------Media Queries */
 
-/* ----------------------------------------resize menu items and text for bigger screens*/
+/* ----------------------------------------resize menu items and text for bigger  and ultra smallscreens*/
 
 @media (min-width: 576px) {
     .menu-spacing span {
@@ -424,6 +426,12 @@ button[type="submit"] {
     .menu-spacing a i {
         font-size: 22px;
     }
+}
+
+@media (max-width: 318px) {
+  .menu-spacing span {
+      font-size: 9px;
+  }
 }
 
 /* ----------------------------------------change to proportional font size on larger screen sizes*/
@@ -441,325 +449,15 @@ button[type="submit"] {
     }
 }
 
+/* ----------------------------------------change to font size on title  */
+@media (max-width: 440px) {
+  .text-typing h1 {
+      font-size: 18px;
+  }
+}
 
-/* carousel test */
-
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Open Sans", sans-serif;
+@media (max-width: 440px) {
+  .text-typing {
+      padding-top: 2vh;
   }
-  
-  .document-center {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  /*We do this because the carousel needs to be 100% width 
-  in order for the aspect ratio trick to work*/
-  .carousel-container {
-    max-width: 980px;
-    width: 100%;
-  }
-  
-  /*This is the actual carousel. Overflow hidden acts as a mask*/
-  
-  .carousel {
-    /* position: relative; */
-    width: 100%;
-    /* Width of image is 980px. Height is 570px. */
-    padding-top: calc(570 / 980 * 100%);
-    overflow: hidden;
-  }
-  
-  .carousel-container img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-  
-  .left-arrow {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 147px;
-    cursor: pointer;
-  }
-  
-  .left-arrow:hover {
-    background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
-  }
-  
-  .left-arrow:hover .chevron,
-  .right-arrow:hover .chevron {
-    /* border-color: #e6e6e6; */
-    border-color: #af9442;
-  }
-  
-  .right-arrow {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 0;
-    right: 0;
-    height: 100%;
-    width: 147px;
-    cursor: pointer;
-  }
-  
-  .right-arrow:hover {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
-  }
-  
-  .chevron {
-    width: 25px;
-    height: 25px;
-    border: solid rgba(255, 255, 255, 0.5);
-    border-width: 10px 10px 0 0;
-  }
-  
-  .chevron.right {
-    transform: rotate(45deg);
-  }
-  
-  .chevron.left {
-    transform: rotate(-135deg);
-  }
-  
-  .circle-container {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 45px;
-  }
-  
-  .circle {
-    border: 1px solid #fff;
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    margin: 0 5px;
-    cursor: pointer;
-  }
-  
-  .circle-fill {
-    /* background-color: white; */
-    background-color: #143049;
-  }
-  
-  .text-container {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-    bottom: 45px;
-    left: 0;
-    width: 100%;
-    color: #fafafa;
-    text-shadow: 1px 1px black;
-    text-align: center;
-  }
-  
-  .text-container p:nth-child(1) {
-    margin: 10px 100px;
-    font-size: 1.5em;
-  }
-  
-  .text-container p:nth-child(2) {
-    margin: 10px 100px 20px 100px;
-  }
-  
-  .carousel-screen {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-  
-  /* Animations */
-  @keyframes toRight {
-    0% {
-      left: 0;
-    }
-    100% {
-      left: 100%;
-    }
-  }
-  
-  @keyframes toLeft {
-    0% {
-      left: 0;
-    }
-    100% {
-      left: -100%;
-    }
-  }
-  
-  @keyframes comeRight {
-    0% {
-      left: 100%;
-    }
-    100% {
-      left: 0;
-    }
-  }
-  
-  @keyframes comeLeft {
-    0% {
-      left: -100%;
-    }
-    100% {
-      left: 0;
-    }
-  }
-   
-/* to test gallery */
-
-  #gallery {
-    line-height:0;
-    -webkit-column-count:5; /* split it into 5 columns */
-    -webkit-column-gap:5px; /* give it a 5px gap between columns */
-    -moz-column-count:5;
-    -moz-column-gap:5px;
-    column-count:5;
-    column-gap:5px;
- }
- 
- #gallery img {
-    width: 100% !important;
-    height: auto !important;
-    filter: grayscale(100%);
-    /* transition: filter 2s; */
-    margin-bottom:5px; /* to match column gap */
- }
-
- #gallery img:hover {
-    filter:none;
- }
- 
- 
- @media (max-width: 1200px) {
-    #gallery {
-     -moz-column-count:    4;
-     -webkit-column-count: 4;
-     column-count:         4;
-    }
- }
- 
- @media (max-width: 1000px) {
-    #gallery {
-     -moz-column-count:    3;
-     -webkit-column-count: 3;
-     column-count:         3;
-    }
- }
- 
- @media (max-width: 800px) {
-    #gallery {
-     -moz-column-count:    2;
-     -webkit-column-count: 2;
-     column-count:         2;
-    }
- }
- 
- @media (max-width: 400px) {
-    #gallery {
-     -moz-column-count:    1;
-     -webkit-column-count: 1;
-     column-count:         1;
-    }
- }
- 
- /* styling box */
-
- /* * {
-    box-sizing: border-box;
-  } */
-  
-  /* body {
-    background-color: #f1f1f1;
-    padding: 20px;
-    font-family: Arial;
-  } */
-  
-  /* Center website */
-  .main {
-    max-width: 90%;
-    margin: auto;
-  }
-  
-  h1 {
-    font-size: 50px;
-    word-break: break-all;
-  }
-  
-  /* .row {
-    margin: 10px -16px;
-  } */
-  
-  /* Add padding BETWEEN each column */
-  .row,
-  .row > .column {
-    padding: 8px;
-  }
-  
-  /* Create three equal columns that floats next to each other */
-  .column {
-    float: left;
-    width: 33.33%;
-    display: none; /* Hide all elements by default */
-  }
-  
-  /* Clear floats after rows */ 
-  /* .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  } */
-  
-  /* Content */
-  .content {
-    background-color: white;
-    padding: 10px;
-  }
-  
-  /* The "show" class is added to the filtered elements */
-  .show {
-    display: block;
-  }
-  
-  /* Style the buttons */
-  .btn {
-    border: none;
-    outline: none;
-    padding: 12px 16px;
-    background-color: white;
-    cursor: pointer;
-  }
-  
-  .btn:hover {
-    background-color: #ddd;
-  }
-  
-  .btn.active {
-    background-color: #666;
-    color: white;
-  }
+}
