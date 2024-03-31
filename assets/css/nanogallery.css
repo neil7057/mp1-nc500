@@ -459,6 +459,8 @@
 
 .nanogallery_theme_default .nanoGalleryContainer .nanoGalleryThumbnailContainer  .labelImageTitle{
 	color:#af9442;
+	font-weight: 700;
+	font-size: 22px;
 	margin: 0px 2px;
   left: 0px;
 	overflow:hidden;
@@ -922,7 +924,8 @@
 }
 
 .nanogallery_theme_default .nanoGalleryViewer .toolbar .label .title{
-	font-size:1em;
+	font-size:1.5em;
+	color: red !important;
 	margin:auto;
 	vertical-align:middle;
 	overflow: hidden;
