@@ -1,0 +1,24 @@
+img .left-col .mid-col .right-col {
+    z-index: 1;
+}
+
+.left-col:hover {
+    -webkit-transform: scale(3,3) translateX(25%) translateY(25%);
+    /* transform: translateX(600px); */
+    transition-delay: 1s;
+    z-index: 9999;
+}
+
+.mid-col:hover {
+    -webkit-transform: scale(2,2) translateX(-5%) translateY(5%);
+    /* transform: translateX(600px); */
+     transition-delay: 1s;
+    z-index: 99;
+}
+
+.right-col:hover {
+    -webkit-transform: scale(2,2) translateX(-50%) translateY(0%);
+    /* transform: translateX(600px); */
+     transition-delay: 1s;
+    z-index: 99;
+}

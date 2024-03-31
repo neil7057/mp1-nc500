@@ -582,51 +582,51 @@ nanoGALLERY v5.4.0 release notes.
       // Color schemes - Gallery
       G.colorScheme_default = {
         navigationbar : { background:'none', borderTop:'1px solid #555', borderBottom:'1px solid #555', borderRight:'', borderLeft:'', color:'#ccc', colorHover:'#fff' },
-        thumbnail : { background:'#000', border:'1px solid #000', labelBackground:'rgba(34, 34, 34, 0.75)', titleColor:'#eee', titleShadow:'', descriptionColor:'#ccc', descriptionShadow:'', paginationDotBorder:'2px solid #fff', paginationDotBack:'#444', paginationDotSelBack:'#fff'}    };
+        thumbnail : { background:'#000', border:'1px solid #000', labelBackground:'rgba(34, 34, 34, 0.75)', titleColor:'#af9442', titleShadow:'', descriptionColor:'#ccc', descriptionShadow:'', paginationDotBorder:'2px solid #fff', paginationDotBack:'#444', paginationDotSelBack:'#fff'}    };
       G.colorScheme_darkRed = {
         // #ffa3a3 #ff7373 #ff4040 #ff0000 #a60000
         navigationbar : { background:'#a60000', border:'1px dotted #ff0000', color:'#ccc', colorHover:'#fff' },
-        thumbnail : { background:'#a60000', border:'1px solid #ff0000', labelBackground:'rgba(134, 0, 0, 0.75)', titleColor:'#eee', titleShadow:'', descriptionColor:'#ccc', descriptionShadow:'', paginationDotBorder:'2px solid #d00', paginationDotBack:'#400', paginationDotSelBack:'#d00'}    };
+        thumbnail : { background:'#a60000', border:'1px solid #ff0000', labelBackground:'rgba(134, 0, 0, 0.75)', titleColor:'#af9442', titleShadow:'', descriptionColor:'#ccc', descriptionShadow:'', paginationDotBorder:'2px solid #d00', paginationDotBack:'#400', paginationDotSelBack:'#d00'}    };
       G.colorScheme_darkGreen = {
         // #97e697 #67e667 #39e639 #00cc00 #008500
         navigationbar : { background:'#008500', border:'1px dotted #00cc00', color:'#ccc', colorHover:'#fff' },
-        thumbnail : { background:'#008500', border:'1px solid #00cc00', labelBackground:'rgba(0, 105, 0, 0.75)', titleColor:'#eee', titleShadow:'', descriptionColor:'#ccc', descriptionShadow:'', paginationDotBorder:'2px solid #0c0', paginationDotBack:'#008500', paginationDotSelBack:'#0c0'}    };
+        thumbnail : { background:'#008500', border:'1px solid #00cc00', labelBackground:'rgba(0, 105, 0, 0.75)', titleColor:'#af9442', titleShadow:'', descriptionColor:'#ccc', descriptionShadow:'', paginationDotBorder:'2px solid #0c0', paginationDotBack:'#008500', paginationDotSelBack:'#0c0'}    };
       G.colorScheme_darkBlue = {
         // #a0b0d7 #7080d7 #4a60d7 #162ea2 #071871
         navigationbar : { background:'#071871', border:'1px dotted #162ea2', color:'#ccc', colorHover:'#fff' },
-        thumbnail : { background:'#071871', border:'1px solid #162ea2', labelBackground:'rgba(7, 8, 81, 0.75)', titleColor:'#eee', titleShadow:'', descriptionColor:'#ccc', descriptionShadow:'', paginationDotBorder:'2px solid #162ea2', paginationDotBack:'#071871', paginationDotSelBack:'#162ea2'}    };
+        thumbnail : { background:'#071871', border:'1px solid #162ea2', labelBackground:'rgba(7, 8, 81, 0.75)', titleColor:'#af9442', titleShadow:'', descriptionColor:'#ccc', descriptionShadow:'', paginationDotBorder:'2px solid #162ea2', paginationDotBack:'#071871', paginationDotSelBack:'#162ea2'}    };
       G.colorScheme_darkOrange = {
         // #ffd7b7 #ffd773 #ffc840 #ffb600 #a67600
         navigationbar : { background:'#a67600', border:'1px dotted #ffb600', color:'#ccc', colorHover:'#fff' },
-        thumbnail : { background:'#a67600', border:'1px solid #ffb600', labelBackground:'rgba(134, 86, 0, 0.75)', titleColor:'#eee', titleShadow:'', descriptionColor:'#ccc', descriptionShadow:'', paginationDotBorder:'2px solid #ffb600', paginationDotBack:'#a67600', paginationDotSelBack:'#ffb600'}    };
+        thumbnail : { background:'#a67600', border:'1px solid #ffb600', labelBackground:'rgba(134, 86, 0, 0.75)', titleColor:'#af9442', titleShadow:'', descriptionColor:'#ccc', descriptionShadow:'', paginationDotBorder:'2px solid #ffb600', paginationDotBack:'#a67600', paginationDotSelBack:'#ffb600'}    };
       G.colorScheme_light = {
         navigationbar : { background:'none', borderTop:'1px solid #ddd', borderBottom:'1px solid #ddd', borderRight:'', borderLeft:'', color:'#777', colorHover:'#eee' },
-        thumbnail : { background:'#fff', border:'1px solid #fff', labelBackground:'rgba(60, 60, 60, 0.75)', titleColor:'#fff', titleShadow:'none', descriptionColor:'#eee', descriptionShadow:'none', paginationDotBorder:'2px solid #555', paginationDotBack:'#888', paginationDotSelBack:'#555'}    };
+        thumbnail : { background:'#fff', border:'1px solid #fff', labelBackground:'rgba(60, 60, 60, 0.75)', titleColor:'#af9442', titleShadow:'none', descriptionColor:'#af9442', descriptionShadow:'none', paginationDotBorder:'2px solid #555', paginationDotBack:'#888', paginationDotSelBack:'#555'}    };
       G.colorScheme_lightBackground = {
         navigationbar : { background:'none', border:'', color:'#000', colorHover:'#444' },
-        thumbnail : { background:'#000', border:'1px solid #000', labelBackground:'rgba(34, 34, 34, 0.85)', titleColor:'#fff', titleShadow:'', descriptionColor:'#eee', descriptionShadow:'', paginationDotBorder:'2px solid #555', paginationDotBack:'#888', paginationDotSelBack:'#555'}    };
+        thumbnail : { background:'#000', border:'1px solid #000', labelBackground:'rgba(34, 34, 34, 0.85)', titleColor:'#af9442', titleShadow:'', descriptionColor:'#af9442', descriptionShadow:'', paginationDotBorder:'2px solid #555', paginationDotBack:'#888', paginationDotSelBack:'#555'}    };
   
       // Color schemes - lightbox
       G.colorSchemeViewer_default = {
-        background:'#000', imageBorder:'4px solid #000', imageBoxShadow:'#888 0px 0px 0px', barBackground:'rgba(4, 4, 4, 0.7)', barBorder:'0px solid #111', barColor:'#eee', barDescriptionColor:'#aaa'
+        background:'#000', imageBorder:'4px solid #000', imageBoxShadow:'#888 0px 0px 0px', barBackground:'rgba(4, 4, 4, 0.7)', barBorder:'0px solid #111', barColor:'#af9442', barDescriptionColor:'#aaa'
         //background:'rgba(1, 1, 1, 0.75)', imageBorder:'4px solid #f8f8f8', imageBoxShadow:'#888 0px 0px 20px', barBackground:'rgba(4, 4, 4, 0.7)', barBorder:'0px solid #111', barColor:'#eee', barDescriptionColor:'#aaa'
       };
       G.colorSchemeViewer_dark = {
-        background:'rgba(1, 1, 1, 0.75)', imageBorder:'4px solid #f8f8f8', imageBoxShadow:'#888 0px 0px 20px', barBackground:'rgba(4, 4, 4, 0.7)', barBorder:'0px solid #111', barColor:'#eee', barDescriptionColor:'#aaa'    };
+        background:'rgba(1, 1, 1, 0.75)', imageBorder:'4px solid #f8f8f8', imageBoxShadow:'#888 0px 0px 20px', barBackground:'rgba(4, 4, 4, 0.7)', barBorder:'0px solid #111', barColor:'#af9442', barDescriptionColor:'#aaa'    };
       G.colorSchemeViewer_darkRed = {
         // #ffa3a3 #ff7373 #ff4040 #ff0000 #a60000
-        background:'rgba(1, 1, 1, 0.75)', imageBorder:'4px solid #ffa3a3', imageBoxShadow:'#ff0000 0px 0px 20px', barBackground:'#a60000', barBorder:'2px solid #111', barColor:'#eee', barDescriptionColor:'#aaa'    };
+        background:'rgba(1, 1, 1, 0.75)', imageBorder:'4px solid #ffa3a3', imageBoxShadow:'#ff0000 0px 0px 20px', barBackground:'#a60000', barBorder:'2px solid #111', barColor:'#af9442', barDescriptionColor:'#aaa'    };
       G.colorSchemeViewer_darkGreen = {
         // #97e697 #67e667 #39e639 #00cc00 #008500
-        background:'rgba(1, 1, 1, 0.75)', imageBorder:'4px solid #97e697', imageBoxShadow:'#00cc00 0px 0px 20px', barBackground:'#008500', barBorder:'2px solid #111', barColor:'#eee', barDescriptionColor:'#aaa'    };
+        background:'rgba(1, 1, 1, 0.75)', imageBorder:'4px solid #97e697', imageBoxShadow:'#00cc00 0px 0px 20px', barBackground:'#008500', barBorder:'2px solid #111', barColor:'#af9442', barDescriptionColor:'#aaa'    };
       G.colorSchemeViewer_darkBlue = {
         // #a0b0d7 #7080d7 #4a60d7 #162ea2 #071871
-        background:'rgba(1, 1, 1, 0.75)', imageBorder:'4px solid #a0b0d7', imageBoxShadow:'#162ea2 0px 0px 20px', barBackground:'#071871', barBorder:'2px solid #111', barColor:'#eee', barDescriptionColor:'#aaa'    };
+        background:'rgba(1, 1, 1, 0.75)', imageBorder:'4px solid #a0b0d7', imageBoxShadow:'#162ea2 0px 0px 20px', barBackground:'#071871', barBorder:'2px solid #111', barColor:'#af9442', barDescriptionColor:'#aaa'    };
       G.colorSchemeViewer_darkOrange = {
         // #ffd7b7 #ffd773 #ffc840 #ffb600 #a67600
-        background:'rgba(1, 1, 1, 0.75)', imageBorder:'4px solid #ffd7b7', imageBoxShadow:'#ffb600 0px 0px 20px', barBackground:'#a67600', barBorder:'2px solid #111', barColor:'#eee', barDescriptionColor:'#aaa'    };
+        background:'rgba(1, 1, 1, 0.75)', imageBorder:'4px solid #ffd7b7', imageBoxShadow:'#ffb600 0px 0px 20px', barBackground:'#a67600', barBorder:'2px solid #111', barColor:'#af9442', barDescriptionColor:'#aaa'    };
       G.colorSchemeViewer_light = {
-        background:'rgba(187, 187, 187, 0.75)', imageBorder:'none', imageBoxShadow:'#888 0px 0px 0px', barBackground:'rgba(4, 4, 4, 0.7)', barBorder:'0px solid #111', barColor:'#eee', barDescriptionColor:'#aaa'    };
+        background:'rgba(187, 187, 187, 0.75)', imageBorder:'none', imageBoxShadow:'#888 0px 0px 0px', barBackground:'rgba(4, 4, 4, 0.7)', barBorder:'0px solid #111', barColor:'#af9442', barDescriptionColor:'#aaa'    };
       
   
     
