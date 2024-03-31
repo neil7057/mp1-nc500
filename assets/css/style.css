@@ -373,6 +373,10 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 }
 
+.sr-only {
+    color: #efe9d7;
+}
+
 .list-inline {
     text-align:center;
 }
