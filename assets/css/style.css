@@ -106,6 +106,10 @@ h4 {
     font-family: 'Libre+Baskerville', sans-serif;
 }
 
+h2 {
+    text-align: center;
+}
+
 p {
     font-family: 'Open+Sans', sans-serif;
     margin: 10px;
@@ -480,4 +484,66 @@ button[type="submit"] {
     .general-sub {
         font-size: 19px;
     }
+}
+
+/* ourtrip code */
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.history-heading,
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.history-heading {
+    color: #af9442;
+    margin-bottom: 50px;
+}
+
+.trip-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #af9442;
+    border-top: 1px solid;
+    }
+
+.trip-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.trip-item:before {
+    /* content: attr(data-dates);
+    position: absolute; */
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.trip-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: 50%;
+    border-radius: 12px;
+    content: '';
+    background: #af9442;  
+}
+
+.history-items {
+    margin-bottom: 30px;
 }
