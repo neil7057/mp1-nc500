@@ -322,7 +322,6 @@ figure {
 /* changed from p to h1 */
 .text-typing h1 { 
     margin: 0px; 
-    text-wrap: nowrap;
     clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0); 
     animation:  
 typing 1s steps(22, end) forwards; 
@@ -468,7 +467,7 @@ button[type="submit"] {
   }
 }
 
-/* ----------------------------------------change to proportional font size on larger screen sizes*/
+/* ----------------------------------------change to proportional font size for paragraphs on larger screen sizes*/
 
 @media (min-width: 1500px) {
     p {
@@ -481,17 +480,4 @@ button[type="submit"] {
     .general-sub {
         font-size: 19px;
     }
-}
-
-/* ----------------------------------------change to font size on title  */
-@media (max-width: 440px) {
-  .text-typing h1 {
-      font-size: 18px;
-  }
-}
-
-@media (max-width: 440px) {
-  .text-typing {
-      padding-top: 2vh;
-  }
 }

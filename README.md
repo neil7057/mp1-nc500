@@ -166,7 +166,7 @@ The site will also appeal to those looking for imagery of the area and/or links 
     </details>
     <br>
 -   In addition to a contact form option, there is a direct email link.
-    <details><summary>Email Me</summary>
+    <details><summary>Contact</summary>
     <img src="docs/readme_images/footer.jpg">
     </details>
     <br>
@@ -192,7 +192,7 @@ The site will also appeal to those looking for imagery of the area and/or links 
     * This information lets the user know what the site is about and gives a visual representation of the route. 
 
      <details><summary>Homepage Details</summary>
-    <img src="docs/readme_images/homepage.jpg">
+    <img src="docs/readme_images/homepage-image.jpg">
     </details>
     <br>
 
@@ -207,11 +207,15 @@ The site will also appeal to those looking for imagery of the area and/or links 
 
 ### Gallery Page
 * Gallery
-    * A selection of images which spread across the screen in 1, 2 or 3 to a row according to screen size. Each image has a label.
-    * Clicking on the label goes back to the top of the gallery so users of mobile devices dont have to scroll back up 
+    * A selection of images which spread across the screen in a resposnsive style.
+    * Clicking on a thumbnail image opens a larger version in full screen with navigation backwards and forwards and an autoplay function. 
+    * The code requires Java script and is not my own. it was obtained from https://nanogallery.brisbois.fr/. 
+    * I added the functionality of a label to the Thumbnail and enlarged image
+    * I changed the colour scheme of the icons to match the rest of the site. 
+    * I created a small additional CSS file to manipulate IMG properties for this page alone. 
 
     <details><summary>Gallery Page</summary>
-    <img src="docs/readme_images/gallery-page-image.jpg">
+    <img src="docs/readme_images/gallery-image.jpg">
     </details>
     <br>
 
@@ -222,7 +226,7 @@ The site will also appeal to those looking for imagery of the area and/or links 
         * Last Name (required, type=text)
         * Email (required, type=email)
         * Message (required, type=textarea), maximum 280 characters
-    * This will allow user to contact me if they have any queiries about the NC500, our trip in particular or information to assist in planning their own adventure.
+    * This will allow a user to contact me if they have any queries about the NC500, our trip in particular or information to assist in planning their own adventure.
     * To avoid large empty spaces and as i didn't wish to expand the form to the entire screen on laptop screens and above, I have inserted the NC500 logo either side. This is hidden on smaller screen sizes.
 
     <details><summary>Contact Page</summary>
@@ -242,16 +246,17 @@ The site will also appeal to those looking for imagery of the area and/or links 
     * There is a bespoke 404 error page to trap any file not found errors. This enables the user to access the menu structire in the event if a missing page or file and avoids use of the 'back' button were a default 404 page displayed.
 
     <details><summary>Error 404</summary>
-    <img src="docs/readme_images/404-error-page.jpg">
+    <img src="docs/readme_images/404-error-image.jpg">
     </details>
     <br>
 
 
 ### Site Features
 
-* Responsive design - contnet scales from 280px to Large Desktop. Some content is hidden at smaller resolutions to maintain user experience.
+* Responsive design - contnnet scales from 280px to Large Desktop. Some content is hidden at smaller resolutions to maintain user experience.
 * Menu navbar remains consistent with a green highlight for current page.
-<!-- * Gallery -->
+* There is an extensive gallery of photographs using third party code to enlarge images and provide gallery navigation.
+<!-- * our trip -->
 * Contact form and success confirmation page.
 * Option to send a direct email from Footer.
 
@@ -318,8 +323,19 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
     <details><summary>style.css</summary>
-    <img src="docs/testing/w3-css-check.jpg">
+    <img src="docs/testing/w3-style-css-check.jpg">
     </details>
+    <br>
+
+    <details><summary>gallery.css</summary>
+    <img src="docs/testing/gallery-css-test-results.jpg">
+    </details>
+    <br>
+
+     <details><summary>nanogallery.css</summary>
+    <img src="docs/testing/nanogallery-css-test-results.jpg">
+    </details>
+    <br>
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -596,15 +612,19 @@ The project will now have been cloned on your local machine for use.
 
 -   [geeks for geeks](https://www.geeksforgeeks.org/) provided template code for text animation which i amended to suit.
 
+-   Gallery image code courtesy of [christophe brisbois](https://nanogallery.brisbois.fr/)   
+
 ### Content
 
--   All content was written by the developer.
+-   All content was written by the developer with the exception of the Gallery code attributed above.
 
 ### Media
 
 -   4 images plus the saltire gif were obtained free of copyright from [pixbay](https://pixabay.com/). The remaining images were from my own photography collection.
 
 -   [photoroom](https://www.photoroom.com/tools/background-remover) for free background removal on various images.
+
+-   Images were resized using [imageresizer](https://imageresizer.com/)
 
 ### Acknowledgements
 
