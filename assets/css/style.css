@@ -93,7 +93,6 @@ img {
 
 .list-inline-item {
     margin-bottom: 20px;
-    padding: 0;
 }
 
 /* ----------------------------------------Special paddings/margins/text */
@@ -234,11 +233,19 @@ figure {
     font-family: "Libre+Baskerville", sans-serif;
     font-weight: 800;
     font-size: 28px;
-    /* font-size: 2.5vw; */
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
     color: #143049;
+}
+
+.trip-title {
+    font-family: "Libre+Baskerville", sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    margin: 10px 10px 0 0;
+    text-align: center;
+    color:#af9442;
 }
 
 .foot-title {
@@ -488,62 +495,28 @@ button[type="submit"] {
 
 /* ourtrip code */
 
-.section-column {
-    display: table-cell;
-    padding: 0 30px 30px;
-    float: none;
+
+
+.section-trip {
+    background-color: #143049;
 }
 
-.history-heading,
-.section-heading {
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 40px;
+.section-trip-light {
+    background-color: #dffcff;
 }
 
-.history-heading {
+.trip-spacing {
     color: #af9442;
-    margin-bottom: 50px;
+    font-size: 25px;
+    margin: 10px 0;
+    display: inline-block;
 }
 
-.trip-item {
-    padding: 4em 2em 0em 2em;
-    position: relative;
-    color: #af9442;
-    border-top: 1px solid;
-    }
-
-.trip-item p {
-    padding: 0;
-    margin: 0;
+.trip-spacing p {
+    color: #fafafa;
 }
 
-.trip-item:before {
-    /* content: attr(data-dates);
-    position: absolute; */
-    left: 2.5em;
-    top: 3em;
-    display: block;
-    font-family: "exo", sans-serif;
-    font-weight: 500;
-    font-size: 0.8em;
-    padding: 0;
-    margin: 0;
+.trip-spacing i {
+    left:50%;
 }
 
-.trip-item:after {
-    width: 12px;
-    height: 12px;
-    display: block;
-    top: 2.4em;
-    position: absolute;
-    left: 50%;
-    border-radius: 12px;
-    content: '';
-    background: #af9442;  
-}
-
-.history-items {
-    margin-bottom: 30px;
-}
