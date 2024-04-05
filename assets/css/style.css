@@ -514,7 +514,12 @@ button[type="submit"] {
 
 .trip-spacing p {
     color: #fafafa;
-    text-align: justify;
+    text-align: left;
+}
+
+.trip-spacing p span {
+    color: #af9442;
+    font-weight: 700;
 }
 
 .trip-spacing i {
