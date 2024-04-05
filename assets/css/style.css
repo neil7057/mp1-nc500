@@ -514,9 +514,15 @@ button[type="submit"] {
 
 .trip-spacing p {
     color: #fafafa;
+    text-align: justify;
 }
 
 .trip-spacing i {
     left:50%;
+}
+
+.trip-image img {
+    width: 95%;
+    margin-left: 2.5%;
 }
 
