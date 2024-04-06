@@ -362,10 +362,6 @@ footer {
     padding-top: 1em;
 }
 
-.social-links li {
-    padding-right: 10px;
-}
-
 .social-links li a i {
     width: 32px;
     height: 32px;
@@ -487,11 +483,12 @@ button[type="submit"] {
 }
 
 /* ----------------------------------------change to text size on figcaption for single words. multiple word phrases will wrap */
-@media (max-width: 370px) {
+@media (max-width: 735px) {
     .general-sub {
         font-size: 19px;
     }
 }
+
 
 /* ourtrip code */
 
@@ -527,20 +524,19 @@ button[type="submit"] {
 }
 
 .trip-list-spacing p {
-    margin-bottom: 5px;
+    margin: 2px;
+    color:#af9442;
+    font-weight: 700;
 }
 
-.trip-list-spacing a {
-    margin-left: 20px;
-}
+/* .trip-list-spacing a {
+    margin-left: 10px;
+} */
 
 .trip-list-spacing ul {
     margin-bottom: 5px;
-}
-
-.trip-list-spacing li {
-    color: #af9442;
-    margin: -5px 0;
+    padding: 0;
+    list-style-type: none;
 }
 
 .trip-image img {
