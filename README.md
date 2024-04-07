@@ -511,8 +511,13 @@ The third party nanogallery.css was also checked as I had made some changes.
 
 ### Lighthouse Testing
 
+During testing, it was necessary to make some minor changes.
+-   A JS script had to be moved to the bottom of the Page
+-   Hero Images had to be pre-fetched to improve page loading times.
+
+
 <details><summary>Home Page</summary>
-<img src="docs/testing/index_lighthouse.jpg">
+<img src="docs/testing/index-lighthouse.jpg">
 </details>
 <br>
 <details><summary>Our Trip Page</summary>
@@ -524,15 +529,15 @@ The third party nanogallery.css was also checked as I had made some changes.
 </details>
 <br>
 <details><summary>Comments Page</summary>
-<img src="docs/testing/comments_lighthouse.jpg">
+<img src="docs/testing/comments-lighthouse.jpg">
 </details>
 <br>
 <details><summary>Confirmation Page</summary>
-<img src="docs/testing/confirmation_lighthouse.jpg">
+<img src="docs/testing/confirmation-lighthouse.jpg">
 </details>
 <br>
 <details><summary>Error 404 Page</summary>
-<img src="docs/testing/error-404_lighthouse.jpg">
+<img src="docs/testing/404-lighthouse.jpg">
 </details>
 <br>
 
