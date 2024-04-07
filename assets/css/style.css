@@ -323,6 +323,9 @@ figure {
     text-align: center;
     font-size: 0.75vw;
 }
+iframe {
+    border: 0;
+}
 
 /*---------------------------------------------ourtrip specific css */
 
@@ -339,6 +342,7 @@ figure {
     font-size: 25px;
     margin: 10px 0;
     display: inline-block;
+    text-align: center;
 }
 
 .trip-spacing p {

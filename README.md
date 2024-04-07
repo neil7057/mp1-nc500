@@ -1,6 +1,6 @@
 # My North Coast 500 Website
 
-![Mockup](docs/readme_images/mockup.jpg)
+![Mockup](docs/readme_images/site-mockup.jpg)
 
 **Author Neil Allen**
 
@@ -88,18 +88,27 @@ The site will also appeal to those looking for imagery of the area and/or links 
 
 -   ### Design
     -   #### Colour Scheme
-        -   To fit in with the main colours of the Scottish Flag (Saltire), i've chosen blue as the colour scheme for the site with a contrast between a dark blue for menu items and footer and a sandy colour to respresent the stunning beaches as background. I've added a contrasting bronze as this looks good. I have added a green highlight to the current page icon.
+        -   To fit in with the main colours of the Scottish Flag (Saltire), i've chosen blue as the colour scheme for the site with a contrast between a dark blue for menu items and footer and a sandy colour to represent the stunning beaches as background. I've added a contrasting bronze as this looks good. I have added a green highlight to the current page icon.
+
+        -   On some pages i've also added a light blue to soften teh screen and ensure WCAG contrast compliance.
         
     -   #### Typography
         -   The Baskerville Libre font is the main font used for headings and open sans is used for other text consistently throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Baskeville is a clean font and looks crisp on blue or a white background. It is both elegant and professional.
 
     -   #### Imagery
-        -   Imagery is important. The NC500 is especially famous for its views and scenery so this requires a large, background hero image designed to be striking and catch the user's attention. It is essential that the site has a gallery area to fully communicate the variety od the NC500's scenic experiences. 
+        -   Imagery is important. The NC500 is especially famous for its views and scenery so this requires a large, background hero image designed to be striking and catch the user's attention. It is essential that the site has a gallery area to fully communicate the variety of the NC500's scenic experiences.
+
+        -   The site is image rich as that is a key feature of the NC500. Most images are my own, with some copyright free images and attribution where required.
+
 
     -   #### Design Considerations
         -   The header of each page carries a different Hero or banner image but other items remain consistent. The Footer is minimalist as its not necessary to give out extensive contact information. There's an email option and also a link to the main contact page and form.
 
         -   Larger screen sizes have the waving saltire gif but this is hidden on smaller screens as it occupies too much space whilst adding little value. 
+
+        -   The site is responsive with some items hidden or resized for smaller screens.
+
+        -   Menu navigation remains in the centre of the screen on all viewing sizes and is at optimum eye height.
 
         -   There is a customised error-404 page 'just in case'.
 
@@ -147,12 +156,13 @@ The site will also appeal to those looking for imagery of the area and/or links 
     * Our Trip - Specific information and images about our journey around the NC500 in
      August 2018.
     * Gallery - A range of images to show the variety and beauty of the NC500 route
-    * Comments - A form to allow the user to send comments or requests for further information 
+    * Comments - A form to allow the user to send comments or requests for further information.
+
     * There are also 2 additional sub pages
     * A Confirmation thank you page for when a user has submitted a form
     * A 404 page for when a user lands on a non-existent page
 
-    The site has a navbar which remains central to the screene on desktop, tablet and mobile, this allows a user to access any page they need at any time and would be suitable for a returning visitor who knows exactly where they want to go. There is also a footer on every page with links to social media sites, the Comments page and offers a direct email link.
+    The site has a navbar which remains central to the screene on desktop, tablet and mobile, this allows a user to access any page they need at any time and would be suitable for a returning visitor who knows exactly where they want to go. There is also a footer on every page with links to social media sites, the Comments page and a direct email link.
 
 ## Features
 
@@ -198,12 +208,19 @@ The site will also appeal to those looking for imagery of the area and/or links 
 
 ### Our Trip Page
 * Our Trip
-    * The
+    * A brief day by day breakdown of the route.
+    * An image for each location with an icon to indicate if it was an overnight stop.
+    * A map of the route identifying the 5 regions.
+    * Video of the beach and John O Groats.
+    * Links to useful resources.   
 
     <details><summary>Our Trip Page</summary>
-    <img src="docs/readme_images/ourtrip.jpg">
+    <img src="docs/readme_images/ourtrip-screen1.jpg">
     </details>
     <br>
+    <details><summary>Our Trip details</summary>
+    <img src="docs/readme_images/ourtrip-screen2.jpg">
+    </details>
 
 ### Gallery Page
 * Gallery
@@ -217,7 +234,6 @@ The site will also appeal to those looking for imagery of the area and/or links 
     <details><summary>Gallery Page</summary>
     <img src="docs/readme_images/gallery-image.jpg">
     </details>
-    <br>
 
 ### Contact Page
 * Contact form
@@ -226,6 +242,7 @@ The site will also appeal to those looking for imagery of the area and/or links 
         * Last Name (required, type=text)
         * Email (required, type=email)
         * Message (required, type=textarea), maximum 280 characters
+    * Muted Text will be used as hints or for assurance on certain feilds. This will be adjusted, if necessary, for WCAG compliance.
     * This will allow a user to contact me if they have any queries about the NC500, our trip in particular or information to assist in planning their own adventure.
     * To avoid large empty spaces and as i didn't wish to expand the form to the entire screen on laptop screens and above, I have inserted the NC500 logo either side. This is hidden on smaller screen sizes.
 
@@ -236,34 +253,35 @@ The site will also appeal to those looking for imagery of the area and/or links 
 ### Confirmation Page
 * On successful submission of the contact form, the user will be navigated to confirmation.html displaying a success message.
 
+* The usual menu navbar will be present on this screen.
+
     <details><summary>Contact Confirmation Page</summary>
     <img src="docs/readme_images/confirmation-page-image.jpg">
     </details>
-    <br>
 
 ### Error 404 Page
 * Error 404 Page
     * There is a bespoke 404 error page to trap any file not found errors. This enables the user to access the menu structire in the event if a missing page or file and avoids use of the 'back' button were a default 404 page displayed.
+    
+    * The usual menu navbar will be present on this screen.
 
     <details><summary>Error 404</summary>
     <img src="docs/readme_images/404-error-image.jpg">
     </details>
-    <br>
-
 
 ### Site Features
 
-* Responsive design - contnnet scales from 280px to Large Desktop. Some content is hidden at smaller resolutions to maintain user experience.
+* Responsive design - content scales from 280px to Large Desktop. Some content is hidden at smaller resolutions to maintain user experience.
 * Menu navbar remains consistent with a green highlight for current page.
 * There is an extensive gallery of photographs using third party code to enlarge images and provide gallery navigation.
-<!-- * our trip -->
+* Extensive additional information and links on the Ourtrip page together with a day by day summary of an actual journey.
 * Contact form and success confirmation page.
 * Option to send a direct email from Footer.
 
 ## Technologies Used
 
 ### Development Environment
--   The site was developed in a Codeanywehere IDE (https://codeanywhere.com/) using VSC.
+-   The site was developed in a [Codeanywehere IDE](https://codeanywhere.com/) and [Gitpod](https://www.gitpod.io/) environment using VSC.
 
 ### Languages Used
 
@@ -323,7 +341,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
     <details><summary>style.css</summary>
-    <img src="docs/testing/w3-style-css-check.jpg">
+    <img src="docs/testing/ws-style-css-check.jpg">
     </details>
     <br>
 
