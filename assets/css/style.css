@@ -32,13 +32,13 @@ body {
 }
 
 .wcag-link-contrast {
-    color: #af9442;
+    color: #333;
     font-weight: 700;
 }
 
 .wcag-link-contrast-blue {
-    color: #dffcff;
-    font-weight: 700; 
+    color: #dffcff !important;
+    font-weight: 700 ; 
 }
 
 /*--------------------------------------------Image sizing*/
