@@ -31,6 +31,16 @@ body {
     color: #af9442;
 }
 
+.wcag-link-contrast {
+    color: #af9442;
+    font-weight: 700;
+}
+
+.wcag-link-contrast-blue {
+    color: #dffcff;
+    font-weight: 700; 
+}
+
 /*--------------------------------------------Image sizing*/
 img {
     width: 100%;

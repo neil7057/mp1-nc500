@@ -311,6 +311,8 @@ The site will also appeal to those looking for imagery of the area and/or links 
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the website to ensure there were no syntax errors in the project.
 
+This was carried out periodically as each page was created and amended and then finally checked again when pages were deemed complete and error free.
+
 -   [W3C Markup Validator](https://validator.w3.org/#validate_by_input)
 
     <details><summary>Home Page</summary>
@@ -338,6 +340,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     </details>
     <br>
   
+
+This was checked periodically as each page was created and CSS code added and amended. A final check was carried out when all other testing had been satisfactorily completed.
+
+The third party nanogallery.css was also checked as some changes has been made.
+
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
     <details><summary>style.css</summary>
@@ -393,10 +400,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     3. As a Returning Visitor, I want to find links to other resources that will help me plan.
 
-        1. 
-        2. 
-        3. 
-
+        1. There are links to accommodation sites on the ourtrip page.
+        2. There are links to the 5 regions of the NC500 on the ourtrip page.
 
 -   #### Frequent User Goals
 
@@ -408,23 +413,23 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     2. As a Frequent User, I want to check to see if there is any new information.
 
         1. The user would already be comfortable with the website layout and can easily visit the links section.
-        2. xx
+        2. New information will be highlighted with the word 'NEW'.
+        3. Newly uploaded photographs will be first in the gallery.
 
     3. As a Frequent User, I want to check to see if there are any new links.
 
-        1. At the bottom of every page there is a footer which content is consistent throughout all pages.
-        2. 
-        3. There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
-
+        1. All links are on the Ourtrip page so it isn't necessary to viist any other pages for updated/new links.
+        2. Accomodation links are located at the bottom of the page in an easily identifiable section.
+        
 ### Responsiveness
 
-    All pages were tested to ensure responsiveness on screen sizes from 320px and upwards as defined in [WCAG 2.1 Reflow criteria for responsive design](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html) on Chrome, Edge, Firefox and Opera browsers.
+    All pages were tested to ensure responsiveness on screen sizes from 280px and upwards as defined in [WCAG 2.1 Reflow criteria for responsive design](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html) on Chrome, Edge, Firefox and Opera browsers.
 
     Steps to test:
 
     1. Open browser and navigate to [The North Coast 500](https://neil7057.github.io/mp1-nc500/)
     2. Open the developer tools (right click and inspect)
-    3. Set to responsive and decrease widthin stages to 320px
+    3. Set to responsive and decrease widthin stages to 280px
     4. Set the zoom to 50%
     5. Click and drag the responsive window to maximum width, noting transitions at breakpoints
     6. Rotate and test for portrait to landscape transition
@@ -434,6 +439,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     Website is responsive on all screen sizes and no images are pixelated or stretched.
     No horizontal scroll is present.
     No elements overlap.
+    Text resizes as expected at breakpoints.
 
     Website was also opened on the following devices and no responsive issues were seen:
 
@@ -471,12 +477,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     Manual tests were also performed to ensure the website was accessible as possible.
 
-    Issue #1: 
-
-    Fix: 
-
-    Issue #2: 
-
 ### Lighthouse Testing
 
 <details><summary>Home Page</summary>
@@ -509,7 +509,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 **Navigation Links**
 
 Testing was performed to ensure all navigation links on the respective pages, navigated to the correct pages as per design.
-This was done by clicking on the navigation links on each page.
+This was done by clicking on the navigation links on each page on a desktop, laptop, tablet and mobile device.
 
 Links on all pages navigated to the correct pages as exptected.
 
@@ -528,12 +528,13 @@ Specifically:
 -   Form completed correctly with valid information in all fields:
     The form is able to be submitted.
 
+-   Form textarea will only accept 280 characters
+
 -   Succesfully submission of the contacts/feedback form: A confirmation message is displayed  
 
-    
 **Footer Social Media Icons / Links**
 
-Testing was performed on the Font Awesome Social Media icons in the footer to ensure that each one opened in a new tab and that each one had a hover affect of the orange branding color.
+Testing was performed on the Font Awesome Social Media icons in the footer to ensure that each one opened in a new tab and that each one had a 'grow' hover affect of the orange branding color.
 
 Each item opened a new tab when clicked as expected and correct hover effect was present.
 
@@ -549,11 +550,16 @@ A windows popup is displayed asking what application you would like to send a ma
 or your default email application is opened.
 
 There is also a link directly to the comments/feedback page.
-When clicked, this navigates to the corrcet page.
+When clicked, this navigates to the correct page.
+On the comments page itself, this link goes to the top of the form.
 
 The email and 'go to' links react when hovered over.
 
 ### Further Testing
+
+-   Testing was carried out as each function was developed. The menu structure, navigation and footer were tested until error free on Index.html before propogating to other pages.
+
+-   As each page was completed, existing succesful tests were rerun to ensure that proven functionality hadn't been affected. 
 
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7/8/X and iPad.
