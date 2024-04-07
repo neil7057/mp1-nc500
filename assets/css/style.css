@@ -127,6 +127,13 @@ p {
     border-color:#af9442;
 }
 
+.solid-border-half {
+    border-style: solid;
+    border-width: 5px 0 0;
+    margin: 0 25%;
+    border-color:#af9442;
+}
+
 .img-center {
     display:block;
     margin:auto;
@@ -312,6 +319,59 @@ figure {
     border-radius: 5% 5% 0 0;
 }
 
+.photo-attrib {
+    text-align: center;
+    font-size: 0.75vw;
+}
+
+/*---------------------------------------------ourtrip specific css */
+
+.section-trip {
+    background-color: #143049;
+}
+
+.section-trip-light {
+    background-color: #dffcff;
+}
+
+.trip-spacing {
+    color: #af9442;
+    font-size: 25px;
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.trip-spacing p {
+    color: #fafafa;
+    text-align: left;
+}
+
+.trip-spacing p span {
+    color: #af9442;
+    font-weight: 700;
+}
+
+.trip-spacing i {
+    left:50%;
+}
+
+.trip-list-spacing p {
+    margin: 2px;
+    color:#af9442;
+    font-weight: 700;
+}
+
+.trip-list-spacing ul {
+    margin-bottom: 5px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.trip-image img {
+    width: 95%;
+    margin-left: 2.5%;
+}
+
 /*--------------------------------------------text animation code courtesy of geeksfor geeks.org and amended by me*/
 .text-type-container { 
     margin: 13px 20px 325px 20px;
@@ -487,64 +547,4 @@ button[type="submit"] {
     .general-sub {
         font-size: 19px;
     }
-}
-
-
-/* ourtrip code */
-
-
-
-.section-trip {
-    background-color: #143049;
-}
-
-.section-trip-light {
-    background-color: #dffcff;
-}
-
-.trip-spacing {
-    color: #af9442;
-    font-size: 25px;
-    margin: 10px 0;
-    display: inline-block;
-}
-
-.trip-spacing p {
-    color: #fafafa;
-    text-align: left;
-}
-
-.trip-spacing p span {
-    color: #af9442;
-    font-weight: 700;
-}
-
-.trip-spacing i {
-    left:50%;
-}
-
-.trip-list-spacing p {
-    margin: 2px;
-    color:#af9442;
-    font-weight: 700;
-}
-
-/* .trip-list-spacing a {
-    margin-left: 10px;
-} */
-
-.trip-list-spacing ul {
-    margin-bottom: 5px;
-    padding: 0;
-    list-style-type: none;
-}
-
-.trip-image img {
-    width: 95%;
-    margin-left: 2.5%;
-}
-
-.photo-attrib {
-    text-align: center;
-    font-size: 0.75vw;
 }
