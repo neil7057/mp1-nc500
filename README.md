@@ -41,6 +41,8 @@ The site will also appeal to those looking for imagery of the area and/or links 
     *   [Languages Used](#languages-used)
     *   [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
 5. [Testing](#testing)
+    *   [HTML](#html)
+    *   [CSS](#css)
     *   [Testing User Stories from User Experience (UX) Section](#testing-user-stories-from-user-experience-ux-section)
         *   [First Time Visitor Goals](#first-time-visitor-goals-1))
         *   [Returning Visitor Goals](#returning-visitor-goals-1)
@@ -311,6 +313,8 @@ The site will also appeal to those looking for imagery of the area and/or links 
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the website to ensure there were no syntax errors in the project.
 
+### HTML
+
 This was carried out periodically as each page was created and amended and then finally checked again when pages were deemed complete and error free.
 
 -   [W3C Markup Validator](https://validator.w3.org/#validate_by_input)
@@ -338,12 +342,12 @@ This was carried out periodically as each page was created and amended and then 
     <details><summary>Error 404 Page</summary>
     <img src="docs/testing/w3-404-check.jpg">
     </details>
-    <br>
-  
+
+### CSS
 
 This was checked periodically as each page was created and CSS code added and amended. A final check was carried out when all other testing had been satisfactorily completed.
 
-The third party nanogallery.css was also checked as some changes has been made.
+The third party nanogallery.css was also checked as I had made some changes.
 
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
@@ -475,7 +479,35 @@ The third party nanogallery.css was also checked as some changes has been made.
 
     - WCAG 2.1 Coding best practices being followed.
 
+    * Results
+
+<details><summary>Home Page</summary>
+<img src="docs/testing/wave-index.jpg">
+</details>
+<br>
+<details><summary>Our Trip Page</summary>
+<img src="docs/testing/wave-ourtrip.jpg">
+</details>
+<br>
+<details><summary>Gallery Page</summary>
+<img src="docs/testing/wave-gallery.jpg">
+</details>
+<br>
+<details><summary>Comments Page</summary>
+<img src="docs/testing/wave-comments.jpg">
+</details>
+<br>
+<details><summary>Confirmation Page</summary>
+<img src="docs/testing/wave-confirmation.jpg">
+</details>
+<br>
+<details><summary>Error 404 Page</summary>
+<img src="docs/testing/wave-404.jpg">
+</details>
+<br>
+
     Manual tests were also performed to ensure the website was accessible as possible.
+
 
 ### Lighthouse Testing
 
@@ -531,6 +563,15 @@ Specifically:
 -   Form textarea will only accept 280 characters
 
 -   Succesfully submission of the contacts/feedback form: A confirmation message is displayed  
+
+**Links Testing**
+
+Testing was performed to:
+
+-   Open each hyperlink on each page and check that it is a valid URL and opens in a new page.
+
+-   Check on desktop, tablet and mobile.
+
 
 **Footer Social Media Icons / Links**
 

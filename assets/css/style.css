@@ -151,12 +151,6 @@ p {
 
 /*--------------------------------------------Heading*/
 
-header {
-    margin: 0;
-    color: #fff;
-    min-height: 360px;
-}
-
 #header-details {
      text-align: center;
 }
@@ -345,6 +339,10 @@ iframe {
 
 .section-trip-light {
     background-color: #dffcff;
+}
+
+.section-trip-light p {
+    text-align: justify;
 }
 
 .trip-spacing {
