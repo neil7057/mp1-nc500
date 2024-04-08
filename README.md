@@ -700,7 +700,8 @@ The project will now have been cloned on your local machine for use.
 
 -   [photoroom](https://www.photoroom.com/tools/background-remover) for free background removal on various images.
 
--   Images were resized using [imageresizer](https://imageresizer.com/)
+-   Images were converted to WebP format using [To WebP](https://towebp.io/).
+-   Images were resized using [imageresizer](https://imageresizer.com/).
 
 ### Acknowledgements
 

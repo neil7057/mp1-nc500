@@ -178,7 +178,7 @@ p {
 }
 
 .gallery-image {
-    background: url("../images/achmelvich.jpg");
+    background: url("../images/achmelvich.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
