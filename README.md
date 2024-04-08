@@ -517,14 +517,17 @@ The Gallery Page uses third party code for an image caroussel and slideshow. It 
 During testing, it was necessary to make some minor changes.
 -   A JS script had to be moved to the bottom of the Page
 -   Hero Images had to be pre-fetched to improve page loading times.
-
+-   Meta data was added to index.html to better describe the site.
 
 <details><summary>Home Page</summary>
 <img src="docs/testing/index-lighthouse.jpg">
 </details>
 <br>
+Vimeo cookies are disabled but their presence is reflected in the "Best Practice" score.
+Vimeo insist that some cookies are essential for their embedded player to work but that they
+don't collect personal data.  
 <details><summary>Our Trip Page</summary>
-<img src="docs/testing/ourtrip_lighthouse">
+<img src="docs/testing/ourtrip-lighthouse.jpg">
 </details>
 <br>
 <details><summary>Gallery Page</summary>
