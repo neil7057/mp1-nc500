@@ -1,6 +1,6 @@
 # My North Coast 500 Website
 
-![Mockup](docs/readme_images/site-mockup.jpg)
+![Mockup](docs/readme_images/nc500-site-mockup.jpg)
 
 **Author Neil Allen**
 
@@ -44,11 +44,12 @@ The site will also appeal to those looking for imagery of the area and/or links 
     *   [HTML](#html)
     *   [CSS](#css)
     *   [Testing User Stories from User Experience (UX) Section](#testing-user-stories-from-user-experience-ux-section)
-        *   [First Time Visitor Goals](#first-time-visitor-goals-1))
+        *   [First Time Visitor Goals](#first-time-visitor-goals-1)
         *   [Returning Visitor Goals](#returning-visitor-goals-1)
         *   [Frequent User Goals](#frequent-user-goals-1)
     *   [Responsiveness](#responsiveness)
     *   [Accessibility](#accessibility)
+    *   [Screen Reader](#screen-reader)
     *   [Lighthouse Testing](#lighthouse-testing)
     *   [Functional Testing](#functional-testing)
     *   [Further Testing](#further-testing)
@@ -73,7 +74,7 @@ The site will also appeal to those looking for imagery of the area and/or links 
 
     -   #### First Time Visitor Goals
 
-        1. As a First Time Visitor, I want to easily understand what and where the North Coast 500 is..
+        1. As a First Time Visitor, I want to easily understand what and where the North Coast 500 is.
         2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
         3. As a First Time Visitor, I want to read about an actual trip around the NC500 and look at interesting images.
 
@@ -90,12 +91,12 @@ The site will also appeal to those looking for imagery of the area and/or links 
 
 -   ### Design
     -   #### Colour Scheme
-        -   To fit in with the main colours of the Scottish Flag (Saltire), i've chosen blue as the colour scheme for the site with a contrast between a dark blue for menu items and footer and a sandy colour to represent the stunning beaches as background. I've added a contrasting bronze as this looks good. I have added a green highlight to the current page icon.
+        -   To fit in with the main colours of the Scottish Flag (Saltire), i've chosen blue as the colour scheme for the site with a contrast between a dark blue for menu items and footer, and a sandy colour to represent the stunning beaches as background. I've added a contrasting bronze as this looks good. I have added a green highlight to the current page icon.
 
-        -   On some pages i've also added a light blue to soften teh screen and ensure WCAG contrast compliance.
+        -   On some pages i've also added a light blue to soften the screen and ensure WCAG contrast compliance. Hyperlinks have been coloured to provide a contrast compatible with WCAG guidelines.
         
     -   #### Typography
-        -   The Baskerville Libre font is the main font used for headings and open sans is used for other text consistently throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Baskeville is a clean font and looks crisp on blue or a white background. It is both elegant and professional.
+        -   The Baskerville Libre font is the main font used for headings and Open Sans is used for other text consistently throughout the whole website. Sans Serif is the fallback font in case for any reason the font isn't being imported into the site correctly. Baskeville is a clean font and looks crisp on blue or a white background. It is both elegant and professional.
 
     -   #### Imagery
         -   Imagery is important. The NC500 is especially famous for its views and scenery so this requires a large, background hero image designed to be striking and catch the user's attention. It is essential that the site has a gallery area to fully communicate the variety of the NC500's scenic experiences.
@@ -104,7 +105,7 @@ The site will also appeal to those looking for imagery of the area and/or links 
 
 
     -   #### Design Considerations
-        -   The header of each page carries a different Hero or banner image but other items remain consistent. The Footer is minimalist as its not necessary to give out extensive contact information. There's an email option and also a link to the main contact page and form.
+        -   The header of each page carries a different Hero or banner image but other items remain consistent. The Footer is minimalist as its not necessary to give out extensive contact information. There's an email option, a link to the main contact page and form and 5 social media links.
 
         -   Larger screen sizes have the waving saltire gif but this is hidden on smaller screens as it occupies too much space whilst adding little value. 
 
@@ -161,10 +162,10 @@ The site will also appeal to those looking for imagery of the area and/or links 
     * Comments - A form to allow the user to send comments or requests for further information.
 
     * There are also 2 additional sub pages
-    * A Confirmation thank you page for when a user has submitted a form
-    * A 404 page for when a user lands on a non-existent page
+        -   A Confirmation thank you page for when a user has submitted a form
+        -    A 404 page for when a user lands on a non-existent page
 
-    The site has a navbar which remains central to the screene on desktop, tablet and mobile, this allows a user to access any page they need at any time and would be suitable for a returning visitor who knows exactly where they want to go. There is also a footer on every page with links to social media sites, the Comments page and a direct email link.
+    The site has a navbar which remains central to the screen on desktop, tablet and mobile, this allows a user to access any page they need at any time and is suitable for a first time or returning visitor. There is also a footer on every page with links to social media sites, the Comments page and a direct email link.
 
 ## Features
 
@@ -198,9 +199,9 @@ The site will also appeal to those looking for imagery of the area and/or links 
     </details>
     <br>
 
-* North Coast 500 information and introduction.
+* North Coast 500 information and introduction on the landing page.
     * A large map of the NC500 route.
-    * some sample images and 5 paragraphs of informative text.
+    * Some sample images and 5 paragraphs of informative text.
     * This information lets the user know what the site is about and gives a visual representation of the route. 
 
      <details><summary>Homepage Details</summary>
@@ -228,8 +229,9 @@ The site will also appeal to those looking for imagery of the area and/or links 
 * Gallery
     * A selection of images which spread across the screen in a resposnsive style.
     * Clicking on a thumbnail image opens a larger version in full screen with navigation backwards and forwards and an autoplay function. 
-    * The code requires Java script and is not my own. it was obtained from https://nanogallery.brisbois.fr/. 
-    * I added the functionality of a label to the Thumbnail and enlarged image
+    * The code requires Java script and is not my own. It was obtained from https://nanogallery.brisbois.fr/. 
+    * I added the functionality of a label to the Thumbnail and enlarged image.
+    * I created thumbnail images for all main images.
     * I changed the colour scheme of the icons to match the rest of the site. 
     * I created a small additional CSS file to manipulate IMG properties for this page alone. 
 
@@ -244,7 +246,7 @@ The site will also appeal to those looking for imagery of the area and/or links 
         * Last Name (required, type=text)
         * Email (required, type=email)
         * Message (required, type=textarea), maximum 280 characters
-    * Muted Text will be used as hints or for assurance on certain feilds. This will be adjusted, if necessary, for WCAG compliance.
+    * Muted Text will be used as hints or for assurance on certain fields. This will be adjusted, if necessary, for WCAG compliance.
     * This will allow a user to contact me if they have any queries about the NC500, our trip in particular or information to assist in planning their own adventure.
     * To avoid large empty spaces and as i didn't wish to expand the form to the entire screen on laptop screens and above, I have inserted the NC500 logo either side. This is hidden on smaller screen sizes.
 
@@ -255,7 +257,7 @@ The site will also appeal to those looking for imagery of the area and/or links 
 ### Confirmation Page
 * On successful submission of the contact form, the user will be navigated to confirmation.html displaying a success message.
 
-* The usual menu navbar will be present on this screen.
+* The usual menu navbar will be present on this screen. There is no requirement for a footer.
 
     <details><summary>Contact Confirmation Page</summary>
     <img src="docs/readme_images/confirmation-page-image.jpg">
@@ -263,9 +265,9 @@ The site will also appeal to those looking for imagery of the area and/or links 
 
 ### Error 404 Page
 * Error 404 Page
-    * There is a bespoke 404 error page to trap any file not found errors. This enables the user to access the menu structire in the event if a missing page or file and avoids use of the 'back' button were a default 404 page displayed.
+    * There is a bespoke 404 error page to trap any file not found errors. This enables the user to access the menu structire in the event of a missing page or file and avoids use of the 'back' button were a default 404 page displayed.
     
-    * The usual menu navbar will be present on this screen.
+    * The usual menu navbar will be present on this screen. There is no requirement for a footer.
 
     <details><summary>Error 404</summary>
     <img src="docs/readme_images/404-error-image.jpg">
@@ -279,6 +281,7 @@ The site will also appeal to those looking for imagery of the area and/or links 
 * Extensive additional information and links on the Ourtrip page together with a day by day summary of an actual journey.
 * Contact form and success confirmation page.
 * Option to send a direct email from Footer.
+* Bespoke 404 page with navbar.
 
 ## Technologies Used
 
@@ -295,17 +298,17 @@ The site will also appeal to those looking for imagery of the area and/or links 
 1. [Bootstrap 4.2.1:](https://getbootstrap.com/docs/4.2/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+    - Hover.css was used on the Menu items in teh navbar as well as the Social Media icons in the footer to add the 'grow' transition while being hovered over.
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'museo-sans-rounded' font into the style.css file which is used on all pages throughout the project.
+    - Google fonts were used to import the 'Baskerville Libre' ans 'Open Sans' fonts into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 1. [jQuery:](https://jquery.com/)
     - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
 1. [codeanywhere](https://app.codeanywhere.com/)
-    - Codeanywhere was used for version control by utilizing the codeanywhere terminal to commit to Git and Push to GitHub.
+    - Codeanywhere (and later GitPod) was used for version control by utilizing the codeanywhere/GitPod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
-    - GitHub is used to store the projects code after being pushed from Git.
+    - GitHub is used to store the projects code after being pushed from the development environment(s).
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](#wireframes) during the design process.
 
@@ -406,24 +409,26 @@ The third party nanogallery.css was also checked as I had made some changes.
 
         1. There are links to accommodation sites on the ourtrip page.
         2. There are links to the 5 regions of the NC500 on the ourtrip page.
+        3. There are extensive hyperlinks to external resources about the NC500.
 
 -   #### Frequent User Goals
 
     1. As a Frequent User, I want to check to see if there are any newly added photographs.
 
         1. The user would already be comfortable with the website layout and can easily visit the gallery page.
-        2. New photographs will be annotated as 'new' for a period of one month.
+        2. New photographs will be added first in the gallery so will be seen immediately on landing on the gallery page.
 
     2. As a Frequent User, I want to check to see if there is any new information.
 
-        1. The user would already be comfortable with the website layout and can easily visit the links section.
-        2. New information will be highlighted with the word 'NEW'.
+        1. The user would already be comfortable with the website layout and can easily visit the links are on the ourtrip page.
+        2. New information will be highlighted with a title 'NEW'.
         3. Newly uploaded photographs will be first in the gallery.
 
     3. As a Frequent User, I want to check to see if there are any new links.
 
         1. All links are on the Ourtrip page so it isn't necessary to viist any other pages for updated/new links.
         2. Accomodation links are located at the bottom of the page in an easily identifiable section.
+        3. New information will be highlighted as such for a period of one month.
         
 ### Responsiveness
 
@@ -444,6 +449,7 @@ The third party nanogallery.css was also checked as I had made some changes.
     No horizontal scroll is present.
     No elements overlap.
     Text resizes as expected at breakpoints.
+    Some contnet is hidden where it would clutter smaller screens.
 
     Website was also opened on the following devices and no responsive issues were seen:
 
@@ -471,7 +477,7 @@ The third party nanogallery.css was also checked as I had made some changes.
     - All content is contained within landmarks to ensure ease of use for assistive technology,
       allowing the user to navigate by page regions.
 
-    - All not textual content had alternative text or titles so descriptions are read out to screen readers.
+    - All non-textual content has alternative text or titles so descriptions are read out to screen readers.
 
     - HTML page lang attribute has been set.
 
@@ -489,13 +495,16 @@ The third party nanogallery.css was also checked as I had made some changes.
 <br>
 The ourtrip page reports warnings for justified text.
 However this is against a pale blue not white background and makes the text flow better and doesn't affect readability.
+<br>
+<br>
 <details><summary>Our Trip Page</summary>
 <img src="docs/testing/wave-ourtrip.jpg">
 </details>
 <br>
 The Gallery Page uses third party code for an image caroussel and slideshow.
 It duplicates file names as part of its function so flags duplicate file name errors at WCAG. 
-Alt texts have been added to all images but arent detected by the WAVE scanner
+Alt texts have been added to all images which arent detected by the WAVE scanner labels
+but are detected by Screen Reader software (NVDA).
 <br>
 <br>
 <details><summary>Gallery Page</summary>
@@ -530,6 +539,8 @@ During testing, it was necessary to make some minor changes.
 -   A JS script had to be moved to the bottom of the Page
 -   Hero Images had to be pre-fetched to improve page loading times.
 -   Meta data was added to index.html to better describe the site.
+-   Images were resized and coverted to WebP format.
+-   The saltire gif was reduced in file size.
 
 <details><summary>Home Page</summary>
 <img src="docs/testing/index-lighthouse.jpg">
@@ -566,7 +577,7 @@ don't collect personal data.
 Testing was performed to ensure all navigation links on the respective pages, navigated to the correct pages as per design.
 This was done by clicking on the navigation links on each page on a desktop, laptop, tablet and mobile device.
 
-Links on all pages navigated to the correct pages as exptected.
+Links on all pages navigated to the correct pages as expeccted.
 
 **Form Testing**
 
@@ -598,17 +609,18 @@ Testing was performed to:
 
 **Footer Social Media Icons / Links**
 
-Testing was performed on the Font Awesome Social Media icons in the footer to ensure that each one opened in a new tab and that each one had a 'grow' hover affect of the orange branding color.
+Testing was performed on the Font Awesome Social Media icons in the footer to ensure that each one opened in a new tab and that each one
+had a 'grow' hover affect of the orange branding color.
 
 Each item opened a new tab when clicked as expected and correct hover effect was present.
 
 **Footer Contact Information**
 
-Steps to test Email Link_
+Steps to test Email Link:
 
-Navigate to  [My North Coast 500 - Home Page](https://neil7057.github.io/mp1-nc500/)
+Navigate to  [My North Coast 500 - Home Page](https://neil7057.github.io/mp1-nc500/).
  
-Click the email address in the footer (webdev1961@gmail.com)
+Click the email address in the footer (webdev1961@gmail.com).
 
 A windows popup is displayed asking what application you would like to send a mail from
 or your default email application is opened.
@@ -634,13 +646,12 @@ The email and 'go to' links react when hovered over.
 
 - A bespoke 404 error page has been created to provide a better user experience
 - This was tested by:
-    navigating to the comments page and changing the address to comment.html in the browser.
-- The dedicated 404-error was displayed and it was possible to navigate home via the home button.
+    - navigating to the comments page and changing the address to comment.html in the browser.
+    - The dedicated 404-error was displayed and it was possible to navigate home via the home button.
 
 ### Known Bugs
 
-    -   
-    -   
+    - There are no known errors.   
 
 ## Deployment
 
@@ -696,11 +707,9 @@ The project will now have been cloned on your local machine for use.
 
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
--   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
-
 -   [geeks for geeks](https://www.geeksforgeeks.org/) provided template code for text animation which i amended to suit.
 
--   Gallery image code courtesy of [christophe brisbois](https://nanogallery.brisbois.fr/)   
+-   Gallery image code courtesy of [christophe brisbois](https://nanogallery.brisbois.fr/). Alt text added to images, thumnails created and colour scheme of gallery navigation chnaged to match site colour scheme. 
 
 ### Content
 
@@ -713,7 +722,10 @@ The project will now have been cloned on your local machine for use.
 -   [photoroom](https://www.photoroom.com/tools/background-remover) for free background removal on various images.
 
 -   Images were converted to WebP format using [To WebP](https://towebp.io/).
+
 -   Images were resized using [imageresizer](https://imageresizer.com/).
+
+-   Saltire gif reduced in size using [Free Convert](https://www.freeconvert.com/gif-compressor).
 
 ### Acknowledgements
 
