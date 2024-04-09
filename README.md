@@ -479,17 +479,23 @@ The third party nanogallery.css was also checked as I had made some changes.
 
     - WCAG 2.1 Coding best practices being followed.
 
+    - Hyperlink text colour has been adjusted to adhere to contrast guidelines.
+
     * Results
 
 <details><summary>Home Page</summary>
 <img src="docs/testing/wave-index.jpg">
 </details>
 <br>
+The ourtrip page reports warnings for justified text.
+However this is against a pale blue not white background and makes the text flow better and doesn't affect readability.
 <details><summary>Our Trip Page</summary>
 <img src="docs/testing/wave-ourtrip.jpg">
 </details>
 <br>
-The Gallery Page uses third party code for an image caroussel and slideshow. It duplicates file names as part of its function so flags duplicate file name errors at WCAG. Alt texts have been added to all images but arent detected by the WAVE scanner
+The Gallery Page uses third party code for an image caroussel and slideshow.
+It duplicates file names as part of its function so flags duplicate file name errors at WCAG. 
+Alt texts have been added to all images but arent detected by the WAVE scanner
 <br>
 <br>
 <details><summary>Gallery Page</summary>
@@ -510,7 +516,13 @@ The Gallery Page uses third party code for an image caroussel and slideshow. It 
 <br>
 
     Manual tests were also performed to ensure the website was accessible as possible.
+### Screen Reader
 
+Screen reader testing was performed using NVDA software from [NV Access](https://www.nvaccess.org/).
+This confirmed that:
+-   All text is readable.
+-   All images have accurate, useful text descriptions.
+-   Videos have extended title descriptions.
 
 ### Lighthouse Testing
 
