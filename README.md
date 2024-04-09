@@ -489,7 +489,7 @@ The third party nanogallery.css was also checked as I had made some changes.
 <img src="docs/testing/wave-ourtrip.jpg">
 </details>
 <br>
-The Gallery Page uses third party code for an image caroussel and slideshow. It duplicates file names as part of its function so flags duplicate file name errors at WCAG.
+The Gallery Page uses third party code for an image caroussel and slideshow. It duplicates file names as part of its function so flags duplicate file name errors at WCAG. Alt texts have been added to all images but arent detected by the WAVE scanner
 <br>
 <br>
 <details><summary>Gallery Page</summary>
@@ -531,7 +531,7 @@ don't collect personal data.
 </details>
 <br>
 <details><summary>Gallery Page</summary>
-<img src="docs/testing/gallery_lighthouse.jpg">
+<img src="docs/testing/gallery-lighthouse.jpg">
 </details>
 <br>
 <details><summary>Comments Page</summary>

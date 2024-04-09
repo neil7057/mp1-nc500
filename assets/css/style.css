@@ -79,7 +79,6 @@ img {
 
 /*--------------------------------------------menu items optimised for small mobile devices*/
 
-
 .menu-spacing span {
     font-family: 'Libre+Baskerville', sans-serif;
     font-size: 11px;
@@ -160,7 +159,7 @@ p {
 }
  
 .hero-image {
-    background: url("../images/sango.jpg");
+    background: url("../images/webp/sango-gallery.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -169,7 +168,7 @@ p {
 }
 
 .ourtrip-image {
-    background: url("../images/dramatic.jpg");
+    background: url("../images/webp/dramatic.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -178,7 +177,7 @@ p {
 }
 
 .gallery-image {
-    background: url("../images/achmelvich.webp");
+    background: url("../images/webp/achmelvich-gallery.webp");
     /* background: url("/assets/images/achmelvich.webp");     */
     background-position: center;
     background-repeat: no-repeat;
@@ -188,7 +187,7 @@ p {
 }
 
 .comments-image {
-    background: url("../images/wideroad.jpg");
+    background: url("../images/webp/wideroad.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -197,7 +196,7 @@ p {
 }
 
 .lost-image {
-    background: url("../images/lost-image.jpg");
+    background: url("../images/webp/lost-image.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -206,7 +205,7 @@ p {
 }
 
 .confirmation-image {
-    background: url("../images/thankyou-tarmac.jpg");
+    background: url("../images/webp/thankyou-tarmac.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -223,7 +222,7 @@ figure {
 }
 
 .saltire-gif {
-    background: url("../images/scotland-646_256.gif");
+    background: url("../images/gifs/scotland-646_256.gif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -391,6 +390,7 @@ iframe {
 }
 
 /*--------------------------------------------text animation code courtesy of geeksfor geeks.org and amended by me*/
+
 .text-type-container { 
     margin: 13px 20px 325px 20px;
     padding-top: 2px;
@@ -534,6 +534,7 @@ button[type="submit"] {
 }
 
 /* ----------------------------------------Media Queries */
+
 
 /* ----------------------------------------resize menu items and text for bigger  and ultra smallscreens*/
 
