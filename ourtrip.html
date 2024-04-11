@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css">
     <link rel="stylesheet" href="assets/css/style.css">
+<!-- prefetch hero image to speed up loading -->
     <link rel="preload" fetchpriority="high" as="image" href="assets/images/webp/dramatic.webp">
     <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
@@ -213,6 +214,7 @@
                                 <img src="assets/images/webp/durness-trip.webp" alt="Durness beach with craggy rocks" class="img-responsive border border-warning rounded-custom">
                             </div>
                             <p>
+<!-- Hyperlink colour applied to meet WCAG contrast guidelines -->
                                Stayed at <a href="https://sangosands.com/" target="_blank"><span class="wcag-link-contrast-blue">Sango Sands Oasis</span></a> and cant recommend it highly enough but - Book first!
                                <span> Overnight Stop</span>
                             </p>
@@ -324,6 +326,7 @@
                             <img src="assets/images/webp/edinburgh-castle.webp" alt="Edinburgh castle on the hill" class="img-responsive border border-warning rounded-custom">
                             </div>
                             <p>
+<!-- Hyperlink colour applied to meet WCAG contrast guidelines -->
                                 We spent 2 nights in Edinburgh so we could spend a day in the city itself. It was a few days before the Fringe and Tattoo so we managed to get a campsite booking 
                                 at <a class ="wcag-link-contrast" href="https://www.meadowhead.co.uk/parks/mortonhall/" target="_blank">Morton Hall Campsite</a> near to a very passable Fish and chip shop and on a bus route.
                             </p>
@@ -476,12 +479,17 @@
                             <p>
                                 Leo ventures into the sea at Sango Beach, Durness. It looks inviting but was Icy cold - even in August. You can hear the wind on the video.
                             </p>
-                            <video aria-label="Leo playing in the sea at Sango Beach" class="border border-warning rounded-custom" src="assets/videos/IMG_3217.mp4" controls height="auto" width="100%">
-                                Your browser does not support Videos in MP4 format.</video>
+<!-- iframe with embed-responsive has same effect but this is neater and less code
+vimeo embed created cookie problem so converted to mp4 and served locally -->
+                            <video aria-label="Leo playing in the sea at Sango Beach" class="border border-warning rounded-custom"
+                             src="assets/videos/IMG_3217.mp4" controls height="auto" width="100%">
+                                Your browser does not support Videos in MP4 format.</video>  
                             <p>
                                 Playing on the sculpture at John O groats. The harbour is behind us.
                             </p>
-                            <video aria-label="Leo playing on a sculpture at john o groats" class="border border-warning rounded-custom" src="assets/videos/IMG_3242.mp4" controls height="auto" width="100%">
+<!-- Aria labels added for screen reader software -->
+                            <video aria-label="Leo playing on a sculpture at john o groats" class="border border-warning rounded-custom"
+                             src="assets/videos/IMG_3242.mp4" controls height="auto" width="100%">
                                 Your browser does not support Videos in MP4 format.</video>  
                             <p>
                                 The cafe/visitor centre is in the background and you can see the accomodation lodges available for rent.
@@ -534,6 +542,7 @@
                     <div class="row">
                         <div class="col trip-list-spacing">
                         <hr>                           
+<!-- Hyperlinks have different colour highlight to meet WCAG contrast reaquirements -->
                         <p>
                            From Luxury hotels:
                         </p>
@@ -644,6 +653,7 @@
                 </div>
             </div>
         </div>
+<!-- blank line with light blue to break up screen and avoid links running into footer -->
         <div class="row section-trip-light no-gutters solid-border">
             <hr>
         </div>
@@ -653,7 +663,7 @@
     
          
     <footer>
-        
+
     <!-- direct email or link to comments page -->
 
         <div class="container-fluid">
