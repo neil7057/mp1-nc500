@@ -544,14 +544,12 @@ During testing, it was necessary to make some minor changes.
 -   Meta data was added to index.html to better describe the site.
 -   Images were resized and coverted to WebP format.
 -   The saltire gif was reduced in file size.
+-   Videos were moved from Vimeo, converted to mp4 and hosted locally.
 
 <details><summary>Home Page</summary>
 <img src="docs/testing/index-lighthouse.jpg">
 </details>
-<br>
-Vimeo cookies are disabled but their presence is reflected in the "Best Practice" score.
-Vimeo insist that some cookies are essential for their embedded player to work but that they
-don't collect personal data.  
+<br> 
 <details><summary>Our Trip Page</summary>
 <img src="docs/testing/ourtrip-lighthouse.jpg">
 </details>
@@ -730,7 +728,7 @@ The project will now have been cloned on your local machine for use.
 
 -   Saltire gif reduced in size using [Free Convert](https://www.freeconvert.com/gif-compressor).
 
-https://cloudconvert.com/mov-to-mp4
+-   Videos converted to .mp4 using [cloudconvert](https://cloudconvert.com/mov-to-mp4).
 
 ### Acknowledgements
 

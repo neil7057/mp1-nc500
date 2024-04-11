@@ -326,7 +326,7 @@ figure {
 
 .photo-attrib {
     text-align: center;
-    font-size: 0.75vw;
+    font-size: 1vw;
 }
 iframe {
     border: 0;
@@ -343,7 +343,7 @@ iframe {
 }
 
 .section-trip-light p {
-    text-align: justify;
+    text-align: left;
 }
 
 .trip-spacing {
