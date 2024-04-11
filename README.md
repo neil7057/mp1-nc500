@@ -163,7 +163,7 @@ The site will also appeal to those looking for imagery of the area and/or links 
 
     * There are also 2 additional sub pages
         -   A Confirmation thank you page for when a user has submitted a form
-        -    A 404 page for when a user lands on a non-existent page
+        -   A 404 page for when a user lands on a non-existent page
 
     The site has a navbar which remains central to the screen on desktop, tablet and mobile, this allows a user to access any page they need at any time and is suitable for a first time or returning visitor. There is also a footer on every page with links to social media sites, the Comments page and a direct email link.
 
@@ -432,62 +432,65 @@ The third party nanogallery.css was also checked as I had made some changes.
         
 ### Responsiveness
 
-    All pages were tested to ensure responsiveness on screen sizes from 280px and upwards as defined in [WCAG 2.1 Reflow criteria for responsive design](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html) on Chrome, Edge, Firefox and Opera browsers.
+All pages were tested to ensure responsiveness on screen sizes from 280px and upwards as defined in [WCAG 2.1 Reflow criteria for responsive design](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html) on the following browsers:
+- Chrome    (123.0.6312.106)
+- Edge      (123.0.2420.81)
+- Firefox   (124.0.2)
+- Safari    (17.4)
+- Opera     (109.0.5097.24).
 
-    Steps to test:
+Steps to test:
 
-    1. Open browser and navigate to [The North Coast 500](https://neil7057.github.io/mp1-nc500/)
-    2. Open the developer tools (right click and inspect)
-    3. Set to responsive and decrease widthin stages to 280px
-    4. Set the zoom to 50%
-    5. Click and drag the responsive window to maximum width, noting transitions at breakpoints
-    6. Rotate and test for portrait to landscape transition
+1. Open browser and navigate to
+[The North Coast 500](https://neil7057.github.io/mp1-nc500/)
+2. Open the developer tools (right click and inspect)
+3. Set to responsive and decrease widthin stages to 280px
+4. Set the zoom to 50%
+5. Click and drag the responsive window to maximum width, noting transitions at breakpoints
+6. Rotate and test for portrait to landscape transition
 
-    Results:
+Results:
 
-    Website is responsive on all screen sizes and no images are pixelated or stretched.
-    No horizontal scroll is present.
-    No elements overlap.
-    Text resizes as expected at breakpoints.
-    Some contnet is hidden where it would clutter smaller screens.
+Website is responsive on all screen sizes and no images are pixelated or stretched.
+No horizontal scroll is present.
+No elements overlap.
+Text resizes as expected at breakpoints.
+Some content is hidden where it would clutter smaller screens.
 
-    Website was also opened on the following devices and no responsive issues were seen:
+Website was also opened on the following devices and no responsive issues were seen:
 
-    - iPhone X, 12, 14
-    - Apple iPad
-    - Fujitsu 15.4in laptop
-    - Hp 22in desktop
+- iPhone X, 12, 14
+- Apple iPad 12.9
+- Fujitsu 15.4in laptop
+- Hp 22in desktop
 
 ### Accessibility
 
-    [Wave Accessibility](https://wave.webaim.org/) tool was used throughout development
-    and for final testing of the deployed website to check for any aid accessibility testing.
+[Wave Accessibility](https://wave.webaim.org/) tool was used throughout development
+and for final testing of the deployed website to check for any aid accessibility testing.
 
-    Testing was focused to ensure the following criteria were met:
+Testing was focused to ensure the following criteria were met:
 
-    - All forms have associated labels or aria-labels
-      so that this is read out on a screen reader to users who tab to form inputs.
+- All forms have associated labels or aria-labels so that this is read out on a screen reader to users who tab to form inputs.
 
-    - Color contrasts meet a minimum ratio as specified in
-      [WCAG 2.1 Contrast Guidelines](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html).
+- Color contrasts meet a minimum ratio as specified in
+  [WCAG 2.1 Contrast Guidelines](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html).    
 
-    - Heading levels are not missed or skipped to ensure
-      the importance of content is relayed correctly to the end user.
+- Heading levels are not missed or skipped to ensure the importance of content is relayed correctly to the end user.
 
-    - All content is contained within landmarks to ensure ease of use for assistive technology,
-      allowing the user to navigate by page regions.
+- All content is contained within landmarks to ensure ease of use for assistive technology, allowing the user to navigate by page regions.
 
-    - All non-textual content has alternative text or titles so descriptions are read out to screen readers.
+- All non-textual content has alternative text or titles so descriptions are read out to screen readers.
 
-    - HTML page lang attribute has been set.
+- HTML page lang attribute has been set.
 
-    - Aria properties have been implemented correctly.
+- Aria properties have been implemented correctly.
 
-    - WCAG 2.1 Coding best practices being followed.
+- WCAG 2.1 Coding best practices being followed.
 
-    - Hyperlink text colour has been adjusted to adhere to contrast guidelines.
+- Hyperlink text colour has been adjusted to adhere to contrast guidelines.
 
-    * Results
+Results:
 
 <details><summary>Home Page</summary>
 <img src="docs/testing/wave-index.jpg">
@@ -651,7 +654,7 @@ The email and 'go to' links react when hovered over.
 
 ### Known Bugs
 
-    - There are no known errors.   
+- There are no known errors.   
 
 ## Deployment
 
@@ -726,6 +729,8 @@ The project will now have been cloned on your local machine for use.
 -   Images were resized using [imageresizer](https://imageresizer.com/).
 
 -   Saltire gif reduced in size using [Free Convert](https://www.freeconvert.com/gif-compressor).
+
+https://cloudconvert.com/mov-to-mp4
 
 ### Acknowledgements
 
