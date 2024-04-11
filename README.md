@@ -496,12 +496,15 @@ Results:
 <img src="docs/testing/wave-index.jpg">
 </details>
 <br>
-The ourtrip page reports warnings for justified text.
-However this is against a pale blue not white background and makes the text flow better and doesn't affect readability.
+The ourtrip page reports 2 alerts for video content.
+However there is no audio on the video, so no transcript required. The videos have aria-labels that are detected by screen reading software (NVDA).
 <br>
 <br>
 <details><summary>Our Trip Page</summary>
 <img src="docs/testing/wave-ourtrip.jpg">
+</details>
+<details><summary>Our Trip Page Alerts</summary>
+<img src="docs/testing/wave-ourtrip-warnings.jpg">
 </details>
 <br>
 The Gallery Page uses third party code for an image caroussel and slideshow.
@@ -527,11 +530,13 @@ but are detected by Screen Reader software (NVDA).
 </details>
 <br>
 
-    Manual tests were also performed to ensure the website was accessible as possible.
+Manual tests were also performed to ensure the website was accessible as possible.
+
 ### Screen Reader
 
 Screen reader testing was performed using NVDA software from [NV Access](https://www.nvaccess.org/).
 This confirmed that:
+
 -   All text is readable.
 -   All images have accurate, useful text descriptions.
 -   Videos have extended title descriptions.
@@ -569,7 +574,6 @@ During testing, it was necessary to make some minor changes.
 <details><summary>Error 404 Page</summary>
 <img src="docs/testing/404-lighthouse.jpg">
 </details>
-<br>
 
 ### Functional Testing
 
