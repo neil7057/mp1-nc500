@@ -150,6 +150,18 @@ p {
     border-color:#af9442;
 }
 
+.trip-margin {
+    /* border-width: 5px 0 0; */
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.trip-pic-margin {
+    /* border-width: 5px 0 0; */
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .img-center {
     display:block;
     margin:auto;
@@ -394,6 +406,12 @@ iframe {
 
 .trip-image img {
     width: 95%;
+    margin-left: 2.5%;
+}
+
+.video-size {
+    height: auto;
+    width: 100%;
 }
 
 /*--------------------------------------------text animation code courtesy of geeksfor geeks.org and amended by me*/
