@@ -227,7 +227,7 @@ The site will also appeal to those looking for imagery of the area and/or links 
 
 ### Gallery Page
 * Gallery
-    * A selection of images which spread across the screen in a resposnsive style.
+    * A selection of images which spread across the screen in a responsive style.
     * Clicking on a thumbnail image opens a larger version in full screen with navigation backwards and forwards and an autoplay function. 
     * The code requires Java script and is not my own. It was obtained from https://nanogallery.brisbois.fr/. 
     * I added the functionality of a label to the Thumbnail and enlarged image.
@@ -265,7 +265,7 @@ The site will also appeal to those looking for imagery of the area and/or links 
 
 ### Error 404 Page
 * Error 404 Page
-    * There is a bespoke 404 error page to trap any file not found errors. This enables the user to access the menu structire in the event of a missing page or file and avoids use of the 'back' button were a default 404 page displayed.
+    * There is a bespoke 404 error page to trap any file not found errors. This enables the user to access the menu structure in the event of a missing page or file and avoids use of the 'back' button were a default 404 page displayed.
     
     * The usual menu navbar will be present on this screen. There is no requirement for a footer.
 
