@@ -28,6 +28,12 @@ The site will also appeal to those looking for imagery of the area and/or links 
         *   [Imagery](#imagery)
         *  [Design Considerations](#design-considerations)
     *   [Wireframes](#wireframes)
+        *   [Index](#home)
+        *   [OurTrip](#ourtrip)
+        *   [Gallery](#gallery)
+        *   [Comments](#comments)
+        *   [Confirmation](#confirmation)
+        *   [404](#404)
     *   [Structure](#structure)
 3. [Features](#features)
     *   [Landing Page](#landing-page)
@@ -116,37 +122,88 @@ The site will also appeal to those looking for imagery of the area and/or links 
         -   There is a customised error-404 page 'just in case'.
 
 -   ### Wireframes
-
+-   #### Home
     <details><summary>Home - Desktop</summary>
-    <img src="docs/readme_images/nc500-homepage.jpg">
-    </details>
-    <br>
-    <details><summary>Home - Mobile</summary>
-    <img src="docs/readme_images/mobile.jpg">
+    <img src="docs/readme_images/index-desktop.jpg">
     </details>
     <br>
     <details><summary>Home - Tablet</summary>
-    <img src="docs/readme_images/ipad-portrait.jpg">
+    <img src="docs/readme_images/index-tablet.jpg">
     </details>
     <br>
-    <details><summary>Our Trip Page</summary>
-    <img src="docs/readme_images/ourtrip-page.jpg">
+    <details><summary>Home - Mobile</summary>
+    <img src="docs/readme_images/index-mobile.jpg">
+    </details>
+
+-   #### Ourtrip
+
+    <details><summary>Our Trip - Desktop</summary>
+    <img src="docs/readme_images/ourtrip-desktop.jpg">
     </details>
     <br>
-    <details><summary>Gallery Page</summary>
-    <img src="docs/readme_images/gallery-page.jpg">
+     <details><summary>Our Trip - Tablet</summary>
+    <img src="docs/readme_images/ourtrip-tablet.jpg">
     </details>
     <br>
-    <details><summary>Contact Page</summary>
-    <img src="docs/readme_images/contact-form.jpg">
+    <details><summary>Our Trip - Mobile</summary>
+    <img src="docs/readme_images/ourtrip-mobile.jpg">
+    </details>
+
+-   #### Gallery
+
+    <details><summary>Gallery - Desktop</summary>
+    <img src="docs/readme_images/gallery-desktop.jpg">
     </details>
     <br>
-    <details><summary>Contact Confirmation Page</summary>
-    <img src="docs/readme_images/confirmation-page.jpg">
+      <details><summary>Gallery - Tablet</summary>
+    <img src="docs/readme_images/gallery-tablet.jpg">
     </details>
     <br>
-    <details><summary>404 Error Page</summary>
-    <img src="docs/readme_images/404-error-page.jpg">
+      <details><summary>Gallery - Mobile</summary>
+    <img src="docs/readme_images/gallery-mobile.jpg">
+    </details>
+
+-   #### Comments
+
+    <details><summary>Contact -Desktop</summary>
+    <img src="docs/readme_images/comments-desktop.jpg">
+    </details>
+    <br>
+     <details><summary>Contact - Tablet</summary>
+    <img src="docs/readme_images/comments-tablet.jpg">
+    </details>
+    <br>
+     <details><summary>Contact - Mobile</summary>
+    <img src="docs/readme_images/comments-mobile.jpg">
+    </details>
+
+-   #### Confirmation
+
+    <details><summary>Contact - Desktop</summary>
+    <img src="docs/readme_images/confirmation-desktop.jpg">
+    </details>
+    <br>
+     <details><summary>Contact - Tablet</summary>
+    <img src="docs/readme_images/confirmation-tablet.jpg">
+    </details>
+    <br>
+     <details><summary>Contact - Mobile</summary>
+    <img src="docs/readme_images/confirmation-mobile.jpg">
+    </details>
+
+
+-   #### 404 
+
+    <details><summary>404 -Desktop</summary>
+    <img src="docs/readme_images/404-desktop.jpg">
+    </details>
+    <br>
+    <details><summary>404 - Tablet</summary>
+    <img src="docs/readme_images/404-tablet.jpg">
+    </details>
+    <br>
+    <details><summary>404 - Mobile</summary>
+    <img src="docs/readme_images/404-mobile.jpg">
     </details>
  
 -   ### **Structure**
