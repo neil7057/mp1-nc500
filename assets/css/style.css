@@ -19,6 +19,13 @@ body {
     border-color:#af9442;
 }
 
+.orange-highlight {
+    color: #af9442;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+}
+
 .bg-color-contact {
     background-color: #143049;
 }
@@ -225,8 +232,6 @@ figure {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    /* min-height: 360px; 
-    max-height: 395px;    */
     height: auto;
     width: auto;
     margin: 0;
@@ -276,6 +281,8 @@ figure {
     font-size: 25px;
     text-align: center;
     border-radius: 30%;
+    border-style: solid;
+    border-color: #af9442;
 }
 
 .menucontainer {
@@ -400,12 +407,10 @@ iframe {
 } 
 
 .text-type-cont { 
-    /* margin: 13px 20px 325px 20px; */
     padding-top: 2px;
     width: 50%; 
     height: auto; 
 }
-
 
 .text-typing { 
     background: #143049; 
@@ -544,7 +549,6 @@ button[type="submit"] {
 
 /* ----------------------------------------Media Queries */
 
-
 /* ----------------------------------------resize menu items and text for bigger  and ultra smallscreens*/
 
 @media (min-width: 576px) {
@@ -577,48 +581,71 @@ button[type="submit"] {
     }
 }
 
+/* ----------------------------------------resize hero images and scrolling text for smaller screen sizes*/
 
-
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-  }
-  
-  /* Create four equal columns that sits next to each other */
-  /* .column {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-  }
-  
-  .column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-  } */
-  
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  /* @media screen and (max-width: 800px) {
-    .column {
-      flex: 50%;
-      max-width: 50%;
+@media (max-width: 1200px) {
+.hero-image {
+    height: 295px;
     }
-  } */
+.ourtrip-image {
+    height: 295px;
+    }
+.gallery-image {
+    height: 295px;
+    }
+.comments-image {
+    height: 295px;
+    }
+.configuration-image {
+    height: 295px;
+    }
+.lost-image {
+    height: 295px;
+    }
+.title {
+    font-size: 25px;
+}
 
-  /* @media screen and (max-width: 1200px) {
-    .column {
-      flex: 33%;
-      max-width: 33%;
-    }
-  }
-   */
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  /* @media screen and (max-width: 600px) {
-    .column {
-      flex: 100%;
-      max-width: 100%;
-    }
-  } */
-  
+@media (max-width: 700px) {
+    .hero-image {
+        height: 200px;
+        }
+    .ourtrip-image {
+        height: 200px;
+        }
+    .gallery-image {
+        height: 200px;
+        }
+    .comments-image {
+        height: 200px;
+        }
+    .configuration-image {
+        height: 200px;
+        }
+    .lost-image {
+        height: 200px;
+        }
+.title {
+    font-size: 18px;
+}
+
+@media (max-width: 500px) {
+    .hero-image {
+        height: 100px;
+        }
+    .ourtrip-image {
+        height: 100px;
+        }
+    .gallery-image {
+        height: 100px;
+        }
+    .comments-image {
+        height: 100px;
+        }
+    .configuration-image {
+        height: 100px;
+        }
+    .lost-image {
+        height: 100px;
+        }
+}
