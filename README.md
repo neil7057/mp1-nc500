@@ -179,15 +179,15 @@ The site will also appeal to those looking for imagery of the area and/or links 
 
 -   #### Confirmation
 
-    <details><summary>Contact - Desktop</summary>
+    <details><summary>Confirmation - Desktop</summary>
     <img src="docs/readme_images/confirmation-desktop.jpg">
     </details>
     <br>
-     <details><summary>Contact - Tablet</summary>
+     <details><summary>Confirmation - Tablet</summary>
     <img src="docs/readme_images/confirmation-tablet.jpg">
     </details>
     <br>
-     <details><summary>Contact - Mobile</summary>
+     <details><summary>Confirmation - Mobile</summary>
     <img src="docs/readme_images/confirmation-mobile.jpg">
     </details>
 
@@ -212,15 +212,15 @@ The site will also appeal to those looking for imagery of the area and/or links 
 
 
     The site has a simple structure made up of 4 pages:
-    * Homepage - a short introduction to what the North Coast 500 is.
+    * Homepage - A short introduction to what the North Coast 500 is.
     * Our Trip - Specific information and images about our journey around the NC500 in
      August 2018.
-    * Gallery - A range of images to show the variety and beauty of the NC500 route
+    * Gallery - A range of images to show the variety and beauty of the NC500 route.
     * Comments - A form to allow the user to send comments or requests for further information.
 
-    * There are also 2 additional sub pages
-        -   A Confirmation thank you page for when a user has submitted a form
-        -   A 404 page for when a user lands on a non-existent page
+    * There are also 2 additional sub pages:
+        -   A Confirmation thank you page for when a user has submitted a form.
+        -   A 404 page for when a user lands on a non-existent page.
 
     The site has a navbar which remains central to the screen on desktop, tablet and mobile, this allows a user to access any page they need at any time and is suitable for a first time or returning visitor. There is also a footer on every page with links to social media sites, the Comments page and a direct email link.
 
@@ -228,7 +228,7 @@ The site will also appeal to those looking for imagery of the area and/or links 
 
 -   Responsive on all device sizes down to 280px - the industry standard minimum screen width.
 
--   Interactive elements
+-   Interactive elements.
 
 -   Active menu page is highlighted in Green on menu options and menu items enlarge on Hover.
     <details><summary>Navigation Menu</summary>
@@ -250,7 +250,7 @@ The site will also appeal to those looking for imagery of the area and/or links 
     * This will be a sample image representing an aspect of the NC500 route and scenery.
     * On larger screen sizes there is an animated waving Saltire. 
     * This will help to immediately show the user what the website is about. 
-
+    <br>
     <details><summary>Landing Page</summary>
     <img src="docs/readme_images/landing-page.jpg">
     </details>
@@ -260,7 +260,7 @@ The site will also appeal to those looking for imagery of the area and/or links 
     * A large map of the NC500 route.
     * Some sample images and 5 paragraphs of informative text.
     * This information lets the user know what the site is about and gives a visual representation of the route. 
-
+    <br>
      <details><summary>Homepage Details</summary>
     <img src="docs/readme_images/homepage-image.jpg">
     </details>
@@ -273,7 +273,7 @@ The site will also appeal to those looking for imagery of the area and/or links 
     * A map of the route identifying the 5 regions.
     * Video of the beach and John O Groats.
     * Links to useful resources.   
-
+    <br>
     <details><summary>Our Trip Page</summary>
     <img src="docs/readme_images/ourtrip-screen1.jpg">
     </details>
@@ -291,7 +291,7 @@ The site will also appeal to those looking for imagery of the area and/or links 
     * I created thumbnail images for all main images.
     * I changed the colour scheme of the icons to match the rest of the site. 
     * I created a small additional CSS file to manipulate IMG properties for this page alone. 
-
+    
     <details><summary>Gallery Page</summary>
     <img src="docs/readme_images/gallery-image.jpg">
     </details>
@@ -299,10 +299,10 @@ The site will also appeal to those looking for imagery of the area and/or links 
 ### Contact Page
 * Contact form
     * A contact form will be implemented to allow users to contact me. The form will consist of the following fields and attributes: 
-        * First Name (required, type=text)
-        * Last Name (required, type=text)
-        * Email (required, type=email)
-        * Message (required, type=textarea), maximum 280 characters
+        * First Name (required, type=text).
+        * Last Name (required, type=text).
+        * Email (required, type=email).
+        * Message (required, type=textarea), maximum 280 characters.
     * Muted Text will be used as hints or for assurance on certain fields. This will be adjusted, if necessary, for WCAG compliance.
     * This will allow a user to contact me if they have any queries about the NC500, our trip in particular or information to assist in planning their own adventure.
     * To avoid large empty spaces and as i didn't wish to expand the form to the entire screen on laptop screens and above, I have inserted the NC500 logo either side. This is hidden on smaller screen sizes.
@@ -355,9 +355,9 @@ The site will also appeal to those looking for imagery of the area and/or links 
 1. [Bootstrap 4.2.1:](https://getbootstrap.com/docs/4.2/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Menu items in teh navbar as well as the Social Media icons in the footer to add the 'grow' transition while being hovered over.
+    - Hover.css was used on the Menu items in the navbar as well as the Social Media icons in the footer to add the 'grow' transition while being hovered over.
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Baskerville Libre' ans 'Open Sans' fonts into the style.css file which is used on all pages throughout the project.
+    - Google fonts were used to import the 'Baskerville Libre' and 'Open Sans' fonts into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 1. [jQuery:](https://jquery.com/)
@@ -440,13 +440,13 @@ The third party nanogallery.css was also checked as I had made some changes.
     2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
 
         1. The site has been designed to present the menu in a clear, central position and appropriately sized for all screen resolutions. 
-        2. At the top of each page, below the Hero image there is a clean navigation bar, each link describes what the page they will end up at clearly.
+        2. At the top of each page, below the Hero image there is a clean navigation bar, each link describes what page they will end up at clearly.
         3. Navigation items are clearly labelled and with an appropriate icon. It's easy to understand where to go to find what you want.
 
     3. As a First Time Visitor, I want to read about an actual trip around the NC500 and look at interesting images.
 
         1. There is a clear link to the 'ourtrip' page.
-        2. The trip of August 2018 is documented with text and images which are easy to find via the naviigation bar.
+        2. The trip of August 2018 is documented with text and images which are easy to find via the navigation bar.
         3. There are additional images in an appropriatley named 'gallery' page.
 
 -   #### Returning Visitor Goals
@@ -455,7 +455,7 @@ The third party nanogallery.css was also checked as I had made some changes.
 
         1. The 'ourtrip' page contains details of a travelled route.
         2. The 'ourtrip' and 'gallery' pages provide information about things to see along the way.
-        3. There is an option to email or submit a form to ask for specific information
+        3. There is an option to email or submit a form to ask for specific information.
 
     2. As a Returning Visitor, I want to find the best way to get in contact and ask for help and advice with any questions I may have.
 
@@ -483,28 +483,28 @@ The third party nanogallery.css was also checked as I had made some changes.
 
     3. As a Frequent User, I want to check to see if there are any new links.
 
-        1. All links are on the Ourtrip page so it isn't necessary to viist any other pages for updated/new links.
+        1. All links are on the Ourtrip page so it isn't necessary to visit any other pages for updated/new links.
         2. Accomodation links are located at the bottom of the page in an easily identifiable section.
         3. New information will be highlighted as such for a period of one month.
         
 ### Responsiveness
 
 All pages were tested to ensure responsiveness on screen sizes from 280px and upwards as defined in [WCAG 2.1 Reflow criteria for responsive design](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html) on the following browsers:
-- Chrome    (123.0.6312.106)
-- Edge      (123.0.2420.81)
-- Firefox   (124.0.2)
-- Safari    (17.4)
+- Chrome    (123.0.6312.106).
+- Edge      (123.0.2420.81).
+- Firefox   (124.0.2).
+- Safari    (17.4).
 - Opera     (109.0.5097.24).
 
 Steps to test:
 
 1. Open browser and navigate to
-[The North Coast 500](https://neil7057.github.io/mp1-nc500/)
-2. Open the developer tools (right click and inspect)
-3. Set to responsive and decrease widthin stages to 280px
-4. Set the zoom to 50%
-5. Click and drag the responsive window to maximum width, noting transitions at breakpoints
-6. Rotate and test for portrait to landscape transition
+[The North Coast 500](https://neil7057.github.io/mp1-nc500/).
+2. Open the developer tools (right click and inspect).
+3. Set to responsive and decrease width in stages to 280px.
+4. Set the zoom to 50%.
+5. Click and drag the responsive window to maximum width, noting transitions at breakpoints.
+6. Rotate and test for portrait to landscape transition.
 
 Results:
 
@@ -516,10 +516,10 @@ Some content is hidden where it would clutter smaller screens.
 
 Website was also opened on the following devices and no responsive issues were seen:
 
-- iPhone X, 12, 14
-- Apple iPad 12.9
-- Fujitsu 15.4in laptop
-- Hp 22in desktop
+- iPhone X, 12, 14.
+- Apple iPad 12.9.
+- Fujitsu 15.4in laptop.
+- Hp 22in desktop.
 
 ### Accessibility
 
@@ -587,7 +587,7 @@ but are detected by Screen Reader software (NVDA).
 </details>
 <br>
 
-Manual tests were also performed to ensure the website was accessible as possible.
+Manual tests were also performed to ensure the website was as accessible as possible.
 
 ### Screen Reader
 
@@ -601,10 +601,10 @@ This confirmed that:
 ### Lighthouse Testing
 
 During testing, it was necessary to make some minor changes.
--   A JS script had to be moved to the bottom of the Page
+-   A JS script had to be moved to the bottom of the Page.
 -   Hero Images had to be pre-fetched to improve page loading times.
 -   Meta data was added to index.html to better describe the site.
--   Images were resized and coverted to WebP format.
+-   Images were resized and converted to WebP format.
 -   The saltire gif was reduced in file size.
 -   Videos were moved from Vimeo, converted to mp4 and hosted locally.
 
@@ -656,9 +656,9 @@ Specifically:
 -   Form completed correctly with valid information in all fields:
     The form is able to be submitted.
 
--   Form textarea will only accept 280 characters
+-   Form textarea will only accept a minimum of 1 and a maximum of 280 characters.
 
--   Succesfully submission of the contacts/feedback form: A confirmation message is displayed  
+-   Succesfully submission of the contacts/feedback form: A confirmation message is displayed.  
 
 **Links Testing**
 
@@ -706,7 +706,7 @@ The email and 'go to' links react when hovered over.
 
 ### 404 Error Testing
 
-- A bespoke 404 error page has been created to provide a better user experience
+- A bespoke 404 error page has been created to provide a better user experience.
 - This was tested by:
     - navigating to the comments page and changing the address to comment.html in the browser.
     - The dedicated 404-error was displayed and it was possible to navigate home via the home button.
@@ -719,10 +719,10 @@ The email and 'go to' links react when hovered over.
 
 ### Version Control
 
-The site was created using the Visual Studio code editor and pushed to github to the remote repository:
+The site was created using the Visual Studio code editor and pushed to the remote repository on GitHub:
 ‘mp1-nc500’.
 
-The following git commands were used throughout development to push code to the remote repo:
+The following git commands were used throughout development to push code to the remote repository:
 
 ```git add <file>``` 
     - This command was used to add the file(s) to the staging area before they are committed.
@@ -737,29 +737,29 @@ The following git commands were used throughout development to push code to the 
 
 ### GitHub Pages
 
-The project was deployed to GitHub Pages using the following steps...
+The project was deployed to GitHub Pages using the following steps:
 
 ### Deployment to Github Pages
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
-- In the GitHub repository, navigate to the Settings tab 
-- From the menu on left select 'Pages'
-- From the source section drop-down menu, select the Branch: main
-- Click 'Save'
-- A live link will be displayed in a green banner when published successfully. 
+    - In the GitHub repository, navigate to the Settings tab. 
+    - From the menu on left select 'Pages'.
+    - From the source section drop-down menu, select the Branch: main.
+    - Click 'Save'.
+    - A live link will be displayed in a green banner when published successfully. 
 
     [The live link can be found here](https://neil7057.github.io/mp1-nc500/)
 
 
 ### Clone the Repository Code Locally
 
-Navigate to the GitHub Repository you want to clone to use locally:
+- Navigate to the GitHub Repository you want to clone to use locally:
 
-- Click on the code drop down button
-- Click on HTTPS
-- Copy the repository link to the clipboard
-- Open your IDE of choice (git must be installed for the next steps)
-- Type git clone copied-git-url into the IDE terminal
+    - Click on the code drop down button.
+    - Click on HTTPS.
+    - Copy the repository link to the clipboard.
+    - Open your IDE of choice (git must be installed for the next steps).
+    - Type git clone copied-git-url into the IDE terminal.
 
 The project will now have been cloned on your local machine for use.
 
@@ -771,7 +771,7 @@ The project will now have been cloned on your local machine for use.
 
 -   [geeks for geeks](https://www.geeksforgeeks.org/) provided template code for text animation which i amended to suit.
 
--   Gallery image code courtesy of [christophe brisbois](https://nanogallery.brisbois.fr/). Alt text added to images, thumnails created and colour scheme of gallery navigation chnaged to match site colour scheme. 
+-   Gallery image code courtesy of [christophe brisbois](https://nanogallery.brisbois.fr/). Alt text added to images, thumnails created and colour scheme of gallery navigation changed to match site colour scheme. 
 
 ### Content
 
