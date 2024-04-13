@@ -60,6 +60,7 @@ The site will also appeal to those looking for imagery of the area and/or links 
     *   [Functional Testing](#functional-testing)
     *   [Further Testing](#further-testing)
     *   [404 Error Testing](#404-error-testing)
+    *   [Bugs and Fixes](#bugs-and-fixes)
     *   [Known Bugs](#known-bugs)
 6. [Deployment](#deployment)
     *   [Version control](#version-control)
@@ -244,6 +245,7 @@ The site will also appeal to those looking for imagery of the area and/or links 
     <details><summary>Comments Text Box</summary>
     <img src="docs/readme_images/comments.jpg">
     </details>
+    <br>
 
 ### Landing Page
 * Landing page image
@@ -281,6 +283,7 @@ The site will also appeal to those looking for imagery of the area and/or links 
     <details><summary>Our Trip details</summary>
     <img src="docs/readme_images/ourtrip-screen2.jpg">
     </details>
+    <br>
 
 ### Gallery Page
 * Gallery
@@ -290,8 +293,8 @@ The site will also appeal to those looking for imagery of the area and/or links 
     * I added the functionality of a label to the Thumbnail and enlarged image.
     * I created thumbnail images for all main images.
     * I changed the colour scheme of the icons to match the rest of the site. 
-    * I created a small additional CSS file to manipulate IMG properties for this page alone. 
-    
+    * I created a small additional CSS file to manipulate IMG properties for this page alone.
+    <br>    
     <details><summary>Gallery Page</summary>
     <img src="docs/readme_images/gallery-image.jpg">
     </details>
@@ -306,7 +309,7 @@ The site will also appeal to those looking for imagery of the area and/or links 
     * Muted Text will be used as hints or for assurance on certain fields. This will be adjusted, if necessary, for WCAG compliance.
     * This will allow a user to contact me if they have any queries about the NC500, our trip in particular or information to assist in planning their own adventure.
     * To avoid large empty spaces and as i didn't wish to expand the form to the entire screen on laptop screens and above, I have inserted the NC500 logo either side. This is hidden on smaller screen sizes.
-
+    <br>
     <details><summary>Contact Page</summary>
     <img src="docs/readme_images/contact-info-page.jpg">
     </details>
@@ -631,6 +634,7 @@ During testing, it was necessary to make some minor changes.
 <details><summary>Error 404 Page</summary>
 <img src="docs/testing/404-lighthouse.jpg">
 </details>
+<br>
 
 ### Functional Testing
 
@@ -710,6 +714,26 @@ The email and 'go to' links react when hovered over.
 - This was tested by:
     - navigating to the comments page and changing the address to comment.html in the browser.
     - The dedicated 404-error was displayed and it was possible to navigate home via the home button.
+
+### Bugs and Fixes
+
+-   Menu icon and text too large on smaller screens.
+    - Fixed with media query to adjust at breakpoints.
+
+-   Images on gallery screen do not display correctly when screen size reduced.
+    - Fixed by resizing images to sizes indicated by lighthose testing.
+
+-   Unable to add Alt Text to hero images.
+    - Fixed by applying role='img' attribute.
+
+-   Gallery images overflow container.
+    - Fixed with gellery.css to set attribute for img on that page only.
+
+-   Scrolling header text overflows container on smaller screen sizes.
+    - Fixed with text wrap attribute and media query to reduce font size to cope with single words.
+
+-   WCAG contrast issues with hyperlinks.
+    - Fixed with new classes for hyperlinks using colours identified in WCAG testing.
 
 ### Known Bugs
 
