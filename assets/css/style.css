@@ -177,6 +177,8 @@ p {
     padding-top: 50px;
 }
  
+/*--------------------------------------------Images*/
+
 .hero-image {
     background: url("../images/webp/sango-gallery.webp");
     background-position: center;
@@ -249,6 +251,8 @@ figure {
     margin: 0;
 }
 
+/*--------------------------------------------Titles*/
+
 .title {
     font-family: "Libre+Baskerville", sans-serif;
     font-size: 35px;
@@ -296,6 +300,8 @@ figure {
     border-style: solid;
     border-color: #af9442;
 }
+
+/*--------------------------------------------Menus*/
 
 .menucontainer {
     font-size: 0;
@@ -351,7 +357,7 @@ iframe {
     border: 0;
 }
 
-/*---------------------------------------------ourtrip specific css */
+/*---------------------------------------------ourtrip specific CSS*/
 
 .section-trip {
     background-color: #143049;
@@ -513,7 +519,7 @@ footer {
     color: #f5f5f5 !important;
 }
 
-/* ----------------------------------------overriding some form-control settings to provide a crispy colour contrast */
+/* ----------------------------------------overriding some form-control settings to provide a crisper colour contrast */
 .form-control {
     font-size: 1.5rem;
     font-weight: 500;
