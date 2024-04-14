@@ -298,6 +298,7 @@ The site will also appeal to those looking for imagery of the area and/or links 
     <details><summary>Gallery Page</summary>
     <img src="docs/readme_images/gallery-image.jpg">
     </details>
+    <br>
 
 ### Contact Page
 * Contact form
@@ -313,6 +314,7 @@ The site will also appeal to those looking for imagery of the area and/or links 
     <details><summary>Contact Page</summary>
     <img src="docs/readme_images/contact-info-page.jpg">
     </details>
+    <br>
 
 ### Confirmation Page
 * On successful submission of the contact form, the user will be navigated to confirmation.html displaying a success message.
@@ -322,6 +324,7 @@ The site will also appeal to those looking for imagery of the area and/or links 
     <details><summary>Contact Confirmation Page</summary>
     <img src="docs/readme_images/confirmation-page-image.jpg">
     </details>
+    <br>
 
 ### Error 404 Page
 * Error 404 Page
@@ -332,6 +335,7 @@ The site will also appeal to those looking for imagery of the area and/or links 
     <details><summary>Error 404</summary>
     <img src="docs/readme_images/404-error-image.jpg">
     </details>
+    <br>
 
 ### Site Features
 
@@ -427,7 +431,6 @@ The third party nanogallery.css was also checked as I had made some changes.
      <details><summary>nanogallery.css</summary>
     <img src="docs/testing/nanogallery-css-test-results.jpg">
     </details>
-    <br>
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -634,7 +637,6 @@ During testing, it was necessary to make some minor changes.
 <details><summary>Error 404 Page</summary>
 <img src="docs/testing/404-lighthouse.jpg">
 </details>
-<br>
 
 ### Functional Testing
 
@@ -724,13 +726,13 @@ The email and 'go to' links react when hovered over.
     - Fixed by resizing images to sizes indicated by lighthose testing.
 
 -   Unable to add Alt Text to hero images.
-    - Fixed by applying role='img' attribute.
+    - Fixed by applying 'role=img' attribute.
 
 -   Gallery images overflow container.
-    - Fixed with gellery.css to set attribute for img on that page only.
+    - Fixed with gallery.css to set attribute for img on that page only.
 
 -   Scrolling header text overflows container on smaller screen sizes.
-    - Fixed with text wrap attribute and media query to reduce font size to cope with single words.
+    - Fixed with 'text wrap' attribute and media query to reduce font size to cope with single words.
 
 -   WCAG contrast issues with hyperlinks.
     - Fixed with new classes for hyperlinks using colours identified in WCAG testing.
@@ -805,7 +807,7 @@ The project will now have been cloned on your local machine for use.
 
 -   4 images plus the saltire gif were obtained free of copyright from [pixbay](https://pixabay.com/). The remaining images were from my own photography collection.
 
--   [photoroom](https://www.photoroom.com/tools/background-remover) for free background removal on various images.
+-   Free background removal on various images using [photoroom](https://www.photoroom.com/tools/background-remover). 
 
 -   Images were converted to WebP format using [To WebP](https://towebp.io/).
 
@@ -821,6 +823,6 @@ The project will now have been cloned on your local machine for use.
 
 -   Stackoverflow resources at their website and on Youtube.
 
--   The whole community of developers who freely advise and share their knowledge via blogs, videos web comments.
+-   The whole community of developers who freely advise and share their knowledge via blogs, videos and web comments.
 
 -   Tutor support at Code Institute for their support.
