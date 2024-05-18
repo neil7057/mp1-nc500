@@ -437,7 +437,7 @@ The third party nanogallery.css was also checked as I had made some changes.
 -   #### First Time Visitor Goals
 
     
-    1. As a First Time Visitor, I want to easily understand what and where the North Coast 500 is..
+    1. As a First Time Visitor, I want to easily understand what and where the North Coast 500 is.
         
         1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Navigation is central and at eyeline, above there is a Hero Image with scrolling Text appropriate to the specific page.
         2. The main points are made immediately with the hero image, followed on by clear page images and text.
@@ -483,7 +483,7 @@ The third party nanogallery.css was also checked as I had made some changes.
 
     2. As a Frequent User, I want to check to see if there is any new information.
 
-        1. The user would already be comfortable with the website layout and can easily visit the links are on the ourtrip page.
+        1. The user would already be comfortable with the website layout and can easily visit the links area on the ourtrip page.
         2. New information will be highlighted with a title 'NEW'.
         3. Newly uploaded photographs will be first in the gallery.
 
@@ -649,7 +649,7 @@ Links on all pages navigated to the correct pages as expeccted.
 
 **Form Testing**
 
-The form on the contact page was tested to ensure it functioned as expected when correct and incorreet data was input.
+The form on the contact page was tested to ensure it functioned as expected when correct and incorrect data was input.
 
 Specifically:
 
